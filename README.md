@@ -8,7 +8,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Extended Latin A
   - Extended Latin B
   - Global Phonetic Alphabet Extensions
-  - Basic Greek
+  - Basic Greek (Including a few archaic ones)
   - Cyrillic
   - Supplemental Cyrillic
   - Armenian
@@ -19,6 +19,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Mathematic Operators
   - A few emojis (Smiling face in Black and White Colors, Frowning face in White Color and Genders)
   - Extended Latin C
+  - Extended Cyrillic B (Many glyphs supported)
   - Extended Latin D
   - Extended Latin E
   - Latin Ligatures although not used officially as OpenType variant
