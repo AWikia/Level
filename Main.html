@@ -1,6 +1,14 @@
 <html>
   <head>
     <style>
+
+@font-face {
+    font-family: Level;
+    font-weight:100;
+    font-stretch:normal;
+    src:url('Νέα Level/Level-Thin.ttf') format('truetype');
+}    
+
 @font-face {
     font-family: Level;
     font-weight:300;
@@ -14,28 +22,12 @@
     font-stretch:ultra-condensed;
     src:url('Νέα Level/Level-UltraCondensedRegular.ttf') format('truetype');
 }
-
-@font-face {
-    font-family: Level;
-    font-weight:400;
-    font-stretch:extra-condensed;
-    src:url('Νέα Level/Level-ExtraCondensedRegular.ttf') format('truetype');
-}
-
 @font-face {
     font-family: Level;
     font-weight:400;
     font-stretch:condensed;
     src:url('Νέα Level/Level-CondensedRegular.ttf') format('truetype');
 }
-
-@font-face {
-    font-family: Level;
-    font-weight:400;
-    font-stretch:semi-condensed;
-    src:url('Νέα Level/Level-SemiCondensedRegular.ttf') format('truetype');
-}
-
 @font-face {
     font-family: Level;
     font-weight:400;
@@ -46,24 +38,10 @@
 @font-face {
     font-family: Level;
     font-weight:400;
-    font-stretch:semi-expanded;
-    src:url('Νέα Level/Level-SemiExpandedRegular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: Level;
-    font-weight:400;
     font-stretch:expanded;
     src:url('Νέα Level/Level-ExpandedRegular.ttf') format('truetype');
 }
 
-
-@font-face {
-    font-family: Level;
-    font-weight:400;
-    font-stretch:extra-expanded;
-    src:url('Νέα Level/Level-ExtraExpandedRegular.ttf') format('truetype');
-}
 
 @font-face {
     font-family: Level;
@@ -160,18 +138,15 @@ Apparently we had reached a great height in the atmosphere, for the sky was a de
     <h3>Pick your effect</h3>
     <input type="radio" checked name="effects" id="eff00" onclick="document.querySelector('textarea').removeAttribute('style')"></input> <label for="eff00">None</label>
 	<br>
-    <input type="radio" name="effects" id="eff01" onclick="document.querySelector('textarea').setAttribute('style','font-weight:300;')"></input> <label for="eff01">Light Weight</label>
-    <input type="radio" name="effects" id="eff02" onclick="document.querySelector('textarea').setAttribute('style','font-weight:700;')"></input> <label for="eff02">Bold Weight</label>
-    <input type="radio" name="effects" id="eff03" onclick="document.querySelector('textarea').setAttribute('style','font-weight:900;')"></input> <label for="eff02">Black Weight</label>
+    <input type="radio" name="effects" id="eff01" onclick="document.querySelector('textarea').setAttribute('style','font-weight:100;')"></input> <label for="eff01">Thin Weight</label>
+    <input type="radio" name="effects" id="eff02" onclick="document.querySelector('textarea').setAttribute('style','font-weight:300;')"></input> <label for="eff02">Light Weight</label>
+    <input type="radio" name="effects" id="eff03" onclick="document.querySelector('textarea').setAttribute('style','font-weight:700;')"></input> <label for="eff03">Bold Weight</label>
+    <input type="radio" name="effects" id="eff04" onclick="document.querySelector('textarea').setAttribute('style','font-weight:900;')"></input> <label for="eff04">Black Weight</label>
     <br>
     <input type="radio" name="effects" id="eff11" onclick="document.querySelector('textarea').setAttribute('style','font-stretch:ultra-condensed;')"></input> <label for="eff11">Ultra Condensed Size</label>
-    <input type="radio" name="effects" id="eff12" onclick="document.querySelector('textarea').setAttribute('style','font-stretch:extra-condensed;')"></input> <label for="eff12">Extra Condensed Size</label>
-    <input type="radio" name="effects" id="eff13" onclick="document.querySelector('textarea').setAttribute('style','font-stretch:condensed;')"></input> <label for="eff13">Condensed Size</label>
-    <input type="radio" name="effects" id="eff14" onclick="document.querySelector('textarea').setAttribute('style','font-stretch:semi-condensed;')"></input> <label for="eff14">Semi-Condensed Size</label>
-    <input type="radio" name="effects" id="eff15" onclick="document.querySelector('textarea').setAttribute('style','font-stretch:semi-expanded;')"></input> <label for="eff15">Semi-Expanded Size</label>
-    <input type="radio" name="effects" id="eff16" onclick="document.querySelector('textarea').setAttribute('style','font-stretch:expanded;')"></input> <label for="eff16">Expanded Size</label>
-    <input type="radio" name="effects" id="eff17" onclick="document.querySelector('textarea').setAttribute('style','font-stretch:extra-expanded;')"></input> <label for="eff17">Extra Expanded Size</label>
-    <input type="radio" name="effects" id="eff18" onclick="document.querySelector('textarea').setAttribute('style','font-stretch:ultra-expanded;')"></input> <label for="eff18">Ultra Expanded Size</label>
+    <input type="radio" name="effects" id="eff12" onclick="document.querySelector('textarea').setAttribute('style','font-stretch:condensed;')"></input> <label for="eff12">Condensed Size</label>
+    <input type="radio" name="effects" id="eff13" onclick="document.querySelector('textarea').setAttribute('style','font-stretch:expanded;')"></input> <label for="eff13">Expanded Size</label>
+    <input type="radio" name="effects" id="eff14" onclick="document.querySelector('textarea').setAttribute('style','font-stretch:ultra-expanded;')"></input> <label for="eff14">Ultra Expanded Size</label>
     <h3>Test it</h3>
       Just write some text into the textarea to test it:
       <textarea placeholder="Write something here..."></textarea>
