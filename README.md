@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 2422 different glyphs, supporting over 139 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 2652 different glyphs, supporting over 139 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -12,6 +12,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Cyrillic
   - Supplemental Cyrillic
   - Armenian
+  - Cherokee
   - Additional Extended Latin
   - General Punctuation
   - Currency Symbols
@@ -28,7 +29,9 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Warning and disallowed signs (Including the ones with a line over a square)
     - Squares and Circles (Black, White in all sizes)
     - Some Window controls, including font size changes
+    - Regional Indicators that create Flag Emojis
   - Extended Latin C
+  - Extended Cyrillic C
   - CJK Symbols and Punctuation (Limited)
   - Hiragana
   - Katakana
@@ -36,6 +39,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Extended Cyrillic B (Most glyphs are supported)
   - Extended Latin D
   - Extended Latin E
+  - Cherokee Supplement
   - Latin and Armenian Ligatures although not used officially as OpenType variant
   - Fullwidth forms
 - Based on the aging System font from Microsoft Windows
