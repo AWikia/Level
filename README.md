@@ -36,7 +36,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Hiragana
   - Katakana
   - Katakana Phonetic Extensions
-  - Unified CJK Ideographs (Extremely Limited support, 128 supported currently)
+  - Unified CJK Ideographs (Extremely Limited support, 127 supported currently)
   - Extended Cyrillic B (Most glyphs are supported)
   - Extended Latin D
   - Extended Latin E
