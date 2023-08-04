@@ -2,18 +2,21 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 2807 different glyphs, supporting over 140 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 3124 different glyphs, supporting over 146 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
   - Extended Latin B
   - Global Phonetic Alphabet Extensions
+  - Spacing Modifier Letters
+  - Combining Diacritical Marks
   - Greek and Coptic
   - Cyrillic
   - Supplemental Cyrillic
   - Armenian
   - Cherokee
   - Additional Extended Latin
+  - Greek Extended
   - General Punctuation
   - Currency Symbols
   - Phonetic Symbols
@@ -36,7 +39,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Hiragana
   - Katakana
   - Katakana Phonetic Extensions
-  - Unified CJK Ideographs (Extremely Limited support, 127 supported currently)
+  - Unified CJK Ideographs (Extremely Limited support, 130 supported currently)
   - Extended Cyrillic B (Most glyphs are supported)
   - Extended Latin D
   - Extended Latin E
@@ -46,7 +49,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Extended Latin F
 - Based on the aging System font from Microsoft Windows
 - Low-curve glyph designs, akin to the OFL Orbitron Font
-- Usable in browsers and in all sizes, compared to Bitmap fonts shipped with Windows
+- Usable in all browsers, apps and sizes, compared to Bitmap fonts shipped with Windows
 - Extendable with future releases when required
 
 ## Availability
