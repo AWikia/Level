@@ -50,6 +50,12 @@
 @font-face {
     font-family: Level;
     font-weight:700;
+    font-stretch:ultra-condensed;
+    src:url('Νέα Level/LevelUltraCondensed-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: Level;
+    font-weight:700;
     font-stretch:condensed;
     src:url('Νέα Level/LevelCondensed-Bold.ttf') format('truetype');
 }
@@ -64,6 +70,12 @@
     font-weight:700;
     font-stretch:expanded;
     src:url('Νέα Level/LevelExpanded-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: Level;
+    font-weight:700;
+    font-stretch:ultra-expanded;
+    src:url('Νέα Level/LevelUltraExpanded-Bold.ttf') format('truetype');
 }
 
 @font-face {
@@ -156,8 +168,10 @@ Apparently we had reached a great height in the atmosphere, for the sky was a de
     <input type="radio" name="effects" id="eff13" onclick="document.querySelector('textarea').setAttribute('style','font-stretch:expanded;')"></input> <label for="eff13">Expanded Size</label>
     <input type="radio" name="effects" id="eff14" onclick="document.querySelector('textarea').setAttribute('style','font-stretch:ultra-expanded;')"></input> <label for="eff14">Ultra Expanded Size</label>
     <br>
+    <input type="radio" name="effects" id="eff0311" onclick="document.querySelector('textarea').setAttribute('style','font-weight:700; font-stretch:ultra-condensed;')"></input> <label for="eff0311">Bold Weight + Ultra Condensed Size</label>
     <input type="radio" name="effects" id="eff0312" onclick="document.querySelector('textarea').setAttribute('style','font-weight:700; font-stretch:condensed;')"></input> <label for="eff0312">Bold Weight + Condensed Size</label>
     <input type="radio" name="effects" id="eff0313" onclick="document.querySelector('textarea').setAttribute('style','font-weight:700; font-stretch:expanded;')"></input> <label for="eff0313">Bold Weight + Expanded Size</label>
+    <input type="radio" name="effects" id="eff0314" onclick="document.querySelector('textarea').setAttribute('style','font-weight:700; font-stretch:ultra-expanded;')"></input> <label for="eff0314">Bold Weight + Ultra Expanded Size</label>
     <h3>Test it</h3>
       Just write some text into the textarea to test it:
       <textarea placeholder="Write something here..."></textarea>
