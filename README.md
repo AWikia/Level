@@ -23,19 +23,22 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Currency Symbols
   - Phonetic Symbols
   - Mathematic Operators
-  - A few emojis such as:
+  - Gemoetric Shapes (Supports the following):
+    - Squares (White, Black)
+  - Miscellaneous Symbols (Supports the following):
     - Smiling Face (White, Black)
     - Frowing Face
     - Genders
     - Card Suits
-    - Hearts (Red, Black, White, Gray)
     - Musical Notes
-    - Flags (Chequered, Triangular, Black, White, Stripped)
-    - Warning and disallowed signs (Including the ones with a line over a square)
-    - Squares and Circles (Black, White in all sizes)
-    - Several Smilies and Emoticions (Most come from Emoticons block, three come from Symbols and Pictographs, Extended-A) 
-    - Some Window controls, including font size changes
-    - Regional Indicators that create Flag Emojis
+    - Flags (Black, White, Stripped)
+    - Warning and thunderbolt signs
+    - Circles (White, Black)
+    - Disallowed Sign
+  - Dingbats (Supports the following):
+    - Hearts (Red, rotated and exclamation heart)
+  - Miscelanneous Symbols and Arrows (Supports the following):
+    - Squares (White, Black)
   - Extended Latin C
   - Extended Cyrillic C
   - CJK Symbols and Punctuation (Limited)
@@ -50,6 +53,22 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Latin and Armenian Ligatures although not used officially as OpenType variant
   - Fullwidth forms
   - Extended Latin F
+  - Enclosed Alphanumeric Supplement (Supports the following)
+    - Regional Indicators that create Flag Emojis
+  - Miscelanneous Symbols and Pictographs (Supports the following):
+    - Musical Notes
+    - Flags (Chequered, Black, White)
+    - Hearts (Black)
+    - Some Window controls, including font size changes
+  - Emoticons (Many are supported)
+  - Transport and Map Symbols (Supports the following):
+    - Triangular Flag
+    - Disallowed Sign
+  - Supplement Symbols and Pictographs (Supports the following):
+    - White Heart
+  - Extended Symbols and Pictographs A (Supports the following):
+    - Gray Heart
+    - Three Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face)
 - Based on the aging System font from Microsoft Windows
 - Low-curve glyph designs, akin to the OFL Orbitron Font
 - Usable in all browsers, apps and sizes, compared to Bitmap fonts shipped with Windows
