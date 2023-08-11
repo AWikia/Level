@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 3386 different glyphs, supporting over 146 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 3696 different glyphs, supporting over 146 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -23,6 +23,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Currency Symbols
   - Phonetic Symbols
   - Mathematic Operators
+  - Enclosed Alphanumerics (Mostly supported, minus the double-stroked symbols)
   - Gemoetric Shapes (Supports the following):
     - Squares (White, Black)
   - Miscellaneous Symbols (Supports the following):
@@ -37,6 +38,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Disallowed Sign
   - Dingbats (Supports the following):
     - Hearts (Red, rotated and exclamation heart)
+    - Enclosed Glyphs
+    - Plus, Minus and Division Symbols
   - Miscelanneous Symbols and Arrows (Supports the following):
     - Squares (White, Black)
   - Extended Latin C
@@ -53,12 +56,11 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Latin and Armenian Ligatures although not used officially as OpenType variant
   - Fullwidth forms
   - Extended Latin F
-  - Enclosed Alphanumeric Supplement (Supports the following)
-    - Regional Indicators that create Flag Emojis
+  - Enclosed Alphanumeric Supplement (Mostly supported, excluding some enclosed symbols with more than one letter)
   - Miscelanneous Symbols and Pictographs (Supports the following):
     - Musical Notes
     - Flags (Chequered, Black, White)
-    - Hearts (Black)
+    - Hearts (Broken, Black)
     - Some Window controls, including font size changes
   - Emoticons (Many are supported)
   - Transport and Map Symbols (Supports the following):
