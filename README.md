@@ -18,7 +18,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Cherokee
   - Phonetic Extensions
   - Phonetic Extensions Supplement
-  - Combining Diacritical Marks Supplement (16 out of the 64 ones are currently supported)
+  - Combining Diacritical Marks Supplement (14 out of the 64 ones are currently supported)
   - Additional Extended Latin
   - Greek Extended
   - General Punctuation (Many are supported)
