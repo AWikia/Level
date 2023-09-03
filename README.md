@@ -150,5 +150,7 @@ Everytime a new Level release comes, it will be compiled in the following:
   - Medium Size
   - Expanded Size
   - UltraExpanded Size
+- COLR Version
+  - Regular Weight, Medium Size
 
 [Try it now](https://awikia.github.io/Level/Main.html)
