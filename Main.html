@@ -2,17 +2,12 @@
   <head>
     <style>
 
-@font-face {
-    font-family: Level;
-    font-weight:100;
-    font-stretch:ultra-condensed;
-    src:url('Νέα Level/LevelUltraCondensed-Thin.ttf') format('truetype');
-}
+
 @font-face {
     font-family: Level;
     font-weight:100;
     font-stretch:condensed;
-    src:url('Νέα Level/LevelCondensed-Thin.ttf') format('truetype');
+    src:url('Νέα Level/Level-ThinCondensed.ttf') format('truetype');
 }
 @font-face {
     font-family: Level;
@@ -24,26 +19,15 @@
     font-family: Level;
     font-weight:100;
     font-stretch:expanded;
-    src:url('Νέα Level/LevelExpanded-Thin.ttf') format('truetype');
+    src:url('Νέα Level/Level-ThinExpanded.ttf') format('truetype');
 }
-@font-face {
-    font-family: Level;
-    font-weight:100;
-    font-stretch:ultra-expanded;
-    src:url('Νέα Level/LevelUltraExpanded-Thin.ttf') format('truetype');
-}  
+
 
 @font-face {
     font-family: Level;
     font-weight:300;
-    font-stretch:ultra-condensed;
-    src:url('Νέα Level/LevelUltraCondensed-Light.ttf') format('truetype');
-}
-@font-face {
-    font-family: Level;
-    font-weight:300;
     font-stretch:condensed;
-    src:url('Νέα Level/LevelCondensed-Light.ttf') format('truetype');
+    src:url('Νέα Level/Level-LightCondensed.ttf') format('truetype');
 }
 @font-face {
     font-family: Level;
@@ -55,26 +39,15 @@
     font-family: Level;
     font-weight:300;
     font-stretch:expanded;
-    src:url('Νέα Level/LevelExpanded-Light.ttf') format('truetype');
+    src:url('Νέα Level/Level-LightExpanded.ttf') format('truetype');
 }
-@font-face {
-    font-family: Level;
-    font-weight:300;
-    font-stretch:ultra-expanded;
-    src:url('Νέα Level/LevelUltraExpanded-Light.ttf') format('truetype');
-}
+
 
 @font-face {
     font-family: Level;
     font-weight:400;
-    font-stretch:ultra-condensed;
-    src:url('Νέα Level/LevelUltraCondensed-Regular.ttf') format('truetype');
-}
-@font-face {
-    font-family: Level;
-    font-weight:400;
     font-stretch:condensed;
-    src:url('Νέα Level/LevelCondensed-Regular.ttf') format('truetype');
+    src:url('Νέα Level/Level-Condensed.ttf') format('truetype');
 }
 @font-face {
     font-family: Level;
@@ -86,26 +59,16 @@
     font-family: Level;
     font-weight:400;
     font-stretch:expanded;
-    src:url('Νέα Level/LevelExpanded-Regular.ttf') format('truetype');
+    src:url('Νέα Level/Level-Expanded.ttf') format('truetype');
 }
-@font-face {
-    font-family: Level;
-    font-weight:400;
-    font-stretch:ultra-expanded;
-    src:url('Νέα Level/LevelUltraExpanded-Regular.ttf') format('truetype');
-}
+
+
 
 @font-face {
     font-family: Level;
     font-weight:700;
-    font-stretch:ultra-condensed;
-    src:url('Νέα Level/LevelUltraCondensed-Bold.ttf') format('truetype');
-}
-@font-face {
-    font-family: Level;
-    font-weight:700;
     font-stretch:condensed;
-    src:url('Νέα Level/LevelCondensed-Bold.ttf') format('truetype');
+    src:url('Νέα Level/Level-BoldCondensed.ttf') format('truetype');
 }
 @font-face {
     font-family: Level;
@@ -117,26 +80,15 @@
     font-family: Level;
     font-weight:700;
     font-stretch:expanded;
-    src:url('Νέα Level/LevelExpanded-Bold.ttf') format('truetype');
+    src:url('Νέα Level/Level-BoldExpanded.ttf') format('truetype');
 }
-@font-face {
-    font-family: Level;
-    font-weight:700;
-    font-stretch:ultra-expanded;
-    src:url('Νέα Level/LevelUltraExpanded-Bold.ttf') format('truetype');
-}
+
 
 @font-face {
     font-family: Level;
     font-weight:900;
-    font-stretch:ultra-condensed;
-    src:url('Νέα Level/LevelUltraCondensed-Black.ttf') format('truetype');
-}
-@font-face {
-    font-family: Level;
-    font-weight:900;
     font-stretch:condensed;
-    src:url('Νέα Level/LevelCondensed-Black.ttf') format('truetype');
+    src:url('Νέα Level/Level-BlackCondensed.ttf') format('truetype');
 }
 @font-face {
     font-family: Level;
@@ -148,14 +100,9 @@
     font-family: Level;
     font-weight:900;
     font-stretch:expanded;
-    src:url('Νέα Level/LevelExpanded-Black.ttf') format('truetype');
+    src:url('Νέα Level/Level-BlackExpanded.ttf') format('truetype');
 }
-@font-face {
-    font-family: Level;
-    font-weight:900;
-    font-stretch:ultra-expanded;
-    src:url('Νέα Level/LevelUltraExpanded-Black.ttf') format('truetype');
-}
+
 
 * {
   font-family:Level, casual;
@@ -236,11 +183,9 @@ Apparently we had reached a great height in the atmosphere, for the sky was a de
     <input type="radio" name="effects" id="eff04" onclick="document.querySelector('textarea').style.setProperty('--font-weight', '700')"> <label for="eff04">Bold</label>
     <input type="radio" name="effects" id="eff05" onclick="document.querySelector('textarea').style.setProperty('--font-weight', '900')"> <label for="eff05">Black</label>
     <h3>Pick your Size</h3>
-    <input type="radio" name="effects2" id="eff11" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'ultra-condensed')"> <label for="eff11">Ultra-Condensed</label>	
-    <input type="radio" name="effects2" id="eff12" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'condensed')"> <label for="eff12">Condensed</label>
-    <input type="radio" name="effects2" id="eff13" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'normal')" checked> <label for="eff13">Medium</label>
-    <input type="radio" name="effects2" id="eff14" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'expanded')"> <label for="eff14">Expanded</label>
-    <input type="radio" name="effects2" id="eff15" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'ultra-expanded')"> <label for="eff15">Ultra-Expanded</label>
+    <input type="radio" name="effects2" id="eff11" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'condensed')"> <label for="eff11">Condensed</label>
+    <input type="radio" name="effects2" id="eff12" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'normal')" checked> <label for="eff12">Medium</label>
+    <input type="radio" name="effects2" id="eff13" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'expanded')"> <label for="eff13">Expanded</label>
 
     <h3>Test it</h3>
       Just write some text into the textarea to test it:
