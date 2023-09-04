@@ -145,11 +145,9 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
 ## Availability
 Everytime a new Level release comes, it will be compiled in the following:
 - Thin, Light, Regular, Bold and Black Weights:
-  - UltraCondensed Size
   - Condensed Size
   - Medium Size
   - Expanded Size
-  - UltraExpanded Size
 - COLR Version
   - Regular Weight, Medium Size
 
