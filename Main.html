@@ -103,6 +103,12 @@
     src:url('Νέα Level/Level-BlackExpanded.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: Level Color Symbols;
+    font-weight:400;
+    src:url('Level Color/LevelColorSymbols-Regular.ttf') format('truetype');
+}
+
 
 * {
   font-family:Level, casual;
@@ -143,8 +149,10 @@
         padding:0 0 10px;
         overflow-y:auto;
         caret-color:orange;
+        /* Edited */
         font-weight:var(--font-weight,400);
-        font-stretch:var(--font-stretch,nomral)
+        font-stretch:var(--font-stretch,nomral);
+        font-family:var(--emoji-font,Level), Level, casual;
       }
       textarea:focus {
         color:blue;
@@ -186,6 +194,10 @@ Apparently we had reached a great height in the atmosphere, for the sky was a de
     <input type="radio" name="effects2" id="eff11" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'condensed')"> <label for="eff11">Condensed</label>
     <input type="radio" name="effects2" id="eff12" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'normal')" checked> <label for="eff12">Medium</label>
     <input type="radio" name="effects2" id="eff13" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'expanded')"> <label for="eff13">Expanded</label>
+    <h3>Colorize Emoji Glyphs?</h3>
+    <input type="radio" name="effects3" id="eff21" onclick="document.querySelector('textarea').style.setProperty('--emoji-font', 'Level')" checked> <label for="eff21">No</label>
+    <input type="radio" name="effects3" id="eff22" onclick="document.querySelector('textarea').style.setProperty('--emoji-font', 'Level Color Symbols')"> <label for="eff22">Yes</label>
+
 
     <h3>Test it</h3>
       Just write some text into the textarea to test it:
