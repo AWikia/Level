@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 4025 different glyphs (Of which 3674 are in BMP and 351 in SMP) , supporting over 146 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 4166 different glyphs (Of which 3674 are in BMP and 351 in SMP) , supporting over 146 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -28,8 +28,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Phonetic Symbols
   - Mathematic Operators
   - Enclosed Alphanumerics (Mostly supported, minus the double-stroked symbols)
-  - Gemoetric Shapes (Supports the following):
-    - Squares (White, Black)
+  - Gemoetric Shapes
   - Miscellaneous Symbols (Supports the following):
     - Smiling Face (White, Black)
     - Frowing Face
@@ -44,7 +43,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Hearts (Red, rotated and exclamation heart)
     - Enclosed Glyphs
     - Plus, Minus and Division Symbols
-  - Miscelanneous Symbols and Arrows (Supports the following):
+  - Miscellanneous Symbols and Arrows (Supports the following):
+    - Everything related to Geometric Shapes glyphs
     - Squares (White, Black)
   - Extended Latin C
   - Extended Cyrillic C
@@ -66,21 +66,30 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Small Kana Forms
   - Extended Latin G
   - Enclosed Alphanumeric Supplement (Mostly supported, excluding some enclosed symbols with more than one letter)
-  - Miscelanneous Symbols and Pictographs (Supports the following):
+  - Miscellanneous Symbols and Pictographs (Supports the following):
     - Musical Notes
     - Flags (Chequered, Black, White)
-    - Hearts (Broken, Black)
+    - Hearts (Broken, Blue, Green, Yellow, Purple, Black)
+    - Squares (Red, Blue)
+    - Diamonds (Orange, Blue)
+    - Triangles (Red)
     - Some Window controls, including font size changes
   - Emoticons (Many are supported)
+  - Geometric Shapes Extended (Supports the following):
+    - Circled versions of Square and Triangle
+    - Circles (Orange, Yellow, Green, Purple, Brown)
+    - Squares (Red, Blue, Orange, Yellow, Green, Purple, Brown)
+    - Equals Symbol
   - Transport and Map Symbols (Supports the following):
     - Triangular Flag
     - Disallowed Sign
   - Supplement Symbols and Pictographs (Supports the following):
-    - White Heart
+    - Hearts (White, Brown, Orange)
+    - Zipped Mouth Face
   - Extended Symbols and Pictographs A (Supports the following):
-    - Gray Heart
+    - Hearts (Light Blue, Gray, Pink)
     - Three Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face)
-- 174 different COLR glyphs (Of which 172 are Unicode and 2 are ZWJ) , which consist of (**Boled** ones are absent from the BW version):
+- 182 different COLR glyphs (Of which 180 are Unicode and 2 are ZWJ) , which consist of (**Boled** ones are absent from the BW version):
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -109,30 +118,32 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Question Mark and Exclamation Symbols (Black, White)
     - Hearts (Red and exclamation heart)
     - Plus, Minus and Division Symbols
-  - Miscelanneous Symbols and Arrows (Supports the following):
+  - Miscellanneous Symbols and Arrows (Supports the following):
     - Squares (White, Black)
   - Enclosed Alphanumeric Supplement (Supports the following):
     - Negative Squared Letters (A, B, O, P, AB)
     - Squared Letters (ID, OK, VS)
     - Regional Indicators required to create flag emojis
-  - Miscelanneous Symbols and Pictographs (Supports the following):
+  - Miscellanneous Symbols and Pictographs (Supports the following):
     - Musical Notes
     - Flags (Chequered, Black, White)
-    - Hearts (Broken, **Blue**, **Green**, **Yellow**, **Purple**, Black)
-    - **Squares (Red, Blue)**
-  - Emoticons (Supports the following):
-    - Eveything supported in the BW version
-    - **Smiling face with horns**
-  - **Geometric Shapes Extended (Supports the following):**
-    - **Circles (Orange, Yellow, Green, Purple, Brown)**
-    - **Squares (Red, Blue, Orange, Yellow, Green, Purple, Brown)**
+    - Hearts (Broken, Blue, Green, Yellow, Purple, Black)
+    - Squares (Red, Blue)
+    - Diamonds (Orange, Blue)
+    - Triangles (Red)
+  - Emoticons (Many are supported):
+  - Geometric Shapes Extended (Supports the following):
+    - Circles (Orange, Yellow, Green, Purple, Brown)
+    - Squares (Red, Blue, Orange, Yellow, Green, Purple, Brown)
+    - Equals Symbol
   - Transport and Map Symbols (Supports the following):
     - Triangular Flag
     - Disallowed Sign
   - Supplement Symbols and Pictographs (Supports the following):
-    - Hearts (White, **Brown**)
+    - Hearts (White, Brown, Orange)
+    - Zipped Mouth Face
   - Extended Symbols and Pictographs A (Supports the following):
-    - Hearts (**Light Blue**, Gray, **Pink**)
+    - Hearts (Light Blue, Gray, Pink)
     - Three Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face)
   - **ZWJ (Supports the following)**
     - **Transgender Flag**
