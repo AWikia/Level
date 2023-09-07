@@ -152,6 +152,26 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
 - Low-curve glyph designs, akin to the OFL Orbitron Font
 - Usable in all browsers, apps and sizes, compared to Bitmap fonts shipped with Windows
 - Extendable with future releases when required
+## Private Use Area Characters
+This block includes all supported ZWJ glyphs:
+
+| No.  | Unicode | Name                    | PUA Glyph   | ZWJ Glyph |
+| ---- | ------- | ----------------------- | --------- | --------- |
+| 0001 | E000    | Transgender Flag        |          | 🏳️‍⚧         |
+| 0002 | E001    | Refugee Nation Flag     |          | 🏳‍🟧‍⬛‍🟧         |
+| 0003 | E002    | Rainbow Flag            |          | 🏳️‍🌈         |
+| 0004 | E003    | Broken Black Heart      |          | 🖤‍💔         |
+| 0005 | E004    | Broken Orange Heart     |          | 🧡‍💔         |
+| 0006 | E005    | Broken Green Heart      |          | 💚‍💔         |
+| 0007 | E006    | Broken Yellow Heart     |          | 💛‍💔         |
+| 0008 | E007    | Broken Purple Heart     |          | 💜‍💔         |
+| 0009 | E008    | Broken White Heart      |          | 🤍‍💔         |
+| 0010 | E009    | Broken White Heart      |          | 🤎‍💔         |
+| 0011 | E00A    | Broken Blue Heart       |          | 💙‍💔         |
+| 0012 | E00B    | Broken Light Blue Heart |          | 🩵‍💔         |
+| 0013 | E00C    | Broken Gray Heart       |          | 🩶‍💔         |
+| 0014 | E00D    | Broken Pink Heart       |          | 🩷‍💔         |
+
 
 ## Availability
 Everytime a new Level release comes, it will be compiled in the following:
