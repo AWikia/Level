@@ -145,9 +145,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Extended Symbols and Pictographs A (Supports the following):
     - Hearts (Light Blue, Gray, Pink)
     - Three Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face)
-  - **ZWJ (Supports the following)**
-    - **Transgender Flag**
-    - **Refugee Nation Flag**
+  - **ZWJ (See [here](#private-use-area-characters) for character support)**
 - Based on the aging System font from Microsoft Windows
 - Low-curve glyph designs, akin to the OFL Orbitron Font
 - Usable in all browsers, apps and sizes, compared to Bitmap fonts shipped with Windows
@@ -171,6 +169,7 @@ This block includes all supported ZWJ glyphs:
 | 0012 | E00B    | Broken Light Blue Heart |          | 🩵‍💔         |
 | 0013 | E00C    | Broken Gray Heart       |          | 🩶‍💔         |
 | 0014 | E00D    | Broken Pink Heart       |          | 🩷‍💔         |
+| 0015 | E00E    | Lime                    |          | 🍋‍🟩         |
 
 
 ## Availability
