@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 4166 different glyphs (Of which 3779 are in BMP and 387 in SMP) , supporting over 146 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 4232 different glyphs (Of which 3824 are in BMP and 408 in SMP) , supporting over 146 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -21,7 +21,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Combining Diacritical Marks Supplement (14 out of the 64 ones are currently supported)
   - Additional Extended Latin
   - Greek Extended
-  - General Punctuation (Many are supported)
+  - General Punctuation (Many are supported, including Zero Width Joiner)
   - Letterlike Symbols (Many are supported)
   - Superscripts and Subscripts
   - Currency Symbols
@@ -30,6 +30,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Enclosed Alphanumerics (Mostly supported, minus the double-stroked symbols)
   - Gemoetric Shapes
   - Miscellaneous Symbols (Supports the following):
+    - Sun and Cloud
+    - Baloot Boxes
     - Smiling Face (White, Black)
     - Frowing Face
     - Genders
@@ -40,11 +42,14 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Circles (White, Black)
     - Disallowed Sign
   - Dingbats (Supports the following):
+    - Checkmarks and Crosses
+    - Question Mark and Exclamation Symbols (Black, White)
     - Hearts (Red, rotated and exclamation heart)
     - Enclosed Glyphs
     - Plus, Minus and Division Symbols
   - Miscellanneous Symbols and Arrows (Supports the following):
     - Everything related to Geometric Shapes glyphs
+    - Certain shapes
     - Squares (White, Black)
   - Extended Latin C
   - Extended Cyrillic C
@@ -67,6 +72,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Extended Latin G
   - Enclosed Alphanumeric Supplement (Mostly supported, excluding some enclosed symbols with more than one letter)
   - Miscellanneous Symbols and Pictographs (Supports the following):
+    - Rainbown
+    - Certain fruits (Such as Grapes, Oranges, Apples etc.)
     - Musical Notes
     - Flags (Chequered, Black, White)
     - Hearts (Broken, Blue, Green, Yellow, Purple, Black)
@@ -76,6 +83,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Some Window controls, including font size changes
   - Emoticons (Many are supported)
   - Geometric Shapes Extended (Supports the following):
+    - Certain Circles, Squares and Diamonds
     - Circled versions of Square and Triangle
     - Circles (Orange, Yellow, Green, Purple, Brown)
     - Squares (Red, Blue, Orange, Yellow, Green, Purple, Brown)
@@ -88,8 +96,10 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Zipped Mouth Face
   - Extended Symbols and Pictographs A (Supports the following):
     - Hearts (Light Blue, Gray, Pink)
+    - Bluberries
     - Three Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face)
-- 182 different COLR glyphs (Of which 180 are Unicode and 2 are ZWJ) , which consist of (**Boled** ones are absent from the BW version):
+  - ZWJ (See [here](#private-use-area-characters) for character support)
+- 216 different COLR glyphs (Of which 201 are Unicode and 15 are ZWJ) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -99,14 +109,17 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - General Punctuation (Supports the following):
     - Double Question Mark
     - Exclamation Question Mark
-    - **Zero Width Joiner**
+    - Zero Width Joiner
   - Letterlike Symbols (Supports the following):
     - Trademark Symbol
   - Enclosed Alphanumerics (Supports the following):
     - Circled M
   - Gemoetric Shapes (Supports the following):
+    - Some triangles (Black)
     - Squares (White, Black)
   - Miscellaneous Symbols (Supports the following):
+    - Sun and Cloud
+    - Baloot Checkbox
     - Smiling Face (White)
     - Frowing Face
     - Genders
@@ -115,6 +128,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Circles (White, Black)
     - Disallowed Sign
   - Dingbats (Supports the following):
+    - Checkboxes and Crosses (Heavy, Squared) 
     - Question Mark and Exclamation Symbols (Black, White)
     - Hearts (Red and exclamation heart)
     - Plus, Minus and Division Symbols
@@ -125,6 +139,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Squared Letters (ID, OK, VS)
     - Regional Indicators required to create flag emojis
   - Miscellanneous Symbols and Pictographs (Supports the following):
+    - Rainbown
+    - Certain fruits (Such as Grapes, Oranges, Apples etc.)
     - Musical Notes
     - Flags (Chequered, Black, White)
     - Hearts (Broken, Blue, Green, Yellow, Purple, Black)
@@ -144,8 +160,9 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Zipped Mouth Face
   - Extended Symbols and Pictographs A (Supports the following):
     - Hearts (Light Blue, Gray, Pink)
+    - Bluberries
     - Three Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face)
-  - **ZWJ (See [here](#private-use-area-characters) for character support)**
+  - ZWJ (See [here](#private-use-area-characters) for character support)
 - Based on the aging System font from Microsoft Windows
 - Low-curve glyph designs, akin to the OFL Orbitron Font
 - Usable in all browsers, apps and sizes, compared to Bitmap fonts shipped with Windows
@@ -164,7 +181,7 @@ This block includes all supported ZWJ glyphs:
 | 0007 | E006    | Broken Yellow Heart     |          | 💛‍💔         |
 | 0008 | E007    | Broken Purple Heart     |          | 💜‍💔         |
 | 0009 | E008    | Broken White Heart      |          | 🤍‍💔         |
-| 0010 | E009    | Broken White Heart      |          | 🤎‍💔         |
+| 0010 | E009    | Broken Brown Heart      |          | 🤎‍💔         |
 | 0011 | E00A    | Broken Blue Heart       |          | 💙‍💔         |
 | 0012 | E00B    | Broken Light Blue Heart |          | 🩵‍💔         |
 | 0013 | E00C    | Broken Gray Heart       |          | 🩶‍💔         |
