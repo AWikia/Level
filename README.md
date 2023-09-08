@@ -190,12 +190,26 @@ This block includes all supported ZWJ glyphs:
 
 
 ## Availability
-Everytime a new Level release comes, it will be compiled in the following:
-- Thin, Light, Regular, Bold and Black Weights:
-  - Condensed Size
-  - Medium Size
-  - Expanded Size
-- COLR Version
-  - Regular Weight, Medium Size
+Black and White Level font is present in the following styles:
+- Thin Condensed
+- Thin
+- Thin Expanded
+- Light Condensed
+- Light
+- Light Expanded
+- Condensed
+- Regular
+- Expanded
+- Bold Condensed
+- Bold
+- Bold Expanded
+- Black Condensed
+- Black
+- Black Expanded
+
+COLR Level Color Symbols font is present in the following styles:
+- Condensed
+- Regular
+- Expanded
 
 [Try it now](https://awikia.github.io/Level/Main.html)
