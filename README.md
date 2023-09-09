@@ -103,7 +103,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - ZWJ (See [here](#private-use-area-characters) for character support)
   - Component Glyphs (51 currently)
     - Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. All of them reside in Plane 15
-- 284 different COLR glyphs (Of which 216 are Unicode, 17 are ZWJ and 51 are in SPUA-A) , which consist of:
+- 286 different COLR glyphs (Of which 218 are Unicode, 17 are ZWJ and 51 are in SPUA-A) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
