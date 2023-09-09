@@ -187,7 +187,8 @@ This block includes all supported ZWJ glyphs:
 | 0013 | E00C    | Broken Gray Heart       |          | 🩶‍💔         |
 | 0014 | E00D    | Broken Pink Heart       |          | 🩷‍💔         |
 | 0015 | E00E    | Lime                    |          | 🍋‍🟩         |
-
+| 0016 | E00F    | Qora Qore Flag          |          | 🏳️‍🟥‍🟪‍⬜‍🟨‍⬛         |
+| 0017 | E010    | Brown Mushroom          |          | 🍄‍🟫         |
 
 ## Availability
 Black and White Level font is present in the following styles:
