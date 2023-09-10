@@ -196,6 +196,9 @@ This block includes all supported ZWJ glyphs:
 | 0015 | E00E    | Lime                    |          | 🍋‍🟩         |
 | 0016 | E00F    | Qora Qore Flag          |          | 🏳️‍🟥‍🟪‍⬜‍🟨‍⬛         |
 | 0017 | E010    | Brown Mushroom          |          | 🍄‍🟫         |
+| 0018 | E011    | Black Bird              |          | 🐦‍⬛         |
+| 0019 | E012    | Phoenix Bird            |          | 🐦‍🔥         |
+| 0020 | E013    | Heart on Fire           |          | ❤️‍🔥         |
 
 ## Availability
 Black and White Level font is present in the following styles:
