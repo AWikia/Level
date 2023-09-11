@@ -1,5 +1,6 @@
 <html>
   <head>
+	<meta charset="UTF-8">
     <style>
 
 
@@ -122,6 +123,37 @@
     src:url('Level Color/LevelColorSymbols-Expanded.ttf') format('truetype');
 }
 
+@supports (font-variation-settings: "wdth" 115) {
+@font-face {
+    font-family: Level;
+    font-weight:100 900;
+    font-stretch:75% 125%;
+    src:url('Νέα Level/Level-VF.ttf') format('truetype-variations');
+}
+/*@font-face {
+    font-family: Level Color Symbols;
+    font-weight:400;
+    font-stretch:75% 125%;
+    src:url('Level Color/LevelColorSymbols-VF.ttf') format('truetype-variations');
+}*/
+}
+
+
+	.hidein-nvf {
+		display:none;
+	}
+	.hidein-vf {
+		display:block;
+	}
+@supports (font-variation-settings: "wdth" 115) {
+	.hidein-nvf {
+		display:block;
+	}
+	.hidein-vf {
+		display:none;
+	}
+}
+
 * {
   font-family:Level, casual;
   accent-color:green;
@@ -192,20 +224,44 @@
     </style>
   </head>
   <body>
-    <h2>Welcome To the Xtreme Drawboard Level Universe</h2>
+	<datalist id="weights">
+		<option value="100"></option>
+		<option value="300"></option>
+		<option value="400"></option>
+		<option value="700"></option>
+		<option value="900"></option>
+	</datalist>
+	<datalist id="stretches">
+		<option value="50"></option>
+		<option value="75"></option>
+		<option value="100"></option>
+		<option value="125"></option>
+		<option value="200"></option>
+	</datalist>    <h2>Welcome To the Xtreme Drawboard Level Universe</h2>
     <code>
 Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was strewn with silver. Looking down into the dark gulf below, I could see a ruddy light streaming through a rift in the clouds. 
     </code>
     <h3>Pick your Weight</h3>
-    <input type="radio" name="effects" id="eff01" onclick="document.querySelector('textarea').style.setProperty('--font-weight', '100')" checked> <label for="eff01">Thin</label>	
-    <input type="radio" name="effects" id="eff02" onclick="document.querySelector('textarea').style.setProperty('--font-weight', '300')" checked> <label for="eff02">Light</label>	
-    <input type="radio" name="effects" id="eff03" onclick="document.querySelector('textarea').style.setProperty('--font-weight', '400')" checked> <label for="eff03">Regular</label>
-    <input type="radio" name="effects" id="eff04" onclick="document.querySelector('textarea').style.setProperty('--font-weight', '700')"> <label for="eff04">Bold</label>
-    <input type="radio" name="effects" id="eff05" onclick="document.querySelector('textarea').style.setProperty('--font-weight', '900')"> <label for="eff05">Black</label>
+    <div class="hidein-vf">
+		<input type="radio" name="effects" id="eff01" onclick="document.querySelector('textarea').style.setProperty('--font-weight', '100')" checked> <label for="eff01">Thin</label>	
+		<input type="radio" name="effects" id="eff02" onclick="document.querySelector('textarea').style.setProperty('--font-weight', '300')" checked> <label for="eff02">Light</label>	
+		<input type="radio" name="effects" id="eff03" onclick="document.querySelector('textarea').style.setProperty('--font-weight', '400')" checked> <label for="eff03">Regular</label>
+		<input type="radio" name="effects" id="eff04" onclick="document.querySelector('textarea').style.setProperty('--font-weight', '700')"> <label for="eff04">Bold</label>
+		<input type="radio" name="effects" id="eff05" onclick="document.querySelector('textarea').style.setProperty('--font-weight', '900')"> <label for="eff05">Black</label>
+	</div>
+	<div class="hidein-nvf">
+		<input type="range" list="weights" style="width:100%;" min="100" max="900" value="400" name="effects" id="effVF" oninput="document.querySelector('textarea').style.setProperty('--font-weight', this.value)">
+	</div>
     <h3>Pick your Size</h3>
-    <input type="radio" name="effects2" id="eff11" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'condensed')"> <label for="eff11">Condensed</label>
-    <input type="radio" name="effects2" id="eff12" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'normal')" checked> <label for="eff12">Medium</label>
-    <input type="radio" name="effects2" id="eff13" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'expanded')"> <label for="eff13">Expanded</label>
+    <div class="hidein-vf">
+		<input type="radio" name="effects2" id="eff11" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'condensed')"> <label for="eff11">Condensed</label>
+		<input type="radio" name="effects2" id="eff12" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'normal')" checked> <label for="eff12">Medium</label>
+		<input type="radio" name="effects2" id="eff13" onclick="document.querySelector('textarea').style.setProperty('--font-stretch', 'expanded')"> <label for="eff13">Expanded</label>
+	</div>
+	<div class="hidein-nvf">
+		<input type="range" list="stretches" style="width:100%;" min="75" max="125" value="100" name="effects" id="effVF" oninput="document.querySelector('textarea').style.setProperty('--font-stretch', this.value + '%')">
+	</div>
+
     <h3>Colorize Emoji Glyphs?</h3>
     <input type="radio" name="effects3" id="eff21" onclick="document.querySelector('textarea').style.setProperty('--emoji-font', 'Level')" checked> <label for="eff21">No</label>
     <input type="radio" name="effects3" id="eff22" onclick="document.querySelector('textarea').style.setProperty('--emoji-font', 'Level Color Symbols')"> <label for="eff22">Yes</label>
