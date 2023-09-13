@@ -108,7 +108,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Bluberries
     - Three Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face)
   - ZWJ (See [here](#private-use-area-characters) for character support)
-  - Component Glyphs (54 currently)
+  - Component Glyphs (59 currently)
     - Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. All of them reside in Plane 15
 - 316 different COLR glyphs (Of which 237 are Unicode, 20 are ZWJ and 59 are in SPUA-A) , which consist of:
   - Basic Latin (Supports the following):
@@ -181,7 +181,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Bluberries
     - Three Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face)
   - ZWJ (See [here](#private-use-area-characters) for character support)
-  - Component Glyphs (54 currently)
+  - Component Glyphs (59 currently)
     - Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. All of them reside in Plane 15
 - Based on the aging System font from Microsoft Windows
 - Low-curve glyph designs, akin to the OFL Orbitron Font
