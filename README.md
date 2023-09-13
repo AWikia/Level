@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 4359 different glyphs (Of which 3860 are in BMP, 445 in SMP and 54 in SPUA-A) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 4457 different glyphs (Of which 3898 are in BMP, 538 in SMP and 59 in SPUA-A) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -22,11 +22,14 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Additional Extended Latin
   - Greek Extended
   - General Punctuation (Many are supported, including Zero Width Joiner)
-  - Letterlike Symbols (Many are supported)
+  - Letterlike Symbols (Many are supported, including stroked letters)
   - Superscripts and Subscripts
   - Currency Symbols
   - Phonetic Symbols
   - Mathematic Operators
+  - Miscellaneous Technical (Supports the following):
+    - Several arrow glyphs
+    - Clocks (Alarm, Stopwatch, Timer)
   - Enclosed Alphanumerics (Mostly supported, minus the double-stroked symbols)
   - Gemoetric Shapes
   - Miscellaneous Symbols (Supports the following):
@@ -59,7 +62,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Katakana
   - Katakana Phonetic Extensions
   - Enclosed CJK Letters and Months (Supports enclosed numbers only)
-  - Unified CJK Ideographs (Extremely Limited support, 135 supported currently)
+  - Unified CJK Ideographs (Extremely Limited support, 136 supported currently)
   - Extended Cyrillic B (Most glyphs are supported)
   - Extended Latin D
   - Extended Latin E
@@ -70,6 +73,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Gothic
   - Extended Latin F
   - Small Kana Forms
+  - Mathematical Alphanumeric Symbols (Supports the following):
+    - Stroked letters
   - Extended Latin G
   - Enclosed Alphanumeric Supplement (Mostly supported, excluding a small ammount of enclosed symbols with more than one letter)
   - Miscellanneous Symbols and Pictographs (Supports the following):
@@ -105,7 +110,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - ZWJ (See [here](#private-use-area-characters) for character support)
   - Component Glyphs (54 currently)
     - Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. All of them reside in Plane 15
-- 295 different COLR glyphs (Of which 221 are Unicode, 20 are ZWJ and 54 are in SPUA-A) , which consist of:
+- 316 different COLR glyphs (Of which 237 are Unicode, 20 are ZWJ and 59 are in SPUA-A) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -118,6 +123,10 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Zero Width Joiner
   - Letterlike Symbols (Supports the following):
     - Trademark Symbol
+    - Information Symbol
+  - Miscellaneous Technical (Supports the following):
+    - Several arrow glyphs
+    - Clocks (Alarm, Stopwatch, Timer)
   - Enclosed Alphanumerics (Supports the following):
     - Circled M
   - Gemoetric Shapes (Supports the following):
