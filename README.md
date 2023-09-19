@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 4457 different glyphs (Of which 3898 are in BMP, 538 in SMP and 59 in SPUA-A) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 4691 different glyphs (Of which 3898 are in BMP, 772 in SMP and 59 in SPUA-A) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -74,9 +74,10 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Extended Latin F
   - Small Kana Forms
   - Mathematical Alphanumeric Symbols (Supports the following):
-    - Stroked letters
+    - Latin letters (Stroked, Sans-Serif Regular, Sans-Serif Bold, Sans-Serif Italic, Sans-Serif Bold Italic)
+    - Number Letters (Stroked, Sans-Serif Regular, Sans-Serif Bold)
   - Extended Latin G
-  - Enclosed Alphanumeric Supplement (Mostly supported, excluding a small ammount of enclosed symbols with more than one letter)
+  - Enclosed Alphanumeric Supplement (Mostly supported, including the Copyleft symbol, excluding a small ammount of enclosed symbols with more than one letter)
   - Miscellanneous Symbols and Pictographs (Supports the following):
     - Rainbown
     - Mushroom
