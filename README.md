@@ -213,6 +213,7 @@ This block includes all supported ZWJ glyphs:
 | 0018 | E011    | Black Bird              |          | 🐦‍⬛         |
 | 0019 | E012    | Phoenix Bird            |          | 🐦‍🔥         |
 | 0020 | E013    | Heart on Fire           |          | ❤️‍🔥         |
+| 0021 | E014    | Face with Spiral Eyes   |          | 😵‍💫         |
 
 ## Availability
 Black and White Level font is present in the following styles:
