@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 4691 different glyphs (Of which 3898 are in BMP, 734 in SMP and 59 in SPUA-A) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 4956 different glyphs (Of which 3940 are in BMP, 953 in SMP and 63 in SPUA-A) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -50,10 +50,17 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Hearts (Red, rotated and exclamation heart)
     - Enclosed Glyphs
     - Plus, Minus and Division Symbols
+  - Miscellaneous Mathematical Symbols-A (Supports the following):
+    - Triangle with a small one
+  - Miscellaneous Mathematical Symbols-B (Supports the following):
+    - Joined Squares
+    - Triangles
+    - Black Lozenge
   - Miscellanneous Symbols and Arrows (Supports the following):
     - Everything related to Geometric Shapes glyphs
     - Certain shapes
     - Squares (White, Black)
+    - Arrows (3D, Black)
   - Extended Latin C
   - Coptic (Supports only the 25 letters related to greek ones)
   - Extended Cyrillic A
@@ -74,12 +81,14 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Extended Latin F
   - Small Kana Forms
   - Mathematical Alphanumeric Symbols (Supports the following):
-    - Latin letters (Stroked, Sans-Serif Regular, Sans-Serif Bold, Sans-Serif Italic, Sans-Serif Bold Italic)
-    - Number Letters (Stroked, Sans-Serif Regular, Sans-Serif Bold)
+    - Latin letters (Stroked, Sans-Serif Regular, Sans-Serif Bold, Sans-Serif Italic, Sans-Serif Bold Italic, Monospaced)
+    - Greek letters (Sans-Serif Bold, Sans-Serif Bold Italic)
+    - Number Letters (Stroked, Sans-Serif Regular, Sans-Serif Bold, Monospaced)
   - Extended Latin G
   - Enclosed Alphanumeric Supplement (Mostly supported, including the Copyleft symbol, excluding a small ammount of enclosed symbols with more than one letter)
   - Miscellanneous Symbols and Pictographs (Supports the following):
     - Rainbown
+    - Moons (Full Circle, Smilies)
     - Mushroom
     - Certain fruits (Such as Grapes, Oranges, Apples etc.)
     - Musical Notes
@@ -90,7 +99,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Squares (Red, Blue)
     - Diamonds (Orange, Blue)
     - Triangles (Red)
-    - Some Window controls, including font size changes
+    - Document-like glyphs
+    - Window controls
   - Emoticons (Many are supported)
   - Geometric Shapes Extended (Supports the following):
     - Certain Circles, Squares and Diamonds
@@ -107,11 +117,11 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Extended Symbols and Pictographs A (Supports the following):
     - Hearts (Light Blue, Gray, Pink)
     - Bluberries
-    - Three Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face)
+    - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
   - ZWJ (See [here](#private-use-area-characters) for character support)
-  - Component Glyphs (59 currently)
+  - Component Glyphs (63 currently)
     - Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. All of them reside in Plane 15
-- 316 different COLR glyphs (Of which 237 are Unicode, 20 are ZWJ and 59 are in SPUA-A) , which consist of:
+- 333 different COLR glyphs (Of which 249 are Unicode, 21 are ZWJ and 63 are in SPUA-A) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -156,6 +166,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Regional Indicators required to create flag emojis
   - Miscellanneous Symbols and Pictographs (Supports the following):
     - Rainbown
+    - Moons (Full Circle, Smilies)
     - Mushroom
     - Certain fruits (Such as Grapes, Oranges, Apples etc.)
     - Musical Notes
@@ -180,9 +191,9 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Extended Symbols and Pictographs A (Supports the following):
     - Hearts (Light Blue, Gray, Pink)
     - Bluberries
-    - Three Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face)
+    - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
   - ZWJ (See [here](#private-use-area-characters) for character support)
-  - Component Glyphs (59 currently)
+  - Component Glyphs (63 currently)
     - Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. All of them reside in Plane 15
 - Based on the aging System font from Microsoft Windows
 - Low-curve glyph designs, akin to the OFL Orbitron Font
