@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 4956 different glyphs (Of which 3940 are in BMP, 953 in SMP and 63 in SPUA-A) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 5022 different glyphs (Of which 3995 are in BMP, 961 in SMP and 66 in SPUA-A) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -68,7 +68,9 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Hiragana
   - Katakana
   - Katakana Phonetic Extensions
-  - Enclosed CJK Letters and Months (Supports enclosed numbers only)
+  - Enclosed CJK Letters and Months (Supports the following):
+    - Enclosed numbers
+    - Enclosed katakana letters
   - Unified CJK Ideographs (Extremely Limited support, 136 supported currently)
   - Extended Cyrillic B (Most glyphs are supported)
   - Extended Latin D
@@ -86,6 +88,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Number Letters (Stroked, Sans-Serif Regular, Sans-Serif Bold, Monospaced)
   - Extended Latin G
   - Enclosed Alphanumeric Supplement (Mostly supported, including the Copyleft symbol, excluding a small ammount of enclosed symbols with more than one letter)
+  - Enclosed Ideographic Supplement (Supports 5 Squared glyphs and 3 parethesized glyphs)
   - Miscellanneous Symbols and Pictographs (Supports the following):
     - Rainbown
     - Moons (Full Circle, Smilies)
@@ -121,7 +124,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - ZWJ (See [here](#private-use-area-characters) for character support)
   - Component Glyphs (63 currently)
     - Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. All of them reside in Plane 15
-- 333 different COLR glyphs (Of which 249 are Unicode, 21 are ZWJ and 63 are in SPUA-A) , which consist of:
+- 340 different COLR glyphs (Of which 256 are Unicode, 21 are ZWJ and 66 are in SPUA-A) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -164,6 +167,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Negative Squared Letters (A, B, O, P, AB)
     - Squared Letters (CL, COOL, FREE, ID, NEW, NG, OK, SOS, UP!, VS)
     - Regional Indicators required to create flag emojis
+  - Enclosed Ideographic Supplement (Supports 4 Squared glyphs)
   - Miscellanneous Symbols and Pictographs (Supports the following):
     - Rainbown
     - Moons (Full Circle, Smilies)
@@ -193,7 +197,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Bluberries
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
   - ZWJ (See [here](#private-use-area-characters) for character support)
-  - Component Glyphs (63 currently)
+  - Component Glyphs (66 currently)
     - Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. All of them reside in Plane 15
 - Based on the aging System font from Microsoft Windows
 - Low-curve glyph designs, akin to the OFL Orbitron Font
