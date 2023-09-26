@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 5022 different glyphs (Of which 3995 are in BMP, 961 in SMP and 66 in SPUA-A) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 5085 different glyphs (Of which 4013 are in BMP, 974 in SMP and 69 in SPUA-A) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -62,7 +62,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Squares (White, Black)
     - Arrows (3D, Black)
   - Extended Latin C
-  - Coptic (Supports only the 25 letters related to greek ones)
+  - Coptic (Supports all 50 glyphs related to greek ones and 18 glyphs not related to greek ones)
   - Extended Cyrillic A
   - CJK Symbols and Punctuation (Limited)
   - Hiragana
@@ -79,6 +79,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Alphabetic Presentation Forms
   - Fullwidth forms
   - Specials
+  - Lycian
   - Gothic
   - Extended Latin F
   - Small Kana Forms
@@ -97,6 +98,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Musical Notes
     - Flags (Chequered, Black, White)
     - Bird
+    - Imp
     - Fire
     - Hearts (Broken, Blue, Green, Yellow, Purple, Black, Growing, Two, Revolving, Decorated)
     - Squares (Red, Blue)
@@ -114,17 +116,19 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Transport and Map Symbols (Supports the following):
     - Triangular Flag
     - Disallowed Sign
+    - Octagonal Sign
   - Supplement Symbols and Pictographs (Supports the following):
     - Hearts (White, Brown, Orange)
-    - Zipped Mouth Face
+    - Some Smilies (Zipped Mouth, Naughseated, Hot, Freezing)
+    - Magnet
   - Extended Symbols and Pictographs A (Supports the following):
     - Hearts (Light Blue, Gray, Pink)
     - Bluberries
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
   - ZWJ (See [here](#private-use-area-characters) for character support)
-  - Component Glyphs (63 currently)
+  - Component Glyphs (69 currently)
     - Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. All of them reside in Plane 15
-- 340 different COLR glyphs (Of which 256 are Unicode, 21 are ZWJ and 66 are in SPUA-A) , which consist of:
+- 356 different COLR glyphs (Of which 269 are Unicode, 21 are ZWJ and 69 are in SPUA-A) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -176,6 +180,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Musical Notes
     - Flags (Chequered, Black, White)
     - Bird
+    - Imp
     - Fire
     - Hearts (Broken, Blue, Green, Yellow, Purple, Black, Two, Growing, Revolving, Decorated)
     - Squares (Red, Blue)
@@ -189,15 +194,17 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Transport and Map Symbols (Supports the following):
     - Triangular Flag
     - Disallowed Sign
+    - Octagonal Sign
   - Supplement Symbols and Pictographs (Supports the following):
     - Hearts (White, Brown, Orange)
-    - Zipped Mouth Face
+    - Some Smilies (Zipped Mouth, Naughseated, Hot, Freezing)
+    - Magnet
   - Extended Symbols and Pictographs A (Supports the following):
     - Hearts (Light Blue, Gray, Pink)
     - Bluberries
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
   - ZWJ (See [here](#private-use-area-characters) for character support)
-  - Component Glyphs (66 currently)
+  - Component Glyphs (69 currently)
     - Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. All of them reside in Plane 15
 - Based on the aging System font from Microsoft Windows
 - Low-curve glyph designs, akin to the OFL Orbitron Font
