@@ -251,12 +251,14 @@ Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are
 Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs. 0 are supported currently and are exclusive to the BW font. All holes indicate that a character can be found at Letterlike Symbols
 | No.  | Glyphs  | Unicode Range | Name                       |
 | ---- | ------- | ------------- | -------------------------- |
-| 0001 | 0010    | F10000-F10009 | Numbers: Serif             |
-| 0002 | 0010    | F1000A-F10013 | Numbers: Serif Italic      |
-| 0003 | 0010    | F10014-F1001D | Numbers: Serif Bold Italic |
-| 0004 | 0010    | F1001E-F10027 | Numbers: Outlined Italic   |
-| 0005 | 0010    | F10028-F10031 | Numbers: Italic            |
-| 0006 | 0010    | F10032-F1003B | Numbers: Bold Italic       |
+| 0001 | 0010    | F1000-F1009   | Numbers: Serif             |
+| 0002 | 0010    | F100A-F1013   | Numbers: Serif Italic      |
+| 0003 | 0010    | F1014-F101D   | Numbers: Serif Bold Italic |
+| 0004 | 0010    | F101E-F1027   | Numbers: Outlined Italic   |
+| 0005 | 0010    | F1028-F1031   | Numbers: Italic            |
+| 0006 | 0010    | F1032-F103B   | Numbers: Bold Italic       |
+| 0007 | 0052    | F103C-F106F   | Latin: Serif               |
+| 0008 | 0047    | F1070-F10A3   | Latin: Oultlined Italic    |
 
 ## Availability
 Black and White Level font is present in the following styles:
