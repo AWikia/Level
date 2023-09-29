@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 5085 different glyphs (Of which 4013 are in BMP, 974 in SMP and 69 in SPUA-A) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 5085 different glyphs (Of which 4013 are in BMP, 974 in SMP and 69 are Component) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -125,10 +125,10 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Hearts (Light Blue, Gray, Pink)
     - Bluberries
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
-  - ZWJ (See [here](#private-use-area-characters) for character support)
-  - Component Glyphs (69 currently)
-    - Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. All of them reside in Plane 15
-- 356 different COLR glyphs (Of which 269 are Unicode, 21 are ZWJ and 69 are in SPUA-A) , which consist of:
+  - Composite Glyphs (See [here](#private-use-area-e000---ffff) for character support)
+  - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
+  - Supplementary Letter Style Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
+- 356 different COLR glyphs (Of which 269 are Unicode, 21 are ZWJ and 69 are Component) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -203,15 +203,18 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Hearts (Light Blue, Gray, Pink)
     - Bluberries
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
-  - ZWJ (See [here](#private-use-area-characters) for character support)
-  - Component Glyphs (69 currently)
-    - Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. All of them reside in Plane 15
+  - Composite Glyphs (See [here](#private-use-area-e000---ffff) for character support)
+  - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
 - Based on the aging System font from Microsoft Windows
 - Low-curve glyph designs, akin to the OFL Orbitron Font
 - Usable in all browsers, apps and sizes, compared to Bitmap fonts shipped with Windows
 - Extendable with future releases when required
-## Private Use Area Characters
-This block includes all supported ZWJ glyphs:
+## Allocated PUA Unicode Blocks
+Level font reserves certain PUA Unicode ranges for specific purposes
+### Private Use Area (E000 - FFFF)
+This unicode block will contain Composite Glyphs made using ZWJ and country flags
+#### ZWJ Glyphs (E000 - EFFF)
+Unicode range E000-EFFF is allocated for all Composite Characters deployed using ZWJ and includes the following glyphs:
 
 | No.  | Unicode | Name                    | PUA Glyph   | ZWJ Glyph |
 | ---- | ------- | ----------------------- | --------- | --------- |
@@ -236,6 +239,19 @@ This block includes all supported ZWJ glyphs:
 | 0019 | E012    | Phoenix Bird            |          | 🐦‍🔥         |
 | 0020 | E013    | Heart on Fire           |          | ❤️‍🔥         |
 | 0021 | E014    | Face with Spiral Eyes   |          | 😵‍💫         |
+#### Country Flags Glyphs (F000 - FFFF)
+Unicode range F000-FFFF is allocated for all Composite Characters deployed using Regional Indicators plus many subdivision flags, each time a new one gets added, it will appear next to the previously defined one and includes the following glyphs:
+| No.  | Unicode | Name                    | PUA Glyph   | ZWJ Glyph |
+| ---- | ------- | ----------------------- | --------- | --------- |
+### Supplementary Private Use Area-A (F0000 - FFFFF)
+This unicode block will various advanced glyphs, including Component ones
+#### Component Glyphs (F0000 - F0FFF)
+Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 69 are supported currently
+#### Supplementary Letter Style Glyphs (F1000 - F1FFF)
+Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs. 0 are supported currently and are exclusive to the BW font. All holes indicate that a character can be found at Letterlike Symbols
+| Glyphs  | Unicode Range | Name                    |
+| ------- | ------------- | ----------------------- |
+| 0000    | F10000-F1FFFF | Unallocated Codepoints  |
 
 ## Availability
 Black and White Level font is present in the following styles:
