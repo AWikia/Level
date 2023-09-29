@@ -249,9 +249,17 @@ This unicode block will various advanced glyphs, including Component ones
 Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 69 are supported currently
 #### Supplementary Letter Style Glyphs (F1000 - F1FFF)
 Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs. 0 are supported currently and are exclusive to the BW font. All holes indicate that a character can be found at Letterlike Symbols
-| Glyphs  | Unicode Range | Name                    |
-| ------- | ------------- | ----------------------- |
-| 0000    | F10000-F1FFFF | Unallocated Codepoints  |
+| No.  | Glyphs  | Unicode Range | Name                       |
+| ---- | ------- | ------------- | -------------------------- |
+| 0001 | 0010    | F10000-F10009 | Numbers: Serif             |
+| 0002 | 0010    | F1000A-F10013 | Numbers: Serif Italic      |
+| 0003 | 0010    | F10014-F1001D | Numbers: Serif Bold Italic |
+| 0004 | 0010    | F1001E-F10027 | Numbers: Outlined Italic   |
+| 0005 | 0010    | F10028-F10031 | Numbers: Italic            |
+| 0006 | 0010    | F10032-F1003B | Numbers: Bold Italic       |
+| 0007 | 0010    | F1003C-F10045 | Numbers: Mono Bold         |
+| 0008 | 0010    | F10046-F1004F | Numbers: Mono Italic       |
+| 0009 | 0010    | F10050-F10059 | Numbers: Mono Bold Italic  |
 
 ## Availability
 Black and White Level font is present in the following styles:
