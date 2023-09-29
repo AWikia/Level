@@ -257,9 +257,6 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 | 0004 | 0010    | F1001E-F10027 | Numbers: Outlined Italic   |
 | 0005 | 0010    | F10028-F10031 | Numbers: Italic            |
 | 0006 | 0010    | F10032-F1003B | Numbers: Bold Italic       |
-| 0007 | 0010    | F1003C-F10045 | Numbers: Mono Bold         |
-| 0008 | 0010    | F10046-F1004F | Numbers: Mono Italic       |
-| 0009 | 0010    | F10050-F10059 | Numbers: Mono Bold Italic  |
 
 ## Availability
 Black and White Level font is present in the following styles:
