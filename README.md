@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 5085 different glyphs (Of which 4013 are in BMP, 974 in SMP and 69 are Component) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 5693 different glyphs (Of which 4026 are in BMP, 1410 in SMP, 69 are Component and 159 are SLS) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -83,10 +83,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Gothic
   - Extended Latin F
   - Small Kana Forms
-  - Mathematical Alphanumeric Symbols (Supports the following):
-    - Latin letters (Stroked, Sans-Serif Regular, Sans-Serif Bold, Sans-Serif Italic, Sans-Serif Bold Italic, Monospaced)
-    - Greek letters (Sans-Serif Bold, Sans-Serif Bold Italic)
-    - Number Letters (Stroked, Sans-Serif Regular, Sans-Serif Bold, Monospaced)
+  - Mathematical Alphanumeric Symbols (Mostly supported, minus the fraktur letters)
   - Extended Latin G
   - Enclosed Alphanumeric Supplement (Mostly supported, including the Copyleft symbol, excluding a small ammount of enclosed symbols with more than one letter)
   - Enclosed Ideographic Supplement (Supports 5 Squared glyphs and 3 parethesized glyphs)
@@ -125,9 +122,9 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Hearts (Light Blue, Gray, Pink)
     - Bluberries
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
-  - Composite Glyphs (See [here](#private-use-area-e000---ffff) for character support)
+  - Composite Glyphs (See [here](#private-use-area-e000---ffff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
-  - Supplementary Letter Style Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
+  - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
 - 356 different COLR glyphs (Of which 269 are Unicode, 21 are ZWJ and 69 are Component) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
@@ -203,16 +200,19 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Hearts (Light Blue, Gray, Pink)
     - Bluberries
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
-  - Composite Glyphs (See [here](#private-use-area-e000---ffff) for character support)
+  - Composite Glyphs (See [here](#private-use-area-e000---ffff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
 - Based on the aging System font from Microsoft Windows
 - Low-curve glyph designs, akin to the OFL Orbitron Font
 - Usable in all browsers, apps and sizes, compared to Bitmap fonts shipped with Windows
 - Extendable with future releases when required
+
 ## Allocated PUA Unicode Blocks
 Level font reserves certain PUA Unicode ranges for specific purposes
+
 ### Private Use Area (E000 - FFFF)
 This unicode block will contain Composite Glyphs made using ZWJ and country flags
+
 #### ZWJ Glyphs (E000 - EFFF)
 Unicode range E000-EFFF is allocated for all Composite Characters deployed using ZWJ and includes the following glyphs:
 
@@ -239,16 +239,22 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0019 | E012    | Phoenix Bird            |          | 🐦‍🔥         |
 | 0020 | E013    | Heart on Fire           |          | ❤️‍🔥         |
 | 0021 | E014    | Face with Spiral Eyes   |          | 😵‍💫         |
+
 #### Country Flags Glyphs (F000 - FFFF)
 Unicode range F000-FFFF is allocated for all Composite Characters deployed using Regional Indicators plus many subdivision flags, each time a new one gets added, it will appear next to the previously defined one and includes the following glyphs:
+
 | No.  | Unicode | Name                    | PUA Glyph   | ZWJ Glyph |
 | ---- | ------- | ----------------------- | --------- | --------- |
+
 ### Supplementary Private Use Area-A (F0000 - FFFFF)
-This unicode block will various advanced glyphs, including Component ones
+This unicode block includes various advanced glyphs, including Component ones
+
 #### Component Glyphs (F0000 - F0FFF)
 Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 69 are supported currently
+
 #### Supplementary Letter Style Glyphs (F1000 - F1FFF)
-Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs. 0 are supported currently and are exclusive to the BW font. All holes indicate that a character can be found at Letterlike Symbols
+Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs. 159 are supported currently and are exclusive to the BW font. All holes in each subrange indicate that a character can be found at a standarized unicode block like Letterlike Symbols.
+
 | No.  | Glyphs  | Unicode Range | Name                       |
 | ---- | ------- | ------------- | -------------------------- |
 | 0001 | 0010    | F1000-F1009   | Numbers: Serif             |
@@ -259,6 +265,8 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 | 0006 | 0010    | F1032-F103B   | Numbers: Bold Italic       |
 | 0007 | 0052    | F103C-F106F   | Latin: Serif               |
 | 0008 | 0047    | F1070-F10A3   | Latin: Oultlined Italic    |
+
+Once glyphs from this range come to Unicode, those will be either remain in the original spot alongside the new ones or will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously
 
 ## Availability
 Black and White Level font is present in the following styles:
