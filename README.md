@@ -122,7 +122,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Hearts (Light Blue, Gray, Pink)
     - Bluberries
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
-  - Composite Glyphs (See [here](#private-use-area-e000---ffff) for character support; split between ZWJ and Country Flag glyphs)
+  - Composite Glyphs (See [here](#private-use-area-e000---f8ff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
 - 356 different COLR glyphs (Of which 269 are Unicode, 21 are ZWJ and 69 are Component) , which consist of:
@@ -200,7 +200,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Hearts (Light Blue, Gray, Pink)
     - Bluberries
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
-  - Composite Glyphs (See [here](#private-use-area-e000---ffff) for character support; split between ZWJ and Country Flag glyphs)
+  - Composite Glyphs (See [here](#private-use-area-e000---f8ff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
 - Based on the aging System font from Microsoft Windows
 - Low-curve glyph designs, akin to the OFL Orbitron Font
@@ -210,7 +210,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
 ## Allocated PUA Unicode Blocks
 Level font reserves certain PUA Unicode ranges for specific purposes
 
-### Private Use Area (E000 - FFFF)
+### Private Use Area (E000 - F8FF)
 This unicode block will contain Composite Glyphs made using ZWJ and country flags
 
 #### ZWJ Glyphs (E000 - EFFF)
@@ -240,8 +240,8 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0020 | E013    | Heart on Fire           |          | ❤️‍🔥         |
 | 0021 | E014    | Face with Spiral Eyes   |          | 😵‍💫         |
 
-#### Country Flags Glyphs (F000 - FFFF)
-Unicode range F000-FFFF is allocated for all Composite Characters deployed using Regional Indicators plus many subdivision flags, each time a new one gets added, it will appear next to the previously defined one and includes the following glyphs:
+#### Country Flags Glyphs (F000 - F8FF)
+Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators plus many subdivision flags, each time a new one gets added, it will appear next to the previously defined one and includes the following glyphs:
 
 | No.  | Unicode | Name                    | PUA Glyph   | ZWJ Glyph |
 | ---- | ------- | ----------------------- | --------- | --------- |
