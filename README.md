@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 5693 different glyphs (Of which 4026 are in BMP, 1410 in SMP, 69 are Component and 159 are SLS) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 6093 different glyphs (Of which 4206 are in BMP, 1630 in SMP, 69 are Component and 159 are SLS) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -22,15 +22,18 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Additional Extended Latin
   - Greek Extended
   - General Punctuation (Many are supported, including Zero Width Joiner)
-  - Letterlike Symbols (Many are supported, including stroked letters)
   - Superscripts and Subscripts
   - Currency Symbols
-  - Phonetic Symbols
+  - Letterlike Symbols (Many are supported, including stroked letters)
+  - Number Forms
+  - Arrows (A few are supported)
   - Mathematic Operators
   - Miscellaneous Technical (Supports the following):
     - Several arrow glyphs
     - Clocks (Alarm, Stopwatch, Timer)
   - Enclosed Alphanumerics (Mostly supported, minus the double-stroked symbols)
+  - Bow Drawings
+  - Block Elements
   - Gemoetric Shapes
   - Miscellaneous Symbols (Supports the following):
     - Sun and Cloud
@@ -94,7 +97,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Certain fruits (Such as Grapes, Oranges, Apples etc.)
     - Musical Notes
     - Flags (Chequered, Black, White)
-    - Bird
+    - Bird, Cat and Ghost
     - Imp
     - Fire
     - Hearts (Broken, Blue, Green, Yellow, Purple, Black, Growing, Two, Revolving, Decorated)
@@ -104,7 +107,10 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Document-like glyphs
     - Window controls
   - Emoticons (Many are supported)
+  - Ornamental Dingbats (Supports the following):
+    - Box Drawings
   - Geometric Shapes Extended (Supports the following):
+    - Certain Triangle Parts
     - Certain Circles, Squares and Diamonds
     - Circled versions of Square and Triangle
     - Circles (Orange, Yellow, Green, Purple, Brown)
@@ -122,10 +128,11 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Hearts (Light Blue, Gray, Pink)
     - Bluberries
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
+  - Symbols for Legacy Computing
   - Composite Glyphs (See [here](#private-use-area-e000---f8ff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
-- 356 different COLR glyphs (Of which 269 are Unicode, 21 are ZWJ and 69 are Component) , which consist of:
+- 358 different COLR glyphs (Of which 271 are Unicode, 21 are ZWJ and 69 are Component) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -176,7 +183,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Certain fruits (Such as Grapes, Oranges, Apples etc.)
     - Musical Notes
     - Flags (Chequered, Black, White)
-    - Bird
+    - Bird, Cat and Ghost
     - Imp
     - Fire
     - Hearts (Broken, Blue, Green, Yellow, Purple, Black, Two, Growing, Revolving, Decorated)
