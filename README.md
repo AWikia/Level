@@ -132,6 +132,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Composite Glyphs (See [here](#private-use-area-e000---f8ff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
+  - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
 - 358 different COLR glyphs (Of which 271 are Unicode, 21 are ZWJ and 69 are Component) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
@@ -209,6 +210,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
   - Composite Glyphs (See [here](#private-use-area-e000---f8ff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
+  - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
 - Based on the aging System font from Microsoft Windows
 - Low-curve glyph designs, akin to the OFL Orbitron Font
 - Usable in all browsers, apps and sizes, compared to Bitmap fonts shipped with Windows
@@ -223,35 +225,37 @@ This unicode block will contain Composite Glyphs made using ZWJ and country flag
 #### ZWJ Glyphs (E000 - EFFF)
 Unicode range E000-EFFF is allocated for all Composite Characters deployed using ZWJ and includes the following glyphs:
 
-| No.  | Unicode | Name                    | PUA Glyph   | ZWJ Glyph |
-| ---- | ------- | ----------------------- | --------- | --------- |
-| 0001 | E000    | Transgender Flag        |          | 🏳️‍⚧         |
-| 0002 | E001    | Refugee Nation Flag     |          | 🏳‍🟧‍⬛‍🟧         |
-| 0003 | E002    | Rainbow Flag            |          | 🏳️‍🌈         |
-| 0004 | E003    | Broken Black Heart      |          | 🖤‍💔         |
-| 0005 | E004    | Broken Orange Heart     |          | 🧡‍💔         |
-| 0006 | E005    | Broken Green Heart      |          | 💚‍💔         |
-| 0007 | E006    | Broken Yellow Heart     |          | 💛‍💔         |
-| 0008 | E007    | Broken Purple Heart     |          | 💜‍💔         |
-| 0009 | E008    | Broken White Heart      |          | 🤍‍💔         |
-| 0010 | E009    | Broken Brown Heart      |          | 🤎‍💔         |
-| 0011 | E00A    | Broken Blue Heart       |          | 💙‍💔         |
-| 0012 | E00B    | Broken Light Blue Heart |          | 🩵‍💔         |
-| 0013 | E00C    | Broken Gray Heart       |          | 🩶‍💔         |
-| 0014 | E00D    | Broken Pink Heart       |          | 🩷‍💔         |
-| 0015 | E00E    | Lime                    |          | 🍋‍🟩         |
-| 0016 | E00F    | Qora Qore Flag          |          | 🏳️‍🟥‍🟪‍⬜‍🟨‍⬛         |
-| 0017 | E010    | Brown Mushroom          |          | 🍄‍🟫         |
-| 0018 | E011    | Black Bird              |          | 🐦‍⬛         |
-| 0019 | E012    | Phoenix Bird            |          | 🐦‍🔥         |
-| 0020 | E013    | Heart on Fire           |          | ❤️‍🔥         |
-| 0021 | E014    | Face with Spiral Eyes   |          | 😵‍💫         |
+| No.  | Unicode | Name                      | PUA Glyph | ZWJ Glyph |
+| ---- | ------- | ------------------------- | --------- | --------- |
+| 0001 | E000    | Transgender Flag          |          | 🏳️‍⚧         |
+| 0002 | E001    | Refugee Nation Flag       |          | 🏳‍🟧‍⬛‍🟧         |
+| 0003 | E002    | Rainbow Flag              |          | 🏳️‍🌈         |
+| 0004 | E003    | Broken Black Heart        |          | 🖤‍💔         |
+| 0005 | E004    | Broken Orange Heart       |          | 🧡‍💔         |
+| 0006 | E005    | Broken Green Heart        |          | 💚‍💔         |
+| 0007 | E006    | Broken Yellow Heart       |          | 💛‍💔         |
+| 0008 | E007    | Broken Purple Heart       |          | 💜‍💔         |
+| 0009 | E008    | Broken White Heart        |          | 🤍‍💔         |
+| 0010 | E009    | Broken Brown Heart        |          | 🤎‍💔         |
+| 0011 | E00A    | Broken Blue Heart         |          | 💙‍💔         |
+| 0012 | E00B    | Broken Light Blue Heart   |          | 🩵‍💔         |
+| 0013 | E00C    | Broken Gray Heart         |          | 🩶‍💔         |
+| 0014 | E00D    | Broken Pink Heart         |          | 🩷‍💔         |
+| 0015 | E00E    | Lime                      |          | 🍋‍🟩         |
+| 0016 | E00F    | Qora Qore Flag            |          | 🏳️‍🟥‍🟪‍⬜‍🟨‍⬛         |
+| 0017 | E010    | Brown Mushroom            |          | 🍄‍🟫         |
+| 0018 | E011    | Black Bird                |          | 🐦‍⬛         |
+| 0019 | E012    | Phoenix Bird              |          | 🐦‍🔥         |
+| 0020 | E013    | Heart on Fire             |          | ❤️‍🔥         |
+| 0021 | E014    | Face with Spiral Eyes     |          | 😵‍💫         |
+| 0022 | E015    | Head Shaking Vertically   |          | 🙂‍↕️         |
+| 0023 | E016    | Head Shaking Horizontally |          | 🙂‍↔️         |
 
 #### Country Flags Glyphs (F000 - F8FF)
 Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators plus many subdivision flags, each time a new one gets added, it will appear next to the previously defined one and includes the following glyphs:
 
-| No.  | Unicode | Name                    | PUA Glyph   | ZWJ Glyph |
-| ---- | ------- | ----------------------- | --------- | --------- |
+| No.  | Unicode | Name                      | PUA Glyph | ZWJ Glyph |
+| ---- | ------- | ------------------------- | --------- | --------- |
 
 ### Supplementary Private Use Area-A (F0000 - FFFFF)
 This unicode block includes various advanced glyphs, including Component ones
@@ -274,6 +278,29 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 | 0008 | 0047    | F1070-F10A3   | Latin: Oultlined Italic    |
 
 Once glyphs from this range come to Unicode, those will be either remain in the original spot alongside the new ones or will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously
+
+#### Emoji Skin Tones (F2000 - F6FFF)
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 0 are supported currently in each subrange, supporting 0 total glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6:
+
+| No.  | Unicode | Name                      | Tone 1 | Tone 2 | Tone 3 | Tone 4 | Tone 5 |
+| ---- | ------- | ------------------------- | ------ | ------ | ------ | ------ | ------ |
+| 0001 | Fx000   | TBD                       |        |        |        |        |        |
+
+##### Light Skin Tone (F2000 - F2FFF)
+Unicode range F2000-F2FFF is allocated for all Light Skin Tone emoji
+
+##### Medium-Light Skin Tone (F3000 - F3FFF)
+Unicode range F3000-F3FFF is allocated for all Medium-Light Skin Tone emoji
+
+##### Medium Skin Tone (F4000 - F4FFF)
+Unicode range F4000-F4FFF is allocated for all Medium Skin Tone emoji
+
+##### Medium-Dark Skin Tone (F5000 - F5FFF)
+Unicode range F5000-F5FFF is allocated for all Medium-Dark Skin Tone emoji
+
+##### Dark Skin Tone (F6000 - F6FFF)
+Unicode range F6000-F6FFF is allocated for all Dark Skin Tone emoji, using the same brown color used in Brown elements
+
 
 ## Availability
 Black and White Level font is present in the following styles:
