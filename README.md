@@ -276,7 +276,7 @@ This unicode block includes various advanced glyphs, including Component ones
 Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 69 are supported currently
 
 #### Supplementary Letter Style Glyphs (F1000 - F1FFF)
-Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 159 are supported currently and are most exclusive to the BW font. All holes in each subrange indicate that a character can be found at a standarized unicode block like Letterlike Symbols. It will also be allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs which can found in both fonts
+Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 159 are supported currently and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well. All holes in each subrange indicate that a character can be found at a standarized unicode block like Letterlike Symbols. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
 
 | No.  | Glyphs  | Unicode Range | Name                       |
 | ---- | ------- | ------------- | -------------------------- |
@@ -288,6 +288,8 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 | 0006 | 0010    | F1032-F103B   | Numbers: Bold Italic       |
 | 0007 | 0052    | F103C-F106F   | Latin: Serif               |
 | 0008 | 0047    | F1070-F10A3   | Latin: Oultlined Italic    |
+| 0009 | 0058    | F10A4-F10DD   | Greek: Serif               |
+
 
 Once glyphs from this range come to Unicode, those will be either remain in the original spot alongside the new ones or will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously
 
