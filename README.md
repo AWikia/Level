@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 6093 different glyphs (Of which 4206 are in BMP, 1630 in SMP, 69 are Component and 159 are SLS) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 6220 different glyphs (Of which 4256 are in BMP, 1656 in SMP, 74 are Component, 159 are SLS and 45 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -26,7 +26,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Currency Symbols
   - Letterlike Symbols (Many are supported, including stroked letters)
   - Number Forms
-  - Arrows (A few are supported)
+  - Arrows (Many are supported)
   - Mathematic Operators
   - Miscellaneous Technical (Supports the following):
     - Several arrow glyphs
@@ -53,6 +53,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Hearts (Red, rotated and exclamation heart)
     - Enclosed Glyphs
     - Plus, Minus and Division Symbols
+    - Arrows
   - Miscellaneous Mathematical Symbols-A (Supports the following):
     - Triangle with a small one
   - Miscellaneous Mathematical Symbols-B (Supports the following):
@@ -80,8 +81,9 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Extended Latin E
   - Cherokee Supplement
   - Alphabetic Presentation Forms
-  - Fullwidth forms
+  - Halfwidth and Fullwidth forms
   - Specials
+  - Ancient Symbols
   - Lycian
   - Gothic
   - Extended Latin F
@@ -100,6 +102,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Bird, Cat and Ghost
     - Imp
     - Fire
+    - Emoji Skin Tone Modifiers
+    - Base People
     - Hearts (Broken, Blue, Green, Yellow, Purple, Black, Growing, Two, Revolving, Decorated)
     - Squares (Red, Blue)
     - Diamonds (Orange, Blue)
@@ -123,6 +127,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Supplement Symbols and Pictographs (Supports the following):
     - Hearts (White, Brown, Orange)
     - Some Smilies (Zipped Mouth, Naughseated, Hot, Freezing)
+    - Adult, Child
     - Magnet
   - Extended Symbols and Pictographs A (Supports the following):
     - Hearts (Light Blue, Gray, Pink)
@@ -133,7 +138,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 358 different COLR glyphs (Of which 271 are Unicode, 21 are ZWJ and 69 are Component) , which consist of:
+- 427 different COLR glyphs (Of which 286 are Unicode, 25 are ZWJ, 74 are Component and 45 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -147,6 +152,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Letterlike Symbols (Supports the following):
     - Trademark Symbol
     - Information Symbol
+  - Arrows (Supports two arrow glyphs only)
   - Miscellaneous Technical (Supports the following):
     - Several arrow glyphs
     - Clocks (Alarm, Stopwatch, Timer)
@@ -187,11 +193,13 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Bird, Cat and Ghost
     - Imp
     - Fire
+    - Emoji Skin Tone Modifiers
+    - Base People
     - Hearts (Broken, Blue, Green, Yellow, Purple, Black, Two, Growing, Revolving, Decorated)
     - Squares (Red, Blue)
     - Diamonds (Orange, Blue)
     - Triangles (Red)
-  - Emoticons (Many are supported):
+  - Emoticons (Many are supported)
   - Geometric Shapes Extended (Supports the following):
     - Circles (Orange, Yellow, Green, Purple, Brown)
     - Squares (Red, Blue, Orange, Yellow, Green, Purple, Brown)
@@ -203,6 +211,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Supplement Symbols and Pictographs (Supports the following):
     - Hearts (White, Brown, Orange)
     - Some Smilies (Zipped Mouth, Naughseated, Hot, Freezing)
+    - Adult, Child
     - Magnet
   - Extended Symbols and Pictographs A (Supports the following):
     - Hearts (Light Blue, Gray, Pink)
