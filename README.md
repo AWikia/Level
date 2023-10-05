@@ -289,6 +289,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 | 0007 | 0052    | F103C-F106F   | Latin: Serif               |
 | 0008 | 0047    | F1070-F10A3   | Latin: Oultlined Italic    |
 | 0009 | 0058    | F10A4-F10DD   | Greek: Serif               |
+| 0010 | 0012    | F10DE-F10E9   | **Numbers: Keycap**        |
 
 
 Once glyphs from this range come to Unicode, those will be either remain in the original spot alongside the new ones or will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously
