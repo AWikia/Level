@@ -251,7 +251,7 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0022 | E015    | Head Shaking Vertically   |          | 🙂‍↕️         |
 | 0023 | E016    | Head Shaking Horizontally |          | 🙂‍↔️         |
 | 0024 | E017    | Frowning Man              |          | 🙍‍♂️         |
-| 0025 | E017    | Frowning Woman            |          | 🙍‍♀️         |
+| 0025 | E018    | Frowning Woman            |          | 🙍‍♀️         |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
