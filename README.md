@@ -282,24 +282,30 @@ Once glyphs from this range come to Unicode, those will be either remain in the 
 #### Emoji Skin Tones (F2000 - F6FFF)
 Unicode range F2000-F6FFF is allocated for all skinned emoji. 0 are supported currently in each subrange, supporting 0 total glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6:
 
-| No.  | Unicode | Name                      | Tone 1 | Tone 2 | Tone 3 | Tone 4 | Tone 5 |
-| ---- | ------- | ------------------------- | ------ | ------ | ------ | ------ | ------ |
-| 0001 | Fx000   | TBD                       |        |        |        |        |        |
+| No.  | Unicode | Name                      | Glyphs |
+| ---- | ------- | ------------------------- | ------ |
+| 0001 | Fx000   | Boy                       | 👦🏻👦🏼👦🏽👦🏾👦🏿  |
+| 0002 | Fx001   | Girl                      | 👧🏻👧🏼👧🏽👧🏾👧🏿  |
+| 0003 | Fx002   | Man                       | 👨🏻👨🏼👨🏽👨🏾👨🏿  |
+| 0004 | Fx003   | Woman                     | 👩🏻👩🏼👩🏽👩🏾👩🏿  |
+| 0005 | Fx004   | Person                    | 🧑🏻🧑🏼🧑🏽🧑🏾🧑🏿  |
+| 0006 | Fx005   | Child                     | 🧒🏻🧒🏼🧒🏽🧒🏾🧒🏿  |
+
 
 ##### Light Skin Tone (F2000 - F2FFF)
-Unicode range F2000-F2FFF is allocated for all Light Skin Tone emoji
+Unicode range F2000-F2FFF is allocated for all Light Skin Tone emoji. In BW font, it is rendered white
 
 ##### Medium-Light Skin Tone (F3000 - F3FFF)
-Unicode range F3000-F3FFF is allocated for all Medium-Light Skin Tone emoji
+Unicode range F3000-F3FFF is allocated for all Medium-Light Skin Tone emoji. In BW font, it is rendered white
 
 ##### Medium Skin Tone (F4000 - F4FFF)
-Unicode range F4000-F4FFF is allocated for all Medium Skin Tone emoji
+Unicode range F4000-F4FFF is allocated for all Medium Skin Tone emoji. In BW font, it is rendered white
 
 ##### Medium-Dark Skin Tone (F5000 - F5FFF)
-Unicode range F5000-F5FFF is allocated for all Medium-Dark Skin Tone emoji
+Unicode range F5000-F5FFF is allocated for all Medium-Dark Skin Tone emoji. In BW font, it is rendered black
 
 ##### Dark Skin Tone (F6000 - F6FFF)
-Unicode range F6000-F6FFF is allocated for all Dark Skin Tone emoji, using the same brown color used in Brown elements
+Unicode range F6000-F6FFF is allocated for all Dark Skin Tone emoji, using the same brown color used in Brown elements. In BW font, it is rendered black
 
 
 ## Availability
