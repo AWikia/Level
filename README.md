@@ -250,6 +250,9 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0021 | E014    | Face with Spiral Eyes     |          | 😵‍💫         |
 | 0022 | E015    | Head Shaking Vertically   |          | 🙂‍↕️         |
 | 0023 | E016    | Head Shaking Horizontally |          | 🙂‍↔️         |
+| 0024 | E017    | Frowning Man              |          | 🙍‍♂️         |
+| 0025 | E017    | Frowning Woman            |          | 🙍‍♀️         |
+
 
 #### Country Flags Glyphs (F000 - F8FF)
 Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators plus many subdivision flags, each time a new one gets added, it will appear next to the previously defined one and includes the following glyphs:
@@ -280,7 +283,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be either remain in the original spot alongside the new ones or will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 0 are supported currently in each subrange, supporting 0 total glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6:
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 0 are supported currently in each subrange, supporting 0 total glyphs. Those with bolded names are ZWJ glyphs in addition. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                      | Glyphs |
 | ---- | ------- | ------------------------- | ------ |
@@ -290,6 +293,9 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 0 are supported cu
 | 0004 | Fx003   | Woman                     | 👩🏻👩🏼👩🏽👩🏾👩🏿  |
 | 0005 | Fx004   | Person                    | 🧑🏻🧑🏼🧑🏽🧑🏾🧑🏿  |
 | 0006 | Fx005   | Child                     | 🧒🏻🧒🏼🧒🏽🧒🏾🧒🏿  |
+| 0007 | Fx006   | Frowning Person           | 🙍🏻🙍🏼🙍🏽🙍🏾🙍🏿  |
+| 0008 | Fx007   | **Frowning Man**          | 🙍🏻‍♂️🙍🏼‍♂️🙍🏽‍♂️🙍🏾‍♂️🙍🏿‍♂️  |
+| 0009 | Fx008   | **Frowning Woman**        | 🙍🏻‍♀️🙍🏼‍♀️🙍🏽‍♀️🙍🏾‍♀️🙍🏿‍♀️  |
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
