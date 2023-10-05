@@ -269,14 +269,14 @@ Unicode range F000-F8FF is allocated for all Composite Characters deployed using
 | No.  | Unicode | Name                      | PUA Glyph | ZWJ Glyph |
 | ---- | ------- | ------------------------- | --------- | --------- |
 
-### Supplementary Private Use Area-A (F0000 - FFFFF)
+### Supplementary Private Use Area-A (F0000 - FFFFD)
 This unicode block includes various advanced glyphs, including Component ones
 
 #### Component Glyphs (F0000 - F0FFF)
 Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 69 are supported currently
 
 #### Supplementary Letter Style Glyphs (F1000 - F1FFF)
-Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs. 159 are supported currently and are exclusive to the BW font. All holes in each subrange indicate that a character can be found at a standarized unicode block like Letterlike Symbols.
+Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 159 are supported currently and are most exclusive to the BW font. All holes in each subrange indicate that a character can be found at a standarized unicode block like Letterlike Symbols. It will also be allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs which can found in both fonts
 
 | No.  | Glyphs  | Unicode Range | Name                       |
 | ---- | ------- | ------------- | -------------------------- |
