@@ -24,6 +24,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - General Punctuation (Many are supported, including Zero Width Joiner)
   - Superscripts and Subscripts
   - Currency Symbols
+  - Combining Diacritical Marks for Symbols (Supports 7 glyphs currently)
   - Letterlike Symbols (Many are supported, including stroked letters)
   - Number Forms
   - Arrows (Many are supported)
@@ -146,6 +147,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Double Question Mark
     - Exclamation Question Mark
     - Zero Width Joiner
+  - Combining Diacritical Marks for Symbols (Supports Enclosing Keycap only)
   - Letterlike Symbols (Supports the following):
     - Trademark Symbol
     - Information Symbol
