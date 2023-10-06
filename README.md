@@ -261,6 +261,8 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0023 | E016    | Head Shaking Horizontally |          | 🙂‍↔️         |
 | 0024 | E017    | Frowning Man              |          | 🙍‍♂️         |
 | 0025 | E018    | Frowning Woman            |          | 🙍‍♀️         |
+| 0026 | E019    | Standing Man              |          | 🧍‍♂️         |
+| 0027 | E01A    | Standing Woman            |          | 🧍‍♀️         |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
@@ -308,6 +310,9 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 0 are supported cu
 | 0007 | Fx006   | Frowning Person           | 🙍🏻🙍🏼🙍🏽🙍🏾🙍🏿  |
 | 0008 | Fx007   | **Frowning Man**          | 🙍🏻‍♂️🙍🏼‍♂️🙍🏽‍♂️🙍🏾‍♂️🙍🏿‍♂️  |
 | 0009 | Fx008   | **Frowning Woman**        | 🙍🏻‍♀️🙍🏼‍♀️🙍🏽‍♀️🙍🏾‍♀️🙍🏿‍♀️  |
+| 0010 | Fx009   | Standing Person           | 🧍🏻🧍🏼🧍🏽🧍🏾🧍🏿  |
+| 0011 | Fx00A   | **Standing Man**          | 🧍🏻‍♂️🧍🏼‍♂️🧍🏽‍♂️🧍🏾‍♂️🧍🏿‍♂️  |
+| 0012 | Fx00B   | **Standing Woman**        | 🧍🏻‍♀️🧍🏼‍♀️🧍🏽‍♀️🧍🏾‍♀️🧍🏿‍♀️  |
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
