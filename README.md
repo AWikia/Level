@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 6220 different glyphs (Of which 4256 are in BMP, 1656 in SMP, 74 are Component, 159 are SLS and 45 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 6387 different glyphs (Of which 4285 are in BMP, 1706 in SMP, 77 are Component, 229 are SLS and 60 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -64,7 +64,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Everything related to Geometric Shapes glyphs
     - Certain shapes
     - Squares (White, Black)
-    - Arrows (3D, Black)
+    - Several Arrows
   - Extended Latin C
   - Coptic (Supports all 50 glyphs related to greek ones and 18 glyphs not related to greek ones)
   - Extended Cyrillic A
@@ -101,6 +101,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Flags (Chequered, Black, White)
     - Bird, Cat and Ghost
     - Imp
+    - Keycap 10
     - Fire
     - Emoji Skin Tone Modifiers
     - Base People
@@ -113,24 +114,20 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Emoticons (Many are supported)
   - Ornamental Dingbats (Supports the following):
     - Box Drawings
-  - Geometric Shapes Extended (Supports the following):
-    - Certain Triangle Parts
-    - Certain Circles, Squares and Diamonds
-    - Circled versions of Square and Triangle
-    - Circles (Orange, Yellow, Green, Purple, Brown)
-    - Squares (Red, Blue, Orange, Yellow, Green, Purple, Brown)
-    - Equals Symbol
+  - Geometric Shapes Extended (Many are supported)
   - Transport and Map Symbols (Supports the following):
     - Triangular Flag
     - Disallowed Sign
     - Octagonal Sign
   - Supplement Symbols and Pictographs (Supports the following):
+    - Typicon Symbools
     - Hearts (White, Brown, Orange)
-    - Some Smilies (Zipped Mouth, Naughseated, Hot, Freezing)
-    - Adult, Child
+    - Some Smilies (Such as Zipped Mouth, Naughseated, Hot and Freezing)
+    - Adult, Child, Standing Adult
     - Magnet
   - Extended Symbols and Pictographs A (Supports the following):
     - Hearts (Light Blue, Gray, Pink)
+    - Mirror and Window
     - Bluberries
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
   - Symbols for Legacy Computing
@@ -138,7 +135,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 427 different COLR glyphs (Of which 286 are Unicode, 25 are ZWJ, 74 are Component and 45 are Skin Tone Emoji) , which consist of:
+- 472 different COLR glyphs (Of which 299 are Unicode, 27 are ZWJ, 77 are Component, 12 are SLS and 60 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -192,6 +189,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Flags (Chequered, Black, White)
     - Bird, Cat and Ghost
     - Imp
+    - Keycap 10
     - Fire
     - Emoji Skin Tone Modifiers
     - Base People
@@ -210,15 +208,17 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Octagonal Sign
   - Supplement Symbols and Pictographs (Supports the following):
     - Hearts (White, Brown, Orange)
-    - Some Smilies (Zipped Mouth, Naughseated, Hot, Freezing)
-    - Adult, Child
+    - Some Smilies (Such as Zipped Mouth, Naughseated, Hot and Freezing)
+    - Adult, Child, Standing Adult
     - Magnet
   - Extended Symbols and Pictographs A (Supports the following):
     - Hearts (Light Blue, Gray, Pink)
+    - Mirror and Window
     - Bluberries
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
   - Composite Glyphs (See [here](#private-use-area-e000---f8ff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
+  - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support, supports only glyph groups that have their names bolded)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
 - Based on the aging System font from Microsoft Windows
 - Low-curve glyph designs, akin to the OFL Orbitron Font
@@ -278,7 +278,7 @@ This unicode block includes various advanced glyphs, including Component ones
 Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 69 are supported currently
 
 #### Supplementary Letter Style Glyphs (F1000 - F1FFF)
-Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 159 are supported currently and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well. All holes in each subrange indicate that a character can be found at a standarized unicode block like Letterlike Symbols. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
+Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 229 are supported currently and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well, with 12 being available in both fonts. All holes in each subrange indicate that a character can be found at a standarized unicode block like Letterlike Symbols. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
 
 | No.  | Glyphs  | Unicode Range | Name                       |
 | ---- | ------- | ------------- | -------------------------- |
@@ -294,10 +294,10 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 | 0010 | 0012    | F10DE-F10E9   | **Numbers: Keycap**        |
 
 
-Once glyphs from this range come to Unicode, those will be either remain in the original spot alongside the new ones or will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously
+Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 0 are supported currently in each subrange, supporting 0 total glyphs. Those with bolded names are ZWJ glyphs in addition. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 12 are supported currently in each subrange, supporting 60 total glyphs. Those with bolded names are ZWJ glyphs in addition. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                      | Glyphs |
 | ---- | ------- | ------------------------- | ------ |
