@@ -139,8 +139,57 @@
 }*/
 }
 
+/* Color Palettes for Level Color Symbols */
+@font-palette-values --palette-normal {
+  font-family: "Level Color Symbols";
+  base-palette:normal;
+}
+
+@font-palette-values --palette-microsoft {
+  font-family: "Level Color Symbols";
+  override-colors: 0 #000000, /* Black */
+                   1 #f8312f, /* Red */
+                   2 #00a6ed, /* Light Blue */
+                   3 #ffffff, /* White */
+                   4 #0074ba, /* Blue */
+                   5 #fcd53f, /* Yellow */
+                   6 #ff6723, /* Orange */
+                   7 #9b9b9b, /* Gray */
+                   8 #00d26a, /* Green */
+                   9 #f70a8d, /* Pink */
+                  10 #8d65c5, /* Purple */
+                  11 #6d4534, /* Brown/Dark Tone */
+                  12 #ffd7c2, /* Light Tone */
+                  13 #eebfaa, /* Medium-Light Tone */
+                  14 #c68d7b, /* Medium Tone */
+                  15 #966661; /* Medium-Dark Tone */
+}
+
+@font-palette-values --palette-noto {
+  font-family: "Level Color Symbols";
+  override-colors: 0 #424242, /* Black */
+                   1 #f44336, /* Red */
+                   2 #36b4e1, /* Light Blue */
+                   3 #ffffff, /* White */
+                   4 #1976d2, /* Blue */
+                   5 #ffcc32, /* Yellow */
+                   6 #ff9800, /* Orange */
+                   7 #939393, /* Gray */
+                   8 #7cb342, /* Green */
+                   9 #ef5592, /* Pink */
+                  10 #ab47bc, /* Purple */
+                  11 #70534a, /* Brown/Dark Tone */
+                  12 #f9ddbd, /* Light Tone */
+                  13 #e0bb95, /* Medium-Light Tone */
+                  14 #ba8d68, /* Medium Tone */
+                  15 #a56c43; /* Medium-Dark Tone */
+}
+
 
 	.hidein-nvf {
+		display:none;
+	}
+	.hidein-ncp {
 		display:none;
 	}
 	.hidein-vf {
@@ -154,6 +203,13 @@
 		display:none;
 	}
 }
+
+@supports (font-palette: normal) {
+	.hidein-ncp {
+		display:block;
+	}
+}
+
 
 * {
   font-family:Level, casual;
@@ -199,6 +255,7 @@
         font-weight:var(--font-weight,400);
         font-stretch:var(--font-stretch,nomral);
         font-family:var(--emoji-font,Level), Level, casual;
+        font-palette:var(--font-palette,--palette-normal);
       }
       textarea:focus {
         color:blue;
@@ -310,6 +367,13 @@ Apparently we had reached a great height in the atmosphere, for the sky was a de
     <h3>Colorize Emoji Glyphs?</h3>
     <input type="radio" name="effects3" id="eff21" onclick="document.querySelector('textarea').style.setProperty('--emoji-font', 'Level')" checked> <label for="eff21">No</label>
     <input type="radio" name="effects3" id="eff22" onclick="document.querySelector('textarea').style.setProperty('--emoji-font', 'Level Color Symbols')"> <label for="eff22">Yes</label>
+
+	<div class="hidein-ncp"> 
+		<h3>Color Emoji Palette</h3>
+		<input type="radio" name="effects4" id="eff31" onclick="document.querySelector('textarea').style.setProperty('--font-palette', '--palette-normal')" checked> <label for="eff31">Default</label>
+		<input type="radio" name="effects4" id="eff32" onclick="document.querySelector('textarea').style.setProperty('--font-palette', '--palette-microsoft')"> <label for="eff32">Fluent</label>
+		<input type="radio" name="effects4" id="eff33" onclick="document.querySelector('textarea').style.setProperty('--font-palette', '--palette-noto')"> <label for="eff33">Noto</label>
+</div>
 
 
     <h3>Test it</h3>
