@@ -84,7 +84,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Enclosed CJK Letters and Months (Supports the following):
     - Enclosed numbers
     - Enclosed katakana letters
-  - Unified CJK Ideographs Extension A (Extremely Limited support, 4 supported currently)
+  - Unified CJK Ideographs Extension A (Extremely Limited support, 5 supported currently)
   - Yijing Hexagram Symbols
   - Unified CJK Ideographs (Extremely Limited support, 160 supported currently)
   - Extended Cyrillic B (Most glyphs are supported)
