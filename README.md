@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 7094 different glyphs (Of which 4553 are in BMP, 2147 in SMP, 85 are Component, 229 are SLS and 60 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 7211 different glyphs (Of which 4679 are in BMP, 2158 in SMP, 85 are Component, 229 are SLS and 60 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -75,7 +75,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Squares (White, Black)
     - Several Arrows
   - Extended Latin C
-  - Coptic (Supports all 50 glyphs related to greek ones and 18 glyphs not related to greek ones)
+  - Coptic
   - Extended Cyrillic A
   - CJK Symbols and Punctuation (Limited)
   - Hiragana
@@ -87,7 +87,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Unified CJK Ideographs Extension A (Extremely Limited support, 5 supported currently)
   - Yijing Hexagram Symbols
   - Unified CJK Ideographs (Extremely Limited support, 160 supported currently)
-  - Extended Cyrillic B (Most glyphs are supported)
+  - Lisu
+  - Extended Cyrillic B
   - Extended Latin D
   - Extended Latin E
   - Cherokee Supplement
@@ -99,6 +100,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Carian
   - Gothic
   - Extended Latin F
+  - Lisu Supplement
   - Small Kana Forms
   - Ancient Greek Music Notation
   - Maya Numerals
