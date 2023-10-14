@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 7211 different glyphs (Of which 4679 are in BMP, 2158 in SMP, 85 are Component, 229 are SLS and 60 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 7278 different glyphs (Of which 4692 are in BMP, 2167 in SMP, 85 are Component, 239 are SLS and 95 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -41,10 +41,11 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Gemoetric Shapes
   - Miscellaneous Symbols (Supports the following):
     - Sun and Cloud (And Variants)
+    - Baloot Boxes
     - Shogi Pieces
+    - Index Pointing Hands
     - YinYang
     - Monograms, Diagrams and Trigrams
-    - Baloot Boxes
     - Smiling Face (White, Black)
     - Frowing Face
     - Genders
@@ -65,7 +66,9 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Arrows
   - Miscellaneous Mathematical Symbols-A (Supports the following):
     - Triangle with a small one
+    - Squared Triangle
   - Miscellaneous Mathematical Symbols-B (Supports the following):
+    - Some squared elements
     - Joined Squares
     - Triangles
     - Black Lozenge
@@ -122,6 +125,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Musical Notes
     - Flags (Chequered, Black, White)
     - Bird, Cat and Ghost
+    - Some Hands
     - Imp
     - Keycap 10
     - Fire
@@ -158,12 +162,13 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Mirror and Window
     - Bluberries
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
+    - Leftwards and Rightwards Hands
   - Symbols for Legacy Computing
   - Composite Glyphs (See [here](#private-use-area-e000---f8ff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 517 different COLR glyphs (Of which 321 are Unicode, 27 are ZWJ, 85 are Component, 12 are SLS and 60 are Skin Tone Emoji) , which consist of:
+- 573 different COLR glyphs (Of which 344 are Unicode, 27 are ZWJ, 85 are Component, 22 are SLS and 95 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -184,12 +189,14 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Clocks (Alarm, Stopwatch, Timer)
   - Enclosed Alphanumerics (Supports the circlular M)
   - Gemoetric Shapes (Supports the following):
+    - Large Circle 
     - Some triangles (Black)
     - Squares (White, Black)
   - Miscellaneous Symbols (Supports the following):
     - Sun and Cloud (And Variants)
-    - YinYang
     - Baloot Checkbox
+    - Index Pointing Up
+    - YinYang
     - Smiling Face (White)
     - Frowing Face
     - Genders
@@ -221,6 +228,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Musical Notes
     - Flags (Chequered, Black, White)
     - Bird, Cat and Ghost
+    - Some Hands
     - Imp
     - Keycap 10
     - Fire
@@ -255,6 +263,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Mirror and Window
     - Bluberries
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
+    - Leftwards and Rightwards Hands
   - Composite Glyphs (See [here](#private-use-area-e000---f8ff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support, supports only glyph groups that have their names bolded)
