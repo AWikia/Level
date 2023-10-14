@@ -311,6 +311,11 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0025 | E018    | Frowning Woman            |          | 🙍‍♀️         |
 | 0026 | E019    | Standing Man              |          | 🧍‍♂️         |
 | 0027 | E01A    | Standing Woman            |          | 🧍‍♀️         |
+| 0028 | E01B    | Handshake (S:Skin Tone 1) |          | 🫱‍🫲🏻         |
+| 0029 | E01C    | Handshake (S:Skin Tone 2) |          | 🫱‍🫲🏼         |
+| 0030 | E01D    | Handshake (S:Skin Tone 3) |          | 🫱‍🫲🏽         |
+| 0031 | E01E    | Handshake (S:Skin Tone 4) |          | 🫱‍🫲🏾         |
+| 0032 | E01F    | Handshake (S:Skin Tone 5) |          | 🫱‍🫲🏿         |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
@@ -346,7 +351,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 19 are supported currently in each subrange, supporting 95 total glyphs. Those with bolded names are ZWJ glyphs in addition. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 26 are supported currently in each subrange, supporting 130 total glyphs. Those with bolded names are ZWJ glyphs in addition. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                        | Glyphs |
 | ---- | ------- | --------------------------- | ------ |
@@ -369,7 +374,14 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 19 are supported c
 | 0017 | Fx010   | Index Pointing Right        | 👉🏻👉🏼👉🏽👉🏾👉🏿  |
 | 0018 | Fx011   | Rightwards Hand             | 🫱🏻🫱🏼🫱🏽🫱🏾🫱🏿  |
 | 0019 | Fx012   | Leftwards Hand              | 🫲🏻🫲🏼🫲🏽🫲🏾🫲🏿  |
-
+| 0020 | Fx013   | Raised Back of Hand         | 🤚🏻🤚🏼🤚🏽🤚🏾🤚🏿  |
+| 0020 | Fx013   | Raised Back of Hand         | 🤚🏻🤚🏼🤚🏽🤚🏾🤚🏿  |
+| 0021 | Fx014   | Handshake (S:Skin Tone 0)   | 🫱🏻‍🫲🫱🏼‍🫲🫱🏽‍🫲🫱🏾‍🫲🫱🏿‍🫲  |
+| 0022 | Fx015   | Handshake (S:Skin Tone 1)   | 🫱🏻‍🫲🏻🫱🏼‍🫲🏻🫱🏽‍🫲🏻🫱🏾‍🫲🏻🫱🏿‍🫲🏻  |
+| 0023 | Fx016   | Handshake (S:Skin Tone 2)   | 🫱🏻‍🫲🏼🫱🏼‍🫲🏼🫱🏽‍🫲🏼🫱🏾‍🫲🏼🫱🏿‍🫲🏼  |
+| 0024 | Fx017   | Handshake (S:Skin Tone 3)   | 🫱🏻‍🫲🏽🫱🏼‍🫲🏽🫱🏽‍🫲🏽🫱🏾‍🫲🏽🫱🏿‍🫲🏽  |
+| 0025 | Fx018   | Handshake (S:Skin Tone 4)   | 🫱🏻‍🫲🏾🫱🏼‍🫲🏾🫱🏽‍🫲🏾🫱🏾‍🫲🏾🫱🏿‍🫲🏾  |
+| 0026 | Fx019   | Handshake (S:Skin Tone 5)   | 🫱🏻‍🫲🏿🫱🏼‍🫲🏿🫱🏽‍🫲🏿🫱🏾‍🫲🏿🫱🏿‍🫲🏿  |
 
 ##### Light Skin Tone (F2000 - F2FFF)
 Unicode range F2000-F2FFF is allocated for all Light Skin Tone emoji. In BW font, it is rendered white
