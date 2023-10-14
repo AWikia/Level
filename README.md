@@ -337,7 +337,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 17 are supported currently in each subrange, supporting 85 total glyphs. Those with bolded names are ZWJ glyphs in addition. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 19 are supported currently in each subrange, supporting 95 total glyphs. Those with bolded names are ZWJ glyphs in addition. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                        | Glyphs |
 | ---- | ------- | --------------------------- | ------ |
@@ -358,6 +358,8 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 17 are supported c
 | 0015 | Fx00E   | Index Pointing Down         | 👇🏻👇🏼👇🏽👇🏾👇🏿  |
 | 0016 | Fx00F   | Index Pointing Left         | 👈🏻👈🏼👈🏽👈🏾👈🏿  |
 | 0017 | Fx010   | Index Pointing Right        | 👉🏻👉🏼👉🏽👉🏾👉🏿  |
+| 0018 | Fx011   | Rightwards Hand             | 🫱🏻🫱🏼🫱🏽🫱🏾🫱🏿  |
+| 0019 | Fx012   | Leftwards Hand              | 🫲🏻🫲🏼🫲🏽🫲🏾🫲🏿  |
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
