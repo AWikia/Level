@@ -282,47 +282,68 @@ This unicode block will contain Composite Glyphs made using ZWJ and country flag
 #### ZWJ Glyphs (E000 - EFFF)
 Unicode range E000-EFFF is allocated for all Composite Characters deployed using ZWJ and includes the following glyphs:
 
-| No.  | Unicode | Name                      | PUA Glyph | ZWJ Glyph |
-| ---- | ------- | ------------------------- | --------- | --------- |
-| 0001 | E000    | Transgender Flag          |          | 🏳️‍⚧         |
-| 0002 | E001    | Refugee Nation Flag       |          | 🏳‍🟧‍⬛‍🟧         |
-| 0003 | E002    | Rainbow Flag              |          | 🏳️‍🌈         |
-| 0004 | E003    | Broken Black Heart        |          | 🖤‍💔         |
-| 0005 | E004    | Broken Orange Heart       |          | 🧡‍💔         |
-| 0006 | E005    | Broken Green Heart        |          | 💚‍💔         |
-| 0007 | E006    | Broken Yellow Heart       |          | 💛‍💔         |
-| 0008 | E007    | Broken Purple Heart       |          | 💜‍💔         |
-| 0009 | E008    | Broken White Heart        |          | 🤍‍💔         |
-| 0010 | E009    | Broken Brown Heart        |          | 🤎‍💔         |
-| 0011 | E00A    | Broken Blue Heart         |          | 💙‍💔         |
-| 0012 | E00B    | Broken Light Blue Heart   |          | 🩵‍💔         |
-| 0013 | E00C    | Broken Gray Heart         |          | 🩶‍💔         |
-| 0014 | E00D    | Broken Pink Heart         |          | 🩷‍💔         |
-| 0015 | E00E    | Lime                      |          | 🍋‍🟩         |
-| 0016 | E00F    | Qora Qore Flag            |          | 🏳️‍🟥‍🟪‍⬜‍🟨‍⬛         |
-| 0017 | E010    | Brown Mushroom            |          | 🍄‍🟫         |
-| 0018 | E011    | Black Bird                |          | 🐦‍⬛         |
-| 0019 | E012    | Phoenix Bird              |          | 🐦‍🔥         |
-| 0020 | E013    | Heart on Fire             |          | ❤️‍🔥         |
-| 0021 | E014    | Face with Spiral Eyes     |          | 😵‍💫         |
-| 0022 | E015    | Head Shaking Vertically   |          | 🙂‍↕️         |
-| 0023 | E016    | Head Shaking Horizontally |          | 🙂‍↔️         |
-| 0024 | E017    | Frowning Man              |          | 🙍‍♂️         |
-| 0025 | E018    | Frowning Woman            |          | 🙍‍♀️         |
-| 0026 | E019    | Standing Man              |          | 🧍‍♂️         |
-| 0027 | E01A    | Standing Woman            |          | 🧍‍♀️         |
-| 0028 | E01B    | Handshake (S:Skin Tone 1) |          | 🫱‍🫲🏻         |
-| 0029 | E01C    | Handshake (S:Skin Tone 2) |          | 🫱‍🫲🏼         |
-| 0030 | E01D    | Handshake (S:Skin Tone 3) |          | 🫱‍🫲🏽         |
-| 0031 | E01E    | Handshake (S:Skin Tone 4) |          | 🫱‍🫲🏾         |
-| 0032 | E01F    | Handshake (S:Skin Tone 5) |          | 🫱‍🫲🏿         |
+| No.  | Unicode | Name                              | Glyph |
+| ---- | ------- | --------------------------------- | ----- |
+| 0001 | E000    | Transgender Flag                  | 🏳️‍⚧     |
+| 0002 | E001    | Refugee Nation Flag               | 🏳‍🟧‍⬛‍🟧     |
+| 0003 | E002    | Rainbow Flag                      | 🏳️‍🌈     |
+| 0004 | E003    | Broken Black Heart                | 🖤‍💔     |
+| 0005 | E004    | Broken Orange Heart               | 🧡‍💔     |
+| 0006 | E005    | Broken Green Heart                | 💚‍💔     |
+| 0007 | E006    | Broken Yellow Heart               | 💛‍💔     |
+| 0008 | E007    | Broken Purple Heart               | 💜‍💔     |
+| 0009 | E008    | Broken White Heart                | 🤍‍💔     |
+| 0010 | E009    | Broken Brown Heart                | 🤎‍💔     |
+| 0011 | E00A    | Broken Blue Heart                 | 💙‍💔     |
+| 0012 | E00B    | Broken Light Blue Heart           | 🩵‍💔     |
+| 0013 | E00C    | Broken Gray Heart                 | 🩶‍💔     |
+| 0014 | E00D    | Broken Pink Heart                 | 🩷‍💔     |
+| 0015 | E00E    | Lime                              | 🍋‍🟩     |
+| 0016 | E00F    | Qora Qore Flag                    | 🏳️‍🟥‍🟪‍⬜‍🟨‍⬛     |
+| 0017 | E010    | Brown Mushroom                    | 🍄‍🟫     |
+| 0018 | E011    | Black Bird                        | 🐦‍⬛     |
+| 0019 | E012    | Phoenix Bird                      | 🐦‍🔥     |
+| 0020 | E013    | Heart on Fire                     | ❤️‍🔥     |
+| 0021 | E014    | Face with Spiral Eyes             | 😵‍💫     |
+| 0022 | E015    | Head Shaking Vertically           | 🙂‍↕️     |
+| 0023 | E016    | Head Shaking Horizontally         | 🙂‍↔️     |
+| 0024 | E017    | Frowning Man                      | 🙍‍♂️     |
+| 0025 | E018    | Frowning Woman                    | 🙍‍♀️     |
+| 0026 | E019    | Standing Man                      | 🧍‍♂️     |
+| 0027 | E01A    | Standing Woman                    | 🧍‍♀️     |
+| 0028 | E01B    | Handshake (S:Skin Tone 1)         | 🫱‍🫲🏻     |
+| 0029 | E01C    | Handshake (S:Skin Tone 2)         | 🫱‍🫲🏼     |
+| 0030 | E01D    | Handshake (S:Skin Tone 3)         | 🫱‍🫲🏽     |
+| 0031 | E01E    | Handshake (S:Skin Tone 4)         | 🫱‍🫲🏾     |
+| 0032 | E01F    | Handshake (S:Skin Tone 5)         | 🫱‍🫲🏿     |
+| 0033 | E020    | W&M Holding Hands (S:Skin Tone 1) | 👩‍🤝‍👨🏻     |
+| 0034 | E021    | W&M Holding Hands (S:Skin Tone 2) | 👩‍🤝‍👨🏼     |
+| 0035 | E022    | W&M Holding Hands (S:Skin Tone 3) | 👩‍🤝‍👨🏽     |
+| 0036 | E023    | W&M Holding Hands (S:Skin Tone 4) | 👩‍🤝‍👨🏾     |
+| 0037 | E024    | W&M Holding Hands (S:Skin Tone 5) | 👩‍🤝‍👨🏿     |
+| 0038 | E025    | M&M Holding Hands (S:Skin Tone 1) | 👨‍🤝‍👨🏻     |
+| 0039 | E026    | M&M Holding Hands (S:Skin Tone 2) | 👨‍🤝‍👨🏼     |
+| 0040 | E027    | M&M Holding Hands (S:Skin Tone 3) | 👨‍🤝‍👨🏽     |
+| 0041 | E028    | M&M Holding Hands (S:Skin Tone 4) | 👨‍🤝‍👨🏾     |
+| 0042 | E029    | M&M Holding Hands (S:Skin Tone 5) | 👨‍🤝‍👨🏿     |
+| 0043 | E02A    | W&W Holding Hands (S:Skin Tone 1) | 👩‍🤝‍👩🏻     |
+| 0044 | E02B    | W&W Holding Hands (S:Skin Tone 2) | 👩‍🤝‍👩🏼     |
+| 0045 | E02C    | W&W Holding Hands (S:Skin Tone 3) | 👩‍🤝‍👩🏽     |
+| 0046 | E02D    | W&W Holding Hands (S:Skin Tone 4) | 👩‍🤝‍👩🏾     |
+| 0047 | E02E    | W&W Holding Hands (S:Skin Tone 5) | 👩‍🤝‍👩🏿     |
+| 0048 | E02F    | P&P Holding Hands (S:Skin Tone 0) | 🧑‍🤝‍🧑     |
+| 0049 | E030    | P&P Holding Hands (S:Skin Tone 1) | 🧑‍🤝‍🧑🏻     |
+| 0050 | E031    | P&P Holding Hands (S:Skin Tone 2) | 🧑‍🤝‍🧑🏼     |
+| 0051 | E032    | P&P Holding Hands (S:Skin Tone 3) | 🧑‍🤝‍🧑🏽     |
+| 0052 | E033    | P&P Holding Hands (S:Skin Tone 4) | 🧑‍🤝‍🧑🏾     |
+| 0053 | E034    | P&P Holding Hands (S:Skin Tone 5) | 🧑‍🤝‍🧑🏿     |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
 Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators plus many subdivision flags, each time a new one gets added, it will appear next to the previously defined one and includes the following glyphs:
 
-| No.  | Unicode | Name                      | PUA Glyph | ZWJ Glyph |
-| ---- | ------- | ------------------------- | --------- | --------- |
+| No.  | Unicode | Name                              | Glyph |
+| ---- | ------- | --------------------------------- | ----- |
 
 ### Supplementary Private Use Area-A (F0000 - FFFFD)
 This unicode block includes various advanced glyphs, including Component ones
@@ -351,37 +372,62 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 26 are supported currently in each subrange, supporting 130 total glyphs. Those with bolded names are ZWJ glyphs in addition. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 50 are supported currently in each subrange, supporting 250 total glyphs. Those with bolded names are ZWJ glyphs in addition. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
-| No.  | Unicode | Name                        | Glyphs |
-| ---- | ------- | --------------------------- | ------ |
-| 0001 | Fx000   | Boy                         | 👦🏻👦🏼👦🏽👦🏾👦🏿  |
-| 0002 | Fx001   | Girl                        | 👧🏻👧🏼👧🏽👧🏾👧🏿  |
-| 0003 | Fx002   | Man                         | 👨🏻👨🏼👨🏽👨🏾👨🏿  |
-| 0004 | Fx003   | Woman                       | 👩🏻👩🏼👩🏽👩🏾👩🏿  |
-| 0005 | Fx004   | Person                      | 🧑🏻🧑🏼🧑🏽🧑🏾🧑🏿  |
-| 0006 | Fx005   | Child                       | 🧒🏻🧒🏼🧒🏽🧒🏾🧒🏿  |
-| 0007 | Fx006   | Frowning Person             | 🙍🏻🙍🏼🙍🏽🙍🏾🙍🏿  |
-| 0008 | Fx007   | **Frowning Man**            | 🙍🏻‍♂️🙍🏼‍♂️🙍🏽‍♂️🙍🏾‍♂️🙍🏿‍♂️  |
-| 0009 | Fx008   | **Frowning Woman**          | 🙍🏻‍♀️🙍🏼‍♀️🙍🏽‍♀️🙍🏾‍♀️🙍🏿‍♀️  |
-| 0010 | Fx009   | Standing Person             | 🧍🏻🧍🏼🧍🏽🧍🏾🧍🏿  |
-| 0011 | Fx00A   | **Standing Man**            | 🧍🏻‍♂️🧍🏼‍♂️🧍🏽‍♂️🧍🏾‍♂️🧍🏿‍♂️  |
-| 0012 | Fx00B   | **Standing Woman**          | 🧍🏻‍♀️🧍🏼‍♀️🧍🏽‍♀️🧍🏾‍♀️🧍🏿‍♀️  |
-| 0013 | Fx00C   | Fronthand Index Pointing Up | ☝🏻☝🏼☝🏽☝🏾☝🏿  |
-| 0014 | Fx00D   | Index Pointing Up           | 👆🏻👆🏼👆🏽👆🏾👆🏿  |
-| 0015 | Fx00E   | Index Pointing Down         | 👇🏻👇🏼👇🏽👇🏾👇🏿  |
-| 0016 | Fx00F   | Index Pointing Left         | 👈🏻👈🏼👈🏽👈🏾👈🏿  |
-| 0017 | Fx010   | Index Pointing Right        | 👉🏻👉🏼👉🏽👉🏾👉🏿  |
-| 0018 | Fx011   | Rightwards Hand             | 🫱🏻🫱🏼🫱🏽🫱🏾🫱🏿  |
-| 0019 | Fx012   | Leftwards Hand              | 🫲🏻🫲🏼🫲🏽🫲🏾🫲🏿  |
-| 0020 | Fx013   | Raised Back of Hand         | 🤚🏻🤚🏼🤚🏽🤚🏾🤚🏿  |
-| 0020 | Fx013   | Raised Back of Hand         | 🤚🏻🤚🏼🤚🏽🤚🏾🤚🏿  |
-| 0021 | Fx014   | Handshake (S:Skin Tone 0)   | 🫱🏻‍🫲🫱🏼‍🫲🫱🏽‍🫲🫱🏾‍🫲🫱🏿‍🫲  |
-| 0022 | Fx015   | Handshake (S:Skin Tone 1)   | 🫱🏻‍🫲🏻🫱🏼‍🫲🏻🫱🏽‍🫲🏻🫱🏾‍🫲🏻🫱🏿‍🫲🏻  |
-| 0023 | Fx016   | Handshake (S:Skin Tone 2)   | 🫱🏻‍🫲🏼🫱🏼‍🫲🏼🫱🏽‍🫲🏼🫱🏾‍🫲🏼🫱🏿‍🫲🏼  |
-| 0024 | Fx017   | Handshake (S:Skin Tone 3)   | 🫱🏻‍🫲🏽🫱🏼‍🫲🏽🫱🏽‍🫲🏽🫱🏾‍🫲🏽🫱🏿‍🫲🏽  |
-| 0025 | Fx018   | Handshake (S:Skin Tone 4)   | 🫱🏻‍🫲🏾🫱🏼‍🫲🏾🫱🏽‍🫲🏾🫱🏾‍🫲🏾🫱🏿‍🫲🏾  |
-| 0026 | Fx019   | Handshake (S:Skin Tone 5)   | 🫱🏻‍🫲🏿🫱🏼‍🫲🏿🫱🏽‍🫲🏿🫱🏾‍🫲🏿🫱🏿‍🫲🏿  |
+| No.  | Unicode | Name                                | Glyphs |
+| ---- | ------- | ----------------------------------- | ------ |
+| 0001 | Fx000   | Boy                                 | 👦🏻👦🏼👦🏽👦🏾👦🏿  |
+| 0002 | Fx001   | Girl                                | 👧🏻👧🏼👧🏽👧🏾👧🏿  |
+| 0003 | Fx002   | Man                                 | 👨🏻👨🏼👨🏽👨🏾👨🏿  |
+| 0004 | Fx003   | Woman                               | 👩🏻👩🏼👩🏽👩🏾👩🏿  |
+| 0005 | Fx004   | Person                              | 🧑🏻🧑🏼🧑🏽🧑🏾🧑🏿  |
+| 0006 | Fx005   | Child                               | 🧒🏻🧒🏼🧒🏽🧒🏾🧒🏿  |
+| 0007 | Fx006   | Frowning Person                     | 🙍🏻🙍🏼🙍🏽🙍🏾🙍🏿  |
+| 0008 | Fx007   | **Frowning Man**                    | 🙍🏻‍♂️🙍🏼‍♂️🙍🏽‍♂️🙍🏾‍♂️🙍🏿‍♂️  |
+| 0009 | Fx008   | **Frowning Woman**                  | 🙍🏻‍♀️🙍🏼‍♀️🙍🏽‍♀️🙍🏾‍♀️🙍🏿‍♀️  |
+| 0010 | Fx009   | Standing Person                     | 🧍🏻🧍🏼🧍🏽🧍🏾🧍🏿  |
+| 0011 | Fx00A   | **Standing Man**                    | 🧍🏻‍♂️🧍🏼‍♂️🧍🏽‍♂️🧍🏾‍♂️🧍🏿‍♂️  |
+| 0012 | Fx00B   | **Standing Woman**                  | 🧍🏻‍♀️🧍🏼‍♀️🧍🏽‍♀️🧍🏾‍♀️🧍🏿‍♀️  |
+| 0013 | Fx00C   | Fronthand Index Pointing Up         | ☝🏻☝🏼☝🏽☝🏾☝🏿  |
+| 0014 | Fx00D   | Index Pointing Up                   | 👆🏻👆🏼👆🏽👆🏾👆🏿  |
+| 0015 | Fx00E   | Index Pointing Down                 | 👇🏻👇🏼👇🏽👇🏾👇🏿  |
+| 0016 | Fx00F   | Index Pointing Left                 | 👈🏻👈🏼👈🏽👈🏾👈🏿  |
+| 0017 | Fx010   | Index Pointing Right                | 👉🏻👉🏼👉🏽👉🏾👉🏿  |
+| 0018 | Fx011   | Rightwards Hand                     | 🫱🏻🫱🏼🫱🏽🫱🏾🫱🏿  |
+| 0019 | Fx012   | Leftwards Hand                      | 🫲🏻🫲🏼🫲🏽🫲🏾🫲🏿  |
+| 0020 | Fx013   | Raised Back of Hand                 | 🤚🏻🤚🏼🤚🏽🤚🏾🤚🏿  |
+| 0020 | Fx013   | Raised Back of Hand                 | 🤚🏻🤚🏼🤚🏽🤚🏾🤚🏿  |
+| 0021 | Fx014   | Handshake (S:Skin Tone 0)           | 🫱🏻‍🫲🫱🏼‍🫲🫱🏽‍🫲🫱🏾‍🫲🫱🏿‍🫲  |
+| 0022 | Fx015   | Handshake (S:Skin Tone 1)           | 🫱🏻‍🫲🏻🫱🏼‍🫲🏻🫱🏽‍🫲🏻🫱🏾‍🫲🏻🫱🏿‍🫲🏻  |
+| 0023 | Fx016   | Handshake (S:Skin Tone 2)           | 🫱🏻‍🫲🏼🫱🏼‍🫲🏼🫱🏽‍🫲🏼🫱🏾‍🫲🏼🫱🏿‍🫲🏼  |
+| 0024 | Fx017   | Handshake (S:Skin Tone 3)           | 🫱🏻‍🫲🏽🫱🏼‍🫲🏽🫱🏽‍🫲🏽🫱🏾‍🫲🏽🫱🏿‍🫲🏽  |
+| 0025 | Fx018   | Handshake (S:Skin Tone 4)           | 🫱🏻‍🫲🏾🫱🏼‍🫲🏾🫱🏽‍🫲🏾🫱🏾‍🫲🏾🫱🏿‍🫲🏾  |
+| 0026 | Fx019   | Handshake (S:Skin Tone 5)           | 🫱🏻‍🫲🏿🫱🏼‍🫲🏿🫱🏽‍🫲🏿🫱🏾‍🫲🏿🫱🏿‍🫲🏿  |
+| 0027 | Fx01A   | W&M Holding Hands (S:Skin Tone 0)   | 👩🏻‍🤝‍👨👩🏼‍🤝‍👨👩🏽‍🤝‍👨👩🏾‍🤝‍👨👩🏿‍🤝‍👨  |
+| 0028 | Fx01B   | W&M Holding Hands (S:Skin Tone 1)   | 👩🏻‍🤝‍👨🏻👩🏼‍🤝‍👨🏻👩🏽‍🤝‍👨🏻👩🏾‍🤝‍👨🏻👩🏿‍🤝‍👨🏻  |
+| 0029 | Fx01C   | W&M Holding Hands (S:Skin Tone 2)   | 👩🏻‍🤝‍👨🏼👩🏼‍🤝‍👨🏼👩🏽‍🤝‍👨🏼👩🏾‍🤝‍👨🏼👩🏿‍🤝‍👨🏼  |
+| 0030 | Fx01D   | W&M Holding Hands (S:Skin Tone 3)   | 👩🏻‍🤝‍👨🏽👩🏼‍🤝‍👨🏽👩🏽‍🤝‍👨🏽👩🏾‍🤝‍👨🏽👩🏿‍🤝‍👨🏽  |
+| 0031 | Fx01E   | W&M Holding Hands (S:Skin Tone 4)   | 👩🏻‍🤝‍👨🏾👩🏼‍🤝‍👨🏾👩🏽‍🤝‍👨🏾👩🏾‍🤝‍👨🏾👩🏿‍🤝‍👨🏾  |
+| 0032 | Fx01F   | W&M Holding Hands (S:Skin Tone 5)   | 👩🏻‍🤝‍👨🏿👩🏼‍🤝‍👨🏿👩🏼‍🤝‍👨🏿👩🏾‍🤝‍👨🏿👩🏿‍🤝‍👨🏿  |
+| 0033 | Fx020   | M&M Holding Hands (S:Skin Tone 0)   | 👨🏻‍🤝‍👨👨🏼‍🤝‍👨👨🏽‍🤝‍👨👨🏾‍🤝‍👨👨🏿‍🤝‍👨  |
+| 0034 | Fx021   | M&M Holding Hands (S:Skin Tone 1)   | 👨🏻‍🤝‍👨🏻👨🏼‍🤝‍👨🏻👨🏽‍🤝‍👨🏻👨🏾‍🤝‍👨🏻👨🏿‍🤝‍👨🏻  |
+| 0035 | Fx022   | M&M Holding Hands (S:Skin Tone 2)   | 👨🏻‍🤝‍👨🏼👨🏼‍🤝‍👨🏼👨🏽‍🤝‍👨🏼👨🏾‍🤝‍👨🏼👨🏿‍🤝‍👨🏼  |
+| 0036 | Fx023   | M&M Holding Hands (S:Skin Tone 3)   | 👨🏻‍🤝‍👨🏽👨🏼‍🤝‍👨🏽👨🏽‍🤝‍👨🏽👨🏾‍🤝‍👨🏽👨🏿‍🤝‍👨🏽  |
+| 0037 | Fx024   | M&M Holding Hands (S:Skin Tone 4)   | 👨🏻‍🤝‍👨🏾👨🏼‍🤝‍👨🏾👨🏽‍🤝‍👨🏾👨🏾‍🤝‍👨🏾👨🏿‍🤝‍👨🏾  |
+| 0038 | Fx025   | M&M Holding Hands (S:Skin Tone 5)   | 👨🏻‍🤝‍👨🏿👨🏼‍🤝‍👨🏿👨🏽‍🤝‍👨🏿👨🏾‍🤝‍👨🏿👨🏿‍🤝‍👨🏿  |
+| 0039 | Fx026   | W&W Holding Hands (S:Skin Tone 0)   | 👩🏻‍🤝‍👩👩🏼‍🤝‍👩👩🏽‍🤝‍👩👩🏾‍🤝‍👩👩🏿‍🤝‍👩  |
+| 0040 | Fx027   | W&W Holding Hands (S:Skin Tone 1)   | 👩🏻‍🤝‍👩🏻👩🏼‍🤝‍👩🏻👩🏽‍🤝‍👩🏻👩🏾‍🤝‍👩🏻👩🏿‍🤝‍👩🏻  |
+| 0041 | Fx028   | W&W Holding Hands (S:Skin Tone 2)   | 👩🏻‍🤝‍👩🏼👩🏼‍🤝‍👩🏼👩🏽‍🤝‍👩🏼👩🏾‍🤝‍👩🏼👩🏿‍🤝‍👩🏼  |
+| 0042 | Fx029   | W&W Holding Hands (S:Skin Tone 3)   | 👩🏻‍🤝‍👩🏽👩🏼‍🤝‍👩🏽👩🏽‍🤝‍👩🏽👩🏾‍🤝‍👩🏽👩🏿‍🤝‍👩🏽  |
+| 0043 | Fx02A   | W&W Holding Hands (S:Skin Tone 4)   | 👩🏻‍🤝‍👩🏾👩🏼‍🤝‍👩🏾👩🏽‍🤝‍👩🏾👩🏾‍🤝‍👩🏾👩🏿‍🤝‍👩🏾  |
+| 0044 | Fx02B   | W&W Holding Hands (S:Skin Tone 5)   | 👩🏻‍🤝‍👩🏿👩🏼‍🤝‍👩🏿👩🏽‍🤝‍👩🏿👩🏾‍🤝‍👩🏿👩🏿‍🤝‍👩🏿  |
+| 0045 | Fx02C   | P&P Holding Hands (S:Skin Tone 0)   | 🧑🏻‍🤝‍🧑🧑🏼‍🤝‍🧑🧑🏽‍🤝‍🧑🧑🏾‍🤝‍🧑🧑🏿‍🤝‍🧑  |
+| 0046 | Fx02D   | P&P Holding Hands (S:Skin Tone 1)   | 🧑🏻‍🤝‍🧑🏻🧑🏼‍🤝‍🧑🏻🧑🏽‍🤝‍🧑🏻🧑🏾‍🤝‍🧑🏻🧑🏿‍🤝‍🧑🏻  |
+| 0047 | Fx02E   | P&P Holding Hands (S:Skin Tone 2)   | 🧑🏻‍🤝‍🧑🏼🧑🏼‍🤝‍🧑🏼🧑🏽‍🤝‍🧑🏼🧑🏾‍🤝‍🧑🏼🧑🏿‍🤝‍🧑🏼  |
+| 0048 | Fx02F   | P&P Holding Hands (S:Skin Tone 3)   | 🧑🏻‍🤝‍🧑🏽🧑🏼‍🤝‍🧑🏽🧑🏽‍🤝‍🧑🏽🧑🏾‍🤝‍🧑🏽🧑🏿‍🤝‍🧑🏽  |
+| 0049 | Fx030   | P&P Holding Hands (S:Skin Tone 4)   | 🧑🏻‍🤝‍🧑🏾🧑🏼‍🤝‍🧑🏾🧑🏽‍🤝‍🧑🏾🧑🏾‍🤝‍🧑🏾🧑🏿‍🤝‍🧑🏾  |
+| 0050 | Fx031   | P&P Holding Hands (S:Skin Tone 5)   | 🧑🏻‍🤝‍🧑🏿🧑🏼‍🤝‍🧑🏿🧑🏽‍🤝‍🧑🏿🧑🏾‍🤝‍🧑🏿🧑🏿‍🤝‍🧑🏿  |
+
 
 ##### Light Skin Tone (F2000 - F2FFF)
 Unicode range F2000-F2FFF is allocated for all Light Skin Tone emoji. In BW font, it is rendered white
