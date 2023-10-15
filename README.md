@@ -344,10 +344,12 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 
 
 #### Country Flags Glyphs (F000 - F8FF)
-Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators plus many subdivision flags, each time a new one gets added, it will appear next to the previously defined one and includes the following glyphs:
+Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag used when an invalid Regional Indicator sequence is being used  It includes the following glyphs:
 
 | No.  | Unicode | Name                              | Glyph |
 | ---- | ------- | --------------------------------- | ----- |
+| 0001 | F8FF    | Unknown Regional Indicator Flag   | -//-  |
+
 
 ### Supplementary Private Use Area-A (F0000 - FFFFD)
 This unicode block includes various advanced glyphs, including Component ones
