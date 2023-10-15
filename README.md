@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 7278 different glyphs (Of which 4692 are in BMP, 2167 in SMP, 85 are Component, 239 are SLS and 95 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 7478 different glyphs (Of which 4732 are in BMP, 2172 in SMP, 85 are Component, 239 are SLS and 250 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -131,6 +131,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Fire
     - Emoji Skin Tone Modifiers
     - Base People
+    - People Holding Hands
     - Hearts (Broken, Blue, Green, Yellow, Purple, Black, Growing, Two, Revolving, Decorated)
     - Squares (Red, Blue)
     - Diamonds (Orange, Blue)
@@ -153,6 +154,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Typicon Symbools
     - Hearts (White, Brown, Orange)
     - Some Smilies (Such as Zipped Mouth, Naughseated, Hot and Freezing)
+    - Some Hands
     - Adult, Child, Standing Adult
     - Magnet
   - Extended Symbols and Pictographs A (Supports the following):
@@ -168,7 +170,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 573 different COLR glyphs (Of which 344 are Unicode, 27 are ZWJ, 85 are Component, 22 are SLS and 95 are Skin Tone Emoji) , which consist of:
+- 759 different COLR glyphs (Of which 349 are Unicode, 53 are ZWJ, 85 are Component, 22 are SLS and 250 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -234,6 +236,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Fire
     - Emoji Skin Tone Modifiers
     - Base People
+    - People Holding Hands
     - Hearts (Broken, Blue, Green, Yellow, Purple, Black, Two, Growing, Revolving, Decorated)
     - Squares (Red, Blue)
     - Diamonds (Orange, Blue)
@@ -255,6 +258,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Hearts (White, Brown, Orange)
     - Droplet
     - Some Smilies (Such as Zipped Mouth, Naughseated, Hot and Freezing)
+    - Some Hands
     - Adult, Child, Standing Adult
     - Magnet
   - Extended Symbols and Pictographs A (Supports the following):
