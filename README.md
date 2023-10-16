@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 7478 different glyphs (Of which 4732 are in BMP, 2172 in SMP, 85 are Component, 239 are SLS and 250 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 7494 different glyphs (Of which 4744 are in BMP, 2172 in SMP, 89 are Component, 239 are SLS and 250 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -170,7 +170,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 759 different COLR glyphs (Of which 349 are Unicode, 53 are ZWJ, 85 are Component, 22 are SLS and 250 are Skin Tone Emoji) , which consist of:
+- 775 different COLR glyphs (Of which 349 are Unicode, 53 are ZWJ, 12 are Country Flags, 89 are Component, 22 are SLS and 250 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -344,7 +344,7 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 
 
 #### Country Flags Glyphs (F000 - F8FF)
-Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag used when an invalid Regional Indicator sequence is being used  It includes the following glyphs:
+Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following glyphs:
 
 | No.  | Unicode | Name                              | Glyph |
 | ---- | ------- | --------------------------------- | ----- |
