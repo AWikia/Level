@@ -348,7 +348,18 @@ Unicode range F000-F8FF is allocated for all Composite Characters deployed using
 
 | No.  | Unicode | Name                              | Glyph |
 | ---- | ------- | --------------------------------- | ----- |
-| 0001 | F8FF    | Unknown Regional Indicator Flag   | -//-  |
+| 0001 | F041    | China                             | 🇨🇳     |
+| 0002 | F052    | Germany                           | 🇩🇪     |
+| 0003 | F07A    | Spain                             | 🇪🇸     |
+| 0004 | F07C    | European Union                    | 🇪🇺     |
+| 0005 | F0E3    | France                            | 🇫🇷     |
+| 0006 | F09D    | Great Britain/United Kingdom      | 🇬🇧     |
+| 0007 | F0E3    | Italy                             | 🇮🇹     |
+| 0008 | F0F9    | Japan                             | 🇯🇵     |
+| 0009 | F115    | Korea                             | 🇰🇷     |
+| 0010 | F1C3    | Russia                            | 🇷🇺     |
+| 0011 | F21A    | United States of America          | 🇺🇸     |
+| 0012 | F8FF    | Unknown Regional Indicator Flag   | -//-  |
 
 
 ### Supplementary Private Use Area-A (F0000 - FFFFD)
