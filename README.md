@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 7494 different glyphs (Of which 4744 are in BMP, 2172 in SMP, 89 are Component, 239 are SLS and 250 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 7706 different glyphs (Of which 4865 are in BMP, 2263 in SMP, 89 are Component, 239 are SLS and 250 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -30,7 +30,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Letterlike Symbols (Many are supported, including stroked letters)
   - Number Forms
   - Arrows (Many are supported)
-  - Mathematic Operators
+  - Mathematic Operators (Mostly supported, 68 glyphs are absent)
   - Miscellaneous Technical (Supports the following):
     - Hourglasses
     - Several arrow glyphs
@@ -98,6 +98,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Alphabetic Presentation Forms
   - Halfwidth and Fullwidth forms
   - Specials
+  - Linear B Syllabary
+  - Agean Nummbers (Supports 3 glyphs only)
   - Ancient Symbols
   - Lycian
   - Carian
@@ -170,7 +172,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 775 different COLR glyphs (Of which 349 are Unicode, 53 are ZWJ, 12 are Country Flags, 89 are Component, 22 are SLS and 250 are Skin Tone Emoji) , which consist of:
+- 779 different COLR glyphs (Of which 353 are Unicode, 53 are ZWJ, 12 are Country Flags, 89 are Component, 22 are SLS and 250 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -184,7 +186,9 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Letterlike Symbols (Supports the following):
     - Trademark Symbol
     - Information Symbol
-  - Arrows (Supports two arrow glyphs only)
+  - Arrows (Supports the following):
+    - Two-directional arrows
+    - Diagonal arrows
   - Miscellaneous Technical (Supports the following):
     - Hourglasses 
     - Several arrow glyphs
