@@ -99,7 +99,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Halfwidth and Fullwidth forms
   - Specials
   - Linear B Syllabary
-  - Agean Nummbers (Supports 3 glyphs only)
+  - Aegean Nummbers (Supports 3 glyphs only)
   - Ancient Symbols
   - Lycian
   - Carian
