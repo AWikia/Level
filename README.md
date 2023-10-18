@@ -345,6 +345,7 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0051 | E032    | P&P Holding Hands (S:Skin Tone 3) | 🧑‍🤝‍🧑🏽     |
 | 0052 | E033    | P&P Holding Hands (S:Skin Tone 4) | 🧑‍🤝‍🧑🏾     |
 | 0053 | E034    | P&P Holding Hands (S:Skin Tone 5) | 🧑‍🤝‍🧑🏿     |
+| 0054 | E035    | Brown Bread                       | 🍞‍🟫     |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
