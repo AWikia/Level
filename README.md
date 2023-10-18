@@ -348,22 +348,35 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 
 
 #### Country Flags Glyphs (F000 - F8FF)
-Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following glyphs:
+Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following 25 glyphs:
 
 | No.  | Unicode | Name                              | Glyph |
 | ---- | ------- | --------------------------------- | ----- |
-| 0001 | F041    | China                             | 🇨🇳     |
-| 0002 | F052    | Germany                           | 🇩🇪     |
-| 0003 | F07A    | Spain                             | 🇪🇸     |
-| 0004 | F07C    | European Union                    | 🇪🇺     |
-| 0005 | F0E3    | France                            | 🇫🇷     |
-| 0006 | F09D    | Great Britain/United Kingdom      | 🇬🇧     |
-| 0007 | F0E3    | Italy                             | 🇮🇹     |
-| 0008 | F0F9    | Japan                             | 🇯🇵     |
-| 0009 | F115    | Korea                             | 🇰🇷     |
-| 0010 | F1C3    | Russia                            | 🇷🇺     |
-| 0011 | F21A    | United States of America          | 🇺🇸     |
-| 0012 | F8FF    | Unknown Regional Indicator Flag   | -//-  |
+| 0001 | F003    | Andorra                           | 🇦🇩     |
+| 0002 | F005    | Afghanistan                       | 🇦🇫     |
+| 0003 | F01E    | Belgium                           | 🇧🇪     |
+| 0004 | F03C    | Côte d'Ivoire                     | 🇨🇮     |
+| 0005 | F041    | China                             | 🇨🇳     |
+| 0006 | F052    | Germany                           | 🇩🇪     |
+| 0007 | F07A    | Spain                             | 🇪🇸     |
+| 0008 | F07C    | European Union                    | 🇪🇺     |
+| 0009 | F0E3    | France                            | 🇫🇷     |
+| 0010 | F09D    | Great Britain/United Kingdom      | 🇬🇧     |
+| 0011 | F0A9    | Guinea                            | 🇬🇳     |
+| 0012 | F0D2    | Canary Islands                    | 🇮🇨     |
+| 0013 | F0D4    | Ireland                           | 🇮🇪     |
+| 0014 | F0E3    | Italy                             | 🇮🇹     |
+| 0015 | F0F9    | Japan                             | 🇯🇵     |
+| 0016 | F115    | Korea                             | 🇰🇷     |
+| 0017 | F143    | Mali                              | 🇲🇱     |
+| 0018 | F158    | Nigeria                           | 🇳🇬     |
+| 0019 | F18A    | Peru                              | 🇵🇪     |
+| 0020 | F1C8    | Romania                           | 🇷🇴     |
+| 0021 | F1CE    | Russia                            | 🇷🇺     |
+| 0022 | F1E1    | Senegal                           | 🇸🇳     |
+| 0023 | F1F1    | Chad                              | 🇹🇩     |
+| 0024 | F21A    | United States of America          | 🇺🇸     |
+| 0025 | F8FF    | Unknown Regional Indicator Flag   | -//-  |
 
 
 ### Supplementary Private Use Area-A (F0000 - FFFFD)
