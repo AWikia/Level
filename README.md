@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 7706 different glyphs (Of which 4865 are in BMP, 2263 in SMP, 89 are Component, 239 are SLS and 250 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 7771 different glyphs (Of which 4883 are in BMP, 2267 in SMP, 37 are tags, 90 are Component, 239 are SLS and 255 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -58,6 +58,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Circles (White, Black)
     - Disallowed Sign
   - Dingbats (Supports the following):
+    - Raised Hand
     - Checkmarks and Crosses
     - Question Mark and Exclamation Symbols (Black, White)
     - Hearts (Red, rotated and exclamation heart)
@@ -123,7 +124,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Sun and Cloud (And Variants)
     - Droplet
     - Mushroom
-    - Certain fruits and Vegetables (Such as Grapes, Oranges, Apples, Tomatoes etc.)
+    - Certain Food (Such as Grapes, Oranges, Apples, Tomatoes, Bread etc.)
     - Musical Notes
     - Flags (Chequered, Black, White)
     - Bird, Cat and Ghost
@@ -135,6 +136,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Base People
     - People Holding Hands
     - Hearts (Broken, Blue, Green, Yellow, Purple, Black, Growing, Two, Revolving, Decorated)
+    - Bells
     - Squares (Red, Blue)
     - Diamonds (Orange, Blue)
     - Triangles (Red)
@@ -164,15 +166,16 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Droplet
     - Ladder
     - Mirror and Window
-    - Bluberries
+    - Bluberries and Bell Pepper
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
     - Leftwards and Rightwards Hands
   - Symbols for Legacy Computing
+  - Tags (Supports 37 glyphs related to subdivision flag creation)
   - Composite Glyphs (See [here](#private-use-area-e000---f8ff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 779 different COLR glyphs (Of which 353 are Unicode, 53 are ZWJ, 12 are Country Flags, 89 are Component, 22 are SLS and 250 are Skin Tone Emoji) , which consist of:
+- 841 different COLR glyphs (Of which 395 are Unicode, 54 are ZWJ, 25 are Country Flags, 90 are Component, 22 are SLS and 255 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -212,6 +215,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Circles (White, Black)
     - Disallowed Sign
   - Dingbats (Supports the following):
+    - Raised Hand
     - Checkboxes and Crosses (Heavy, Squared) 
     - Question Mark and Exclamation Symbols (Black, White)
     - Hearts (Red and exclamation heart)
@@ -230,7 +234,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Sun and Cloud (And Variants)
     - Droplet
     - Mushroom
-    - Certain fruits and vegetables (Such as Grapes, Oranges, Apples, Tomatoes etc.)
+    - Certain Food (Such as Grapes, Oranges, Apples, Tomatoes, Bread etc.)
     - Musical Notes
     - Flags (Chequered, Black, White)
     - Bird, Cat and Ghost
@@ -242,6 +246,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Base People
     - People Holding Hands
     - Hearts (Broken, Blue, Green, Yellow, Purple, Black, Two, Growing, Revolving, Decorated)
+    - Bells
     - Squares (Red, Blue)
     - Diamonds (Orange, Blue)
     - Triangles (Red)
@@ -269,9 +274,10 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Hearts (Light Blue, Gray, Pink)
     - Ladder
     - Mirror and Window
-    - Bluberries
+    - Bluberries and Bell Pepper
     - Four Emoticons (Melting Face, Face with Diagonal Mouth, Dotted-line face, Shaking Face)
     - Leftwards and Rightwards Hands
+  - Tags (Supports 37 glyphs related to subdivision flag creation)
   - Composite Glyphs (See [here](#private-use-area-e000---f8ff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support, supports only glyph groups that have their names bolded)
@@ -384,7 +390,7 @@ Unicode range F000-F8FF is allocated for all Composite Characters deployed using
 This unicode block includes various advanced glyphs, including Component ones
 
 #### Component Glyphs (F0000 - F0FFF)
-Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 89 are supported currently
+Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 90 are supported currently
 
 #### Supplementary Letter Style Glyphs (F1000 - F1FFF)
 Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 239 are supported currently and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well, with 22 being available in both fonts. All holes in each subrange indicate that a character can be found at a standarized unicode block like Letterlike Symbols. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
