@@ -359,7 +359,7 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 
 
 #### Country Flags Glyphs (F000 - F8FF)
-Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following 25 glyphs:
+Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following 26 glyphs:
 
 | No.  | Unicode | Name                              | Glyph |
 | ---- | ------- | --------------------------------- | ----- |
@@ -387,7 +387,8 @@ Unicode range F000-F8FF is allocated for all Composite Characters deployed using
 | 0022 | F1E1    | Senegal                           | 🇸🇳     |
 | 0023 | F1F1    | Chad                              | 🇹🇩     |
 | 0024 | F21A    | United States of America          | 🇺🇸     |
-| 0025 | F8FF    | Unknown Regional Indicator Flag   | -//-  |
+| 0025 | F2A4    | England                           | 🏴󠁧󠁢󠁥󠁮󠁧󠁿     |
+| 0026 | F8FF    | Unknown Regional Indicator Flag   | -//-  |
 
 
 ### Supplementary Private Use Area-A (F0000 - FFFFD)
