@@ -402,7 +402,10 @@ Unicode range F000-F8FF is allocated for all Composite Characters deployed using
 | 0023 | F1F1    | Chad                              | 🇹🇩     |
 | 0024 | F21A    | United States of America          | 🇺🇸     |
 | 0025 | F2A4    | England                           | 🏴󠁧󠁢󠁥󠁮󠁧󠁿     |
-| 0026 | F8FF    | Unknown Regional Indicator Flag   | -//-  |
+| 0026 | F2A5    | Scotland                          | 🏴󠁧󠁢󠁳󠁣󠁴󠁿     |
+| 0027 | F2A6    | Wales                             | 🏴󠁧󠁢󠁷󠁬󠁳󠁿     |
+| 0028 | F2A7    | Texas                             | 🏴󠁵󠁳󠁴󠁸󠁿     |
+| 0029 | F8FF    | Unknown Regional Indicator Flag   | -//-  |
 
 
 ### Supplementary Private Use Area-A (F0000 - FFFFD)
