@@ -2,7 +2,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 7993 different glyphs (Of which 5076 are in BMP, 2291 in SMP, 37 are tags, 95 are Component, 239 are SLS and 255 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 8185 different glyphs (Of which 5117 are in BMP, 2434 in SMP, 37 are tags, 102 are Component, 240 are SLS and 255 are Skin Tone Emoji) , supporting over 148 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -43,6 +43,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Gemoetric Shapes
   - Miscellaneous Symbols (Supports the following):
     - Sun and Cloud (And Variants)
+    - Stars
     - Baloot Boxes
     - Shogi Pieces
     - Index Pointing Hands
@@ -59,6 +60,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Warning and thunderbolt signs
     - Circles (White, Black)
     - Disallowed Sign
+    - Gears
+    - Tent
   - Dingbats (Supports the following):
     - Raised Hand
     - Checkmarks and Crosses
@@ -75,11 +78,12 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Joined Squares
     - Triangles
     - Black Lozenge
+  - Supplemental Mathematical Operators (A few are supported)
   - Miscellanneous Symbols and Arrows (Supports the following):
     - Everything related to Geometric Shapes glyphs
     - Certain shapes
     - Squares (White, Black)
-    - Several Arrows
+    - Several Arrows and Stars
   - Extended Latin C
   - Coptic
   - Georgian Supplement
@@ -111,17 +115,18 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Lycian
   - Carian
   - Gothic
+  - Deseret
   - Extended Latin F
   - Lisu Supplement
   - Small Kana Forms
   - Ancient Greek Music Notation
   - Maya Numerals
   - Tai Xuan Jing Symbols
-  - Mathematical Alphanumeric Symbols (Mostly supported, minus the fraktur letters)
+  - Mathematical Alphanumeric Symbols (Mostly supported, minus the Uppercase fraktur letters)
   - Extended Latin G
   - Extended Cyrillic D
   - Enclosed Alphanumeric Supplement (Mostly supported, including the Copyleft symbol, excluding a small ammount of enclosed symbols with more than one letter)
-  - Enclosed Ideographic Supplement (Supports 5 Squared glyphs and 3 parethesized glyphs)
+  - Enclosed Ideographic Supplement (Supports certain Squared glyphs and parethesized glyphs)
   - Mahjong Tiles (Supports Red and White Dragons, Bamboo tiles as well as its back card)
   - Domino Tiles
   - Miscellanneous Symbols and Pictographs (Supports the following):
@@ -152,8 +157,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Document-like glyphs
     - Window controls
   - Emoticons (Many are supported)
-  - Ornamental Dingbats (Supports the following):
-    - Box Drawings
+  - Ornamental Dingbats (Many are supported)
   - Geometric Shapes Extended (Many are supported)
   - Transport and Map Symbols (Supports the following):
     - Traffic Lights and Construction Signs
@@ -186,7 +190,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 865 different COLR glyphs (Of which 412 are Unicode, 55 are ZWJ, 26 are Country Flags, 95 are Component, 22 are SLS and 255 are Skin Tone Emoji) , which consist of:
+- 886 different COLR glyphs (Of which 422 are Unicode, 55 are ZWJ, 29 are Country Flags, 102 are Component, 23 are SLS and 255 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -225,6 +229,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Warning and thunderbolt signs
     - Circles (White, Black)
     - Disallowed Sign
+    - Gear
+    - Tent
   - Dingbats (Supports the following):
     - Raised Hand
     - Checkboxes and Crosses (Heavy, Squared) 
@@ -232,7 +238,9 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Hearts (Red and exclamation heart)
     - Plus, Minus and Division Symbols
   - Miscellanneous Symbols and Arrows (Supports the following):
+    - Arrows
     - Squares (White, Black)
+    - Large Circle and Star
   - Enclosed Alphanumeric Supplement (Supports the following):
     - Negative Squared Letters (A, B, O, P, AB)
     - Squared Letters (CL, COOL, FREE, ID, NEW, NG, OK, SOS, UP!, VS)
