@@ -508,7 +508,7 @@ Unicode range F2000-F2FFF is allocated for all Light Skin Tone emoji. In BW font
 Unicode range F3000-F3FFF is allocated for all Medium-Light Skin Tone emoji. In BW font, it is rendered white
 
 ##### Medium Skin Tone (F4000 - F4FFF)
-Unicode range F4000-F4FFF is allocated for all Medium Skin Tone emoji. In BW font, it is rendered chequered mostly (i.e. Hands) but some may show as white
+Unicode range F4000-F4FFF is allocated for all Medium Skin Tone emoji. In BW font, it is rendered white
 
 ##### Medium-Dark Skin Tone (F5000 - F5FFF)
 Unicode range F5000-F5FFF is allocated for all Medium-Dark Skin Tone emoji. In BW font, it is rendered black
