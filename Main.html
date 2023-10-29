@@ -250,6 +250,7 @@
         font-stretch:var(--font-stretch,nomral);
         font-family:var(--emoji-font,Level), Level, casual;
         font-palette:var(--font-palette,--palette-normal);
+        font-variant-emoji:var(--variant, text);
       }
       textarea:focus {
         color:blue;
@@ -359,8 +360,9 @@ Apparently we had reached a great height in the atmosphere, for the sky was a de
 	</div>
 
     <h3>Colorize Emoji Glyphs?</h3>
-    <input type="radio" name="effects3" id="eff21" onclick="document.querySelector('textarea').style.setProperty('--emoji-font', 'Level')" checked> <label for="eff21">No</label>
-    <input type="radio" name="effects3" id="eff22" onclick="document.querySelector('textarea').style.setProperty('--emoji-font', 'Level Color Symbols')"> <label for="eff22">Yes</label>
+    <input type="radio" name="effects3" id="eff21" onclick="document.querySelector('textarea').style.setProperty('--emoji-font', 'Level'); document.querySelector('textarea').style.setProperty('--variant', 'text')" checked> <label for="eff21">No</label>
+    <input type="radio" name="effects3" id="eff22" onclick="document.querySelector('textarea').style.setProperty('--emoji-font', 'Level, Level Color Symbols'); document.querySelector('textarea').style.setProperty('--variant', 'unicode')"> <label for="eff22">Some</label>
+    <input type="radio" name="effects3" id="eff23" onclick="document.querySelector('textarea').style.setProperty('--emoji-font', 'Level Color Symbols'); document.querySelector('textarea').style.setProperty('--variant', 'emoji')"> <label for="eff23">Yes</label>
 
 	<div class="hidein-ncp"> 
 		<h3>Color Emoji Palette</h3>
