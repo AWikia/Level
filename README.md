@@ -3,7 +3,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 8589 different glyphs (Of which 5290 are in BMP, 2647 in SMP, 37 are tags, 115 are Component, 240 are SLS and 260 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 8739 different glyphs (Of which 5313 are in BMP, 2648 in SMP, 37 are tags, 116 are Component, 240 are SLS and 385 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -142,7 +142,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 956 different COLR glyphs (Of which 473 are Unicode, 56 are ZWJ, 29 are Country Flags, 115 are Component, 23 are SLS and 260 are Skin Tone Emoji) , which consist of:
+- 1106 different COLR glyphs (Of which 474 are Unicode, 79 are ZWJ, 29 are Country Flags, 116 are Component, 23 are SLS and 385 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
