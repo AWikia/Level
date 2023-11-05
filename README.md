@@ -313,7 +313,7 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0078 | E04D    | Couple with Heart: W&W (S:Skin Tone 4)      | 👩‍❤️‍👩🏾     |
 | 0079 | E04E    | Couple with Heart: W&W (S:Skin Tone 5)      | 👩‍❤️‍👩🏿     |
 | 0080 | E04F    | Family: Adult, Adult, Child, Child          | 🧑‍🧑‍🧒‍🧒     |
-| 0081 | E050    | Family: Adult, Child                        | 👪     |
+| 0081 | E050    | Family: Adult, Child                        | 🧑‍🧒     |
 | 0082 | E051    | Family: Adult, Child, Child                 | 🧑‍🧒‍🧒     |
 | 0083 | E052    | Family: Man, Woman, Boy                     | 👨‍👩‍👦     |
 | 0084 | E053    | Family: Man, Woman, Girl                    | 👨‍👩‍👧     |
