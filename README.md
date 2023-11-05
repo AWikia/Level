@@ -312,6 +312,34 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0077 | E04C    | Couple with Heart: W&W (S:Skin Tone 3)      | 👩‍❤️‍👩🏽     |
 | 0078 | E04D    | Couple with Heart: W&W (S:Skin Tone 4)      | 👩‍❤️‍👩🏾     |
 | 0079 | E04E    | Couple with Heart: W&W (S:Skin Tone 5)      | 👩‍❤️‍👩🏿     |
+| 0080 | E04F    | Family: Adult, Adult, Child, Child          | 🧑‍🧑‍🧒‍🧒     |
+| 0081 | E050    | Family: Adult, Child                        | 👪     |
+| 0082 | E051    | Family: Adult, Child, Child                 | 🧑‍🧒‍🧒     |
+| 0083 | E052    | Family: Man, Woman, Boy                     | 👨‍👩‍👦     |
+| 0084 | E053    | Family: Man, Woman, Girl                    | 👨‍👩‍👧     |
+| 0085 | E054    | Family: Man, Woman, Girl, Boy               | 👨‍👩‍👧‍👦     |
+| 0086 | E055    | Family: Man, Woman, Boy, Boy                | 👨‍👩‍👦‍👦     |
+| 0087 | E056    | Family: Man, Woman, Girl, Girl              | 👨‍👩‍👧‍👧     |
+| 0088 | E057    | Family: Man, Man, Boy                       | 👨‍👨‍👦     |
+| 0089 | E058    | Family: Man, Man, Girl                      | 👨‍👨‍👧     |
+| 0090 | E059    | Family: Man, Man, Girl, Boy                 | 👨‍👨‍👧‍👦     |
+| 0091 | E05A    | Family: Man, Man, Boy, Boy                  | 👨‍👨‍👦‍👦     |
+| 0092 | E05B    | Family: Man, Man, Girl, Girl                | 👨‍👨‍👧‍👧     |
+| 0093 | E05C    | Family: Woman, Woman, Boy                   | 👩‍👩‍👦     |
+| 0094 | E05D    | Family: Woman, Woman, Girl                  | 👩‍👩‍👧     |
+| 0095 | E05E    | Family: Woman, Woman, Girl, Boy             | 👩‍👩‍👧‍👦     |
+| 0096 | E05F    | Family: Woman, Woman, Boy, Boy              | 👩‍👩‍👦‍👦     |
+| 0097 | E060    | Family: Woman, Woman, Girl, Girl            | 👩‍👩‍👧‍👧     |
+| 0098 | E061    | Family: Man, Boy                            | 👨‍👦     |
+| 0099 | E062    | Family: Man, Girl                           | 👨‍👧     |
+| 0100 | E063    | Family: Man, Girl, Boy                      | 👨‍👧‍👦     |
+| 0101 | E064    | Family: Man, Boy, Boy                       | 👨‍👦‍👦     |
+| 0102 | E065    | Family: Man, Girl, Girl                     | 👨‍👧‍👧     |
+| 0103 | E066    | Family: Woman, Boy                          | 👩‍👦     |
+| 0104 | E067    | Family: Woman, Girl                         | 👩‍👧     |
+| 0105 | E068    | Family: Woman, Girl, Boy                    | 👩‍👧‍👦     |
+| 0106 | E069    | Family: Woman, Boy, Boy                     | 👩‍👦‍👦     |
+| 0107 | E06A    | Family: Woman, Girl, Girl                   | 👩‍👧‍👧     |
 
 #### Country Flags Glyphs (F000 - F8FF)
 Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following 26 glyphs:
