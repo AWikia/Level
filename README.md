@@ -350,6 +350,16 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0123 | E07A    | Woman: White Hair                           | 👩‍🦳     |
 | 0124 | E07B    | Man Lifting Weight                          | 🏋️‍♂️     |
 | 0125 | E07C    | Woman Lifting Weight                        | 🏋️‍♀️     |
+| 0126 | E07D    | Man Running                                | 🏃‍♂️     |
+| 0127 | E07E    | Woman Running                              | 🏃‍♀️     |
+| 0128 | E07F    | Person Running Facing Right                | 🏃‍➡️     |
+| 0129 | E080    | Man Running Facing Right                   | 🏃‍♂️‍➡️     |
+| 0130 | E081    | Woman Running Facing Right                 | 🏃‍♀️‍➡️     |
+| 0131 | E082    | Man Walking                                | 🚶‍♂️     |
+| 0132 | E083    | Woman Walking                              | 🏃‍♀️     |
+| 0133 | E084    | Person Walking Facing Right                | 🚶‍➡️     |
+| 0134 | E085    | Man Walking Facing Right                   | 🚶‍♂️‍➡️     |
+| 0135 | E086    | Woman Walking Facing Right                 | 🚶‍♀️‍➡️     |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
@@ -520,6 +530,19 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 100 are supported 
 | 0098 | Fx061   | Person Lifting Weight                         | 🏋🏻🏋🏼🏋🏽🏋🏾🏋🏿  |
 | 0099 | Fx062   | **Man Lifting Weight**                        | 🏋🏻‍♂️🏋🏼‍♂️🏋🏽‍♂️🏋🏾‍♂️🏋🏿‍♂️  |
 | 0100 | Fx063   | **Woman Lifting Weight**                      | 🏋🏻‍♀️🏋🏼‍♀️🏋🏽‍♀️🏋🏾‍♀️🏋🏿‍♀️  |
+| 0101 | Fx064   | Person Running                                | 🏃🏻🏃🏼🏃🏽🏃🏾🏃🏿  |
+| 0102 | Fx065   | **Man Running**                               | 🏃🏻‍♂️🏃🏼‍♂️🏃🏽‍♂️🏃🏾‍♂️🏃🏿‍♂️  |
+| 0103 | Fx066   | **Woman Running**                             | 🏃🏻‍♀️🏃🏼‍♀️🏃🏽‍♀️🏃🏾‍♀️🏃🏿‍♀️  |
+| 0104 | Fx067   | **Person Running Facing Right**               | 🏃🏻‍➡️🏃🏼‍➡️🏃🏽‍➡️🏃🏾‍➡️🏃🏿‍➡️  |
+| 0105 | Fx068   | **Man Running Facing Right**                  | 🏃🏻‍♂️‍➡️🏃🏼‍♂️‍➡️🏃🏽‍♂️‍➡️🏃🏾‍♂️‍➡️🏃🏿‍♂️‍➡️  |
+| 0106 | Fx069   | **Woman Running Facing Right**                | 🏃🏻‍♀️‍➡️🏃🏼‍♀️‍➡️🏃🏽‍♀️‍➡️🏃🏾‍♀️‍➡️🏃🏿‍♀️‍➡️  |
+| 0107 | Fx06A   | Person Walking                                | 🚶🏻🚶🏼🚶🏽🚶🏾🚶🏿  |
+| 0108 | Fx06B   | **Man Walking**                               | 🚶🏻‍♂️🚶🏼‍♂️🚶🏽‍♂️🚶🏾‍♂️🚶🏿‍♂️  |
+| 0109 | Fx06C   | **Woman Walking**                             | 🚶🏻‍♀️🚶🏼‍♀️🚶🏽‍♀️🚶🏾‍♀️🚶🏿‍♀️  |
+| 0110 | Fx06D   | **Person Walking Facing Right**               | 🚶🏻‍➡️🚶🏼‍➡️🚶🏽‍➡️🚶🏾‍➡️🚶🏿‍➡️  |
+| 0111 | Fx06E   | **Man Walking Facing Right**                  | 🚶🏻‍♂️‍➡️🚶🏼‍♂️‍➡️🚶🏽‍♂️‍➡️🚶🏾‍♂️‍➡️🚶🏿‍♂️‍➡️  |
+| 0112 | Fx06F   | **Woman Walking Facing Right**                | 🚶🏻‍♀️‍➡️🚶🏼‍♀️‍➡️🚶🏽‍♀️‍➡️🚶🏾‍♀️‍➡️🚶🏿‍♀️‍➡️  |
+
 
 ##### Light Skin Tone (F2000 - F2FFF)
 Unicode range F2000-F2FFF is allocated for all Light Skin Tone emoji. In BW font, it is rendered white
