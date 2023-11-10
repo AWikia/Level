@@ -352,17 +352,40 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0123 | E07A    | Woman: White Hair                           | 👩‍🦳     |
 | 0124 | E07B    | Man Lifting Weight                          | 🏋️‍♂️     |
 | 0125 | E07C    | Woman Lifting Weight                        | 🏋️‍♀️     |
-| 0126 | E07D    | Man Running                                | 🏃‍♂️     |
-| 0127 | E07E    | Woman Running                              | 🏃‍♀️     |
-| 0128 | E07F    | Person Running Facing Right                | 🏃‍➡️     |
-| 0129 | E080    | Man Running Facing Right                   | 🏃‍♂️‍➡️     |
-| 0130 | E081    | Woman Running Facing Right                 | 🏃‍♀️‍➡️     |
-| 0131 | E082    | Man Walking                                | 🚶‍♂️     |
-| 0132 | E083    | Woman Walking                              | 🏃‍♀️     |
-| 0133 | E084    | Person Walking Facing Right                | 🚶‍➡️     |
-| 0134 | E085    | Man Walking Facing Right                   | 🚶‍♂️‍➡️     |
-| 0135 | E086    | Woman Walking Facing Right                 | 🚶‍♀️‍➡️     |
-
+| 0126 | E07D    | Man Running                                 | 🏃‍♂️     |
+| 0127 | E07E    | Woman Running                               | 🏃‍♀️     |
+| 0128 | E07F    | Person Running Facing Right                 | 🏃‍➡️     |
+| 0129 | E080    | Man Running Facing Right                    | 🏃‍♂️‍➡️     |
+| 0130 | E081    | Woman Running Facing Right                  | 🏃‍♀️‍➡️     |
+| 0131 | E082    | Man Walking                                 | 🚶‍♂️     |
+| 0132 | E083    | Woman Walking                               | 🏃‍♀️     |
+| 0133 | E084    | Person Walking Facing Right                 | 🚶‍➡️     |
+| 0134 | E085    | Man Walking Facing Right                    | 🚶‍♂️‍➡️     |
+| 0135 | E086    | Woman Walking Facing Right                  | 🚶‍♀️‍➡️     |
+| 0136 | E087    | Pan-African Flag                            | 🏳‍🟥‍⬛‍🟩     |
+| 0137 | E088    | Kiss: P&P (S:Skin Tone 1)                   | 🧑‍❤️‍💋‍🧑🏻     |
+| 0138 | E089    | Kiss: P&P (S:Skin Tone 2)                   | 🧑‍❤️‍💋‍🧑🏼     |
+| 0139 | E08A    | Kiss: P&P (S:Skin Tone 3)                   | 🧑‍❤️‍💋‍🧑🏽     |
+| 0140 | E08B    | Kiss: P&P (S:Skin Tone 4)                   | 🧑‍❤️‍💋‍🧑🏾     |
+| 0141 | E08C    | Kiss: P&P (S:Skin Tone 5)                   | 🧑‍❤️‍💋‍🧑🏿     |
+| 0142 | E08D    | Kiss: W&M (S:Skin Tone 0)                   | 👩‍❤️‍💋‍👨     |
+| 0143 | E08E    | Kiss: W&M (S:Skin Tone 1)                   | 👩‍❤️‍💋‍👨🏻     |
+| 0144 | E08F    | Kiss: W&M (S:Skin Tone 2)                   | 👩‍❤️‍💋‍👨🏼     |
+| 0145 | E090    | Kiss: W&M (S:Skin Tone 3)                   | 👩‍❤️‍💋‍👨🏽     |
+| 0146 | E091    | Kiss: W&M (S:Skin Tone 4)                   | 👩‍❤️‍💋‍👨🏾     |
+| 0147 | E092    | Kiss: W&M (S:Skin Tone 5)                   | 👩‍❤️‍💋‍👨🏿     |
+| 0148 | E093    | Kiss: M&M (S:Skin Tone 0)                   | 👨‍❤️‍💋‍👨     |
+| 0149 | E094    | Kiss: M&M (S:Skin Tone 1)                   | 👨‍❤️‍💋‍👨🏻     |
+| 0150 | E095    | Kiss: M&M (S:Skin Tone 2)                   | 👨‍❤️‍💋‍👨🏼     |
+| 0151 | E096    | Kiss: M&M (S:Skin Tone 3)                   | 👨‍❤️‍💋‍👨🏽     |
+| 0152 | E097    | Kiss: M&M (S:Skin Tone 4)                   | 👨‍❤️‍💋‍👨🏾     |
+| 0153 | E098    | Kiss: M&M (S:Skin Tone 5)                   | 👨‍❤️‍💋‍👨🏿     |
+| 0154 | E099    | Kiss: W&W (S:Skin Tone 0)                   | 👩‍❤️‍💋‍👩     |
+| 0155 | E09A    | Kiss: W&W (S:Skin Tone 1)                   | 👩‍❤️‍💋‍👩🏻     |
+| 0156 | E09B    | Kiss: W&W (S:Skin Tone 2)                   | 👩‍❤️‍💋‍👩🏼     |
+| 0157 | E09C    | Kiss: W&W (S:Skin Tone 3)                   | 👩‍❤️‍💋‍👩🏽     |
+| 0158 | E09D    | Kiss: W&W (S:Skin Tone 4)                   | 👩‍❤️‍💋‍👩🏾     |
+| 0159 | E09E    | Kiss: W&W (S:Skin Tone 5)                   | 👩‍❤️‍💋‍👩🏿     |
 
 #### Country Flags Glyphs (F000 - F8FF)
 Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following 26 glyphs:
@@ -428,7 +451,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 100 are supported currently in each subrange, supporting 500 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 144 are supported currently in each subrange, supporting 720 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                                          | Glyphs |
 | ---- | ------- | --------------------------------------------- | ------ |
@@ -548,6 +571,34 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 100 are supported 
 | 0114 | Fx071   | Thumbs Down Hand                              | 👎🏻👎🏼👎🏽👎🏾👎🏿  |
 | 0115 | Fx072   | Call Me Hand                                  | 🤙🏻🤙🏼🤙🏽🤙🏾🤙🏿  |
 | 0116 | Fx073   | I Love You Hand                               | 🤟🏻🤟🏼🤟🏽🤟🏾🤟🏿  |
+| 0117 | Fx074   | Pinched Fingers                               | 🤌🏻🤌🏼🤌🏽🤌🏾🤌🏿  |
+| 0118 | Fx075   | Pinching Hand                                 | 🤏🏻🤏🏼🤏🏽🤏🏾🤏🏿  |
+| 0119 | Fx076   | Palm Up Hand                                  | 🫳🏻🫳🏼🫳🏽🫳🏾🫳🏿  |
+| 0120 | Fx077   | Palm Down Hand                                | 🫴🏻🫴🏼🫴🏽🫴🏾🫴🏿  |
+| 0121 | Fx078   | **Kiss: P&P (S:Skin Tone 0)**                 | 🧑🏻‍❤️‍💋‍🧑🧑🏼‍❤️‍💋‍🧑🧑🏽‍❤️‍💋‍🧑🧑🏾‍❤️‍💋‍🧑🧑🏿‍❤️‍💋‍🧑  |
+| 0122 | Fx079   | **Kiss: P&P (S:Skin Tone 1)**                 | 🧑🏻‍❤️‍💋‍🧑🏻🧑🏼‍❤️‍💋‍🧑🏻🧑🏽‍❤️‍💋‍🧑🏻🧑🏾‍❤️‍💋‍🧑🏻🧑🏿‍❤️‍💋‍🧑🏻  |
+| 0123 | Fx07A   | **Kiss: P&P (S:Skin Tone 2)**                 | 🧑🏻‍❤️‍💋‍🧑🏼🧑🏼‍❤️‍💋‍🧑🏼🧑🏽‍❤️‍💋‍🧑🏼🧑🏾‍❤️‍💋‍🧑🏼🧑🏿‍❤️‍💋‍🧑🏼  |
+| 0124 | Fx07B   | **Kiss: P&P (S:Skin Tone 3)**                 | 🧑🏻‍❤️‍💋‍🧑🏽🧑🏼‍❤️‍💋‍🧑🏽🧑🏽‍❤️‍💋‍🧑🏽🧑🏾‍❤️‍💋‍🧑🏽🧑🏿‍❤️‍💋‍🧑🏽  |
+| 0125 | Fx07C   | **Kiss: P&P (S:Skin Tone 4)**                 | 🧑🏻‍❤️‍💋‍🧑🏾🧑🏼‍❤️‍💋‍🧑🏾🧑🏽‍❤️‍💋‍🧑🏾🧑🏾‍❤️‍💋‍🧑🏾🧑🏿‍❤️‍💋‍🧑🏾  |
+| 0126 | Fx07D   | **Kiss: P&P (S:Skin Tone 5)**                 | 🧑🏻‍❤️‍💋‍🧑🏿🧑🏼‍❤️‍💋‍🧑🏿🧑🏽‍❤️‍💋‍🧑🏿🧑🏾‍❤️‍💋‍🧑🏿🧑🏿‍❤️‍💋‍🧑🏿  |
+| 0127 | Fx07E   | **Kiss: W&M (S:Skin Tone 0)**                 | 👩🏻‍❤️‍💋‍👨👩🏼‍❤️‍💋‍👨👩🏽‍❤️‍💋‍👨👩🏾‍❤️‍💋‍👨👩🏿‍❤️‍💋‍👨  |
+| 0128 | Fx07F   | **Kiss: W&M (S:Skin Tone 1)**                 | 👩🏻‍❤️‍💋‍👨🏻👩🏼‍❤️‍💋‍👨🏻👩🏽‍❤️‍💋‍👨🏻👩🏾‍❤️‍💋‍👨🏻👩🏿‍❤️‍💋‍👨🏻  |
+| 0129 | Fx080   | **Kiss: W&M (S:Skin Tone 2)**                 | 👩🏻‍❤️‍💋‍👨🏼👩🏼‍❤️‍💋‍👨🏼👩🏽‍❤️‍💋‍👨🏼👩🏾‍❤️‍💋‍👨🏼👩🏿‍❤️‍💋‍👨🏼  |
+| 0130 | Fx081   | **Kiss: W&M (S:Skin Tone 3)**                 | 👩🏻‍❤️‍💋‍👨🏽👩🏼‍❤️‍💋‍👨🏽👩🏽‍❤️‍💋‍👨🏽👩🏾‍❤️‍💋‍👨🏽👩🏿‍❤️‍💋‍👨🏽  |
+| 0131 | Fx082   | **Kiss: W&M (S:Skin Tone 4)**                 | 👩🏻‍❤️‍💋‍👨🏾👩🏼‍❤️‍💋‍👨🏾👩🏽‍❤️‍💋‍👨🏾👩🏾‍❤️‍💋‍👨🏾👩🏿‍❤️‍💋‍👨🏾  |
+| 0132 | Fx083   | **Kiss: W&M (S:Skin Tone 5)**                 | 👩🏻‍❤️‍💋‍👨🏿👩🏼‍❤️‍💋‍👨🏿👩🏼‍❤️‍💋‍👨🏿👩🏾‍❤️‍💋‍👨🏿👩🏿‍❤️‍💋‍👨🏿  |
+| 0133 | Fx084   | **Kiss: M&M (S:Skin Tone 0)**                 | 👨🏻‍❤️‍💋‍👨👨🏼‍❤️‍💋‍👨👨🏽‍❤️‍💋‍👨👨🏾‍❤️‍💋‍👨👨🏿‍❤️‍💋‍👨  |
+| 0134 | Fx085   | **Kiss: M&M (S:Skin Tone 1)**                 | 👨🏻‍❤️‍💋‍👨🏻👨🏼‍❤️‍💋‍👨🏻👨🏽‍❤️‍💋‍👨🏻👨🏾‍❤️‍💋‍👨🏻👨🏿‍❤️‍💋‍👨🏻  |
+| 0135 | Fx086   | **Kiss: M&M (S:Skin Tone 2)**                 | 👨🏻‍❤️‍💋‍👨🏼👨🏼‍❤️‍💋‍👨🏼👨🏽‍❤️‍💋‍👨🏼👨🏾‍❤️‍💋‍👨🏼👨🏿‍❤️‍💋‍👨🏼  |
+| 0136 | Fx087   | **Kiss: M&M (S:Skin Tone 3)**                 | 👨🏻‍❤️‍💋‍👨🏽👨🏼‍❤️‍💋‍👨🏽👨🏽‍❤️‍💋‍👨🏽👨🏾‍❤️‍💋‍👨🏽👨🏿‍❤️‍💋‍👨🏽  |
+| 0137 | Fx088   | **Kiss: M&M (S:Skin Tone 4)**                 | 👨🏻‍❤️‍💋‍👨🏾👨🏼‍❤️‍💋‍👨🏾👨🏽‍❤️‍💋‍👨🏾👨🏾‍❤️‍💋‍👨🏾👨🏿‍❤️‍💋‍👨🏾  |
+| 0138 | Fx089   | **Kiss: M&M (S:Skin Tone 5)**                 | 👨🏻‍❤️‍💋‍👨🏿👨🏼‍❤️‍💋‍👨🏿👨🏽‍❤️‍💋‍👨🏿👨🏾‍❤️‍💋‍👨🏿👨🏿‍❤️‍💋‍👨🏿  |
+| 0139 | Fx08A   | **Kiss: W&W (S:Skin Tone 0)**                 | 👩🏻‍❤️‍💋‍👩👩🏼‍❤️‍💋‍👩👩🏽‍❤️‍💋‍👩👩🏾‍❤️‍💋‍👩👩🏿‍❤️‍💋‍👩  |
+| 0140 | Fx08B   | **Kiss: W&W (S:Skin Tone 1)**                 | 👩🏻‍❤️‍💋‍👩🏻👩🏼‍❤️‍💋‍👩🏻👩🏽‍❤️‍💋‍👩🏻👩🏾‍❤️‍💋‍👩🏻👩🏿‍❤️‍💋‍👩🏻  |
+| 0141 | Fx08C   | **Kiss: W&W (S:Skin Tone 2)**                 | 👩🏻‍❤️‍💋‍👩🏼👩🏼‍❤️‍💋‍👩🏼👩🏽‍❤️‍💋‍👩🏼👩🏾‍❤️‍💋‍👩🏼👩🏿‍❤️‍💋‍👩🏼  |
+| 0142 | Fx08D   | **Kiss: W&W (S:Skin Tone 3)**                 | 👩🏻‍❤️‍💋‍👩🏽👩🏼‍❤️‍💋‍👩🏽👩🏽‍❤️‍💋‍👩🏽👩🏾‍❤️‍💋‍👩🏽👩🏿‍❤️‍💋‍👩🏽  |
+| 0143 | Fx08E   | **Kiss: W&W (S:Skin Tone 4)**                 | 👩🏻‍❤️‍💋‍👩🏾👩🏼‍❤️‍💋‍👩🏾👩🏽‍❤️‍💋‍👩🏾👩🏾‍❤️‍💋‍👩🏾👩🏿‍❤️‍💋‍👩🏾  |
+| 0144 | Fx08F   | **Kiss: W&W (S:Skin Tone 5)**                 | 👩🏻‍❤️‍💋‍👩🏿👩🏼‍❤️‍💋‍👩🏿👩🏽‍❤️‍💋‍👩🏿👩🏾‍❤️‍💋‍👩🏿👩🏿‍❤️‍💋‍👩🏿  |
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
