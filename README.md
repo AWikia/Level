@@ -3,7 +3,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 9446 different glyphs (Of which 5707 are in BMP, 2752 in SMP, 37 are tags, 130 are Component, 240 are SLS and 580 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 9618 different glyphs (Of which 5732 are in BMP, 2759 in SMP, 37 are tags, 130 are Component, 240 are SLS and 720 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -141,7 +141,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 1421 different COLR glyphs (Of which 524 are Unicode, 135 are ZWJ, 29 are Country Flags, 130 are Component, 23 are SLS and 580 are Skin Tone Emoji) , which consist of:
+- 1593 different COLR glyphs (Of which 532 are Unicode, 159 are ZWJ, 29 are Country Flags, 130 are Component, 23 are SLS and 720 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -213,7 +213,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
 - Based on the aging System font from Microsoft Windows
 - Low-curve glyph designs, akin to the OFL Orbitron Font
-- Usable in all browsers, apps and sizes, compared to Bitmap fonts shipped with Windows
+- BW font is usable in all browsers, apps and sizes, compared to Bitmap fonts shipped with Windows. COLR font while is usable everywhere where the BW font can be used, it will render in color only if an app and/or the system can handle COLRv0 fonts
 - Extendable with future releases when required
 
 ## Allocated PUA Unicode Blocks
