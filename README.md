@@ -3,7 +3,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 9618 different glyphs (Of which 5732 are in BMP, 2759 in SMP, 37 are tags, 130 are Component, 240 are SLS and 720 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 9690 different glyphs (Of which 5770 are in BMP, 2790 in SMP, 37 are tags, 133 are Component, 240 are SLS and 720 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -141,7 +141,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 1593 different COLR glyphs (Of which 532 are Unicode, 159 are ZWJ, 29 are Country Flags, 130 are Component, 23 are SLS and 720 are Skin Tone Emoji) , which consist of:
+- 1623 different COLR glyphs (Of which 559 are Unicode, 159 are ZWJ, 29 are Country Flags, 133 are Component, 23 are SLS and 720 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -427,7 +427,7 @@ Unicode range F000-F8FF is allocated for all Composite Characters deployed using
 This unicode block includes various advanced glyphs, including Component ones
 
 #### Component Glyphs (F0000 - F0FFF)
-Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 130 are supported currently
+Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 133 are supported currently
 
 #### Supplementary Letter Style Glyphs (F1000 - F1FFF)
 Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 240 are supported currently and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well, with 22 being available in both fonts. All holes in each subrange indicate that a character can be found at a standarized unicode block like Letterlike Symbols. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
