@@ -3,7 +3,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 9747 different glyphs (Of which 5805 are in BMP, 2802 in SMP, 37 are tags, 145 are Component, 240 are SLS and 720 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 9870 different glyphs (Of which 5860 are in BMP, 2846 in SMP, 37 are tags, 159 are Component, 240 are SLS and 730 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -84,10 +84,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Katakana
   - CJK Strokes (Only the very last glyph is supported)
   - Katakana Phonetic Extensions
-  - Enclosed CJK Letters and Months (Supports the following):
-    - Enclosed numbers
-    - A few Enclosed CJK ideographs
-    - Enclosed katakana letters
+  - Enclosed CJK Letters and Months (A few are supported)
   - CJK Compatibility (A few are supported)
   - Unified CJK Ideographs Extension A (Extremely Limited support, 5 supported currently)
   - Yijing Hexagram Symbols
@@ -143,7 +140,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 1647 different COLR glyphs (Of which 571 are Unicode, 159 are ZWJ, 29 are Country Flags, 145 are Component, 23 are SLS and 720 are Skin Tone Emoji) , which consist of:
+- 1716 different COLR glyphs (Of which 615 are Unicode, 159 are ZWJ, 30 are Country Flags, 159 are Component, 23 are SLS and 730 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
