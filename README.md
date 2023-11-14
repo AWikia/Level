@@ -391,7 +391,7 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0159 | E09E    | Kiss: W&W (S:Skin Tone 5)                   | 👩‍❤️‍💋‍👩🏿     |
 
 #### Country Flags Glyphs (F000 - F8FF)
-Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following 26 glyphs:
+Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following 30 glyphs:
 
 | No.  | Unicode | Name                                        | Glyph |
 | ---- | ------- | ------------------------------------------- | ----- |
@@ -406,24 +406,25 @@ Unicode range F000-F8FF is allocated for all Composite Characters deployed using
 | 0009 | F0E3    | France                                      | 🇫🇷     |
 | 0010 | F09D    | Great Britain/United Kingdom                | 🇬🇧     |
 | 0011 | F0A9    | Guinea                                      | 🇬🇳     |
-| 0012 | F0D2    | Canary Islands                              | 🇮🇨     |
-| 0013 | F0D4    | Ireland                                     | 🇮🇪     |
-| 0014 | F0E3    | Italy                                       | 🇮🇹     |
-| 0015 | F0F9    | Japan                                       | 🇯🇵     |
-| 0016 | F115    | Korea                                       | 🇰🇷     |
-| 0017 | F143    | Mali                                        | 🇲🇱     |
-| 0018 | F158    | Nigeria                                     | 🇳🇬     |
-| 0019 | F18A    | Peru                                        | 🇵🇪     |
-| 0020 | F1C8    | Romania                                     | 🇷🇴     |
-| 0021 | F1CE    | Russia                                      | 🇷🇺     |
-| 0022 | F1E1    | Senegal                                     | 🇸🇳     |
-| 0023 | F1F1    | Chad                                        | 🇹🇩     |
-| 0024 | F21A    | United States of America                    | 🇺🇸     |
-| 0025 | F2A4    | England                                     | 🏴󠁧󠁢󠁥󠁮󠁧󠁿     |
-| 0026 | F2A5    | Scotland                                    | 🏴󠁧󠁢󠁳󠁣󠁴󠁿     |
-| 0027 | F2A6    | Wales                                       | 🏴󠁧󠁢󠁷󠁬󠁳󠁿     |
-| 0028 | F2A7    | Texas                                       | 🏴󠁵󠁳󠁴󠁸󠁿     |
-| 0029 | F8FF    | Unknown Regional Indicator Flag             | -//-  |
+| 0012 | F0AD    | Greece                                      | 🇬🇷     |
+| 0013 | F0D2    | Canary Islands                              | 🇮🇨     |
+| 0014 | F0D4    | Ireland                                     | 🇮🇪     |
+| 0015 | F0E3    | Italy                                       | 🇮🇹     |
+| 0016 | F0F9    | Japan                                       | 🇯🇵     |
+| 0017 | F115    | Korea                                       | 🇰🇷     |
+| 0018 | F143    | Mali                                        | 🇲🇱     |
+| 0019 | F158    | Nigeria                                     | 🇳🇬     |
+| 0020 | F18A    | Peru                                        | 🇵🇪     |
+| 0021 | F1C8    | Romania                                     | 🇷🇴     |
+| 0022 | F1CE    | Russia                                      | 🇷🇺     |
+| 0023 | F1E1    | Senegal                                     | 🇸🇳     |
+| 0024 | F1F1    | Chad                                        | 🇹🇩     |
+| 0025 | F21A    | United States of America                    | 🇺🇸     |
+| 0026 | F2A4    | England                                     | 🏴󠁧󠁢󠁥󠁮󠁧󠁿     |
+| 0027 | F2A5    | Scotland                                    | 🏴󠁧󠁢󠁳󠁣󠁴󠁿     |
+| 0028 | F2A6    | Wales                                       | 🏴󠁧󠁢󠁷󠁬󠁳󠁿     |
+| 0029 | F2A7    | Texas                                       | 🏴󠁵󠁳󠁴󠁸󠁿     |
+| 0030 | F8FF    | Unknown Regional Indicator Flag             | -//-  |
 
 
 ### Supplementary Private Use Area-A (F0000 - FFFFD)
