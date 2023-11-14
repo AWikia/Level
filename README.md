@@ -454,7 +454,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 144 are supported currently in each subrange, supporting 720 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 146 are supported currently in each subrange, supporting 730 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                                          | Glyphs |
 | ---- | ------- | --------------------------------------------- | ------ |
@@ -576,8 +576,8 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 144 are supported 
 | 0116 | Fx073   | I Love You Hand                               | 🤟🏻🤟🏼🤟🏽🤟🏾🤟🏿  |
 | 0117 | Fx074   | Pinched Fingers                               | 🤌🏻🤌🏼🤌🏽🤌🏾🤌🏿  |
 | 0118 | Fx075   | Pinching Hand                                 | 🤏🏻🤏🏼🤏🏽🤏🏾🤏🏿  |
-| 0119 | Fx076   | Palm Down Hand                                  | 🫳🏻🫳🏼🫳🏽🫳🏾🫳🏿  |
-| 0120 | Fx077   | Palm Up Hand                                | 🫴🏻🫴🏼🫴🏽🫴🏾🫴🏿  |
+| 0119 | Fx076   | Palm Down Hand                                | 🫳🏻🫳🏼🫳🏽🫳🏾🫳🏿  |
+| 0120 | Fx077   | Palm Up Hand                                  | 🫴🏻🫴🏼🫴🏽🫴🏾🫴🏿  |
 | 0121 | Fx078   | **Kiss: P&P (S:Skin Tone 0)**                 | 🧑🏻‍❤️‍💋‍🧑🧑🏼‍❤️‍💋‍🧑🧑🏽‍❤️‍💋‍🧑🧑🏾‍❤️‍💋‍🧑🧑🏿‍❤️‍💋‍🧑  |
 | 0122 | Fx079   | **Kiss: P&P (S:Skin Tone 1)**                 | 🧑🏻‍❤️‍💋‍🧑🏻🧑🏼‍❤️‍💋‍🧑🏻🧑🏽‍❤️‍💋‍🧑🏻🧑🏾‍❤️‍💋‍🧑🏻🧑🏿‍❤️‍💋‍🧑🏻  |
 | 0123 | Fx07A   | **Kiss: P&P (S:Skin Tone 2)**                 | 🧑🏻‍❤️‍💋‍🧑🏼🧑🏼‍❤️‍💋‍🧑🏼🧑🏽‍❤️‍💋‍🧑🏼🧑🏾‍❤️‍💋‍🧑🏼🧑🏿‍❤️‍💋‍🧑🏼  |
@@ -602,7 +602,8 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 144 are supported 
 | 0142 | Fx08D   | **Kiss: W&W (S:Skin Tone 3)**                 | 👩🏻‍❤️‍💋‍👩🏽👩🏼‍❤️‍💋‍👩🏽👩🏽‍❤️‍💋‍👩🏽👩🏾‍❤️‍💋‍👩🏽👩🏿‍❤️‍💋‍👩🏽  |
 | 0143 | Fx08E   | **Kiss: W&W (S:Skin Tone 4)**                 | 👩🏻‍❤️‍💋‍👩🏾👩🏼‍❤️‍💋‍👩🏾👩🏽‍❤️‍💋‍👩🏾👩🏾‍❤️‍💋‍👩🏾👩🏿‍❤️‍💋‍👩🏾  |
 | 0144 | Fx08F   | **Kiss: W&W (S:Skin Tone 5)**                 | 👩🏻‍❤️‍💋‍👩🏿👩🏼‍❤️‍💋‍👩🏿👩🏽‍❤️‍💋‍👩🏿👩🏾‍❤️‍💋‍👩🏿👩🏿‍❤️‍💋‍👩🏿  |
-
+| 0145 | Fx090   | Leftwards Pushing Hand                        | 🫷🏻🫷🏼🫷🏽🫷🏾🫷🏿  |
+| 0146 | Fx091   | Rightwards Pushing Hand                       | 🫸🏻🫸🏼🫸🏽🫸🏾🫸🏿  |
 
 ##### Light Skin Tone (F2000 - F2FFF)
 Unicode range F2000-F2FFF is allocated for all Light Skin Tone emoji. In BW font, it is rendered white
