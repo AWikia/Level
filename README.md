@@ -387,6 +387,7 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0158 | E09D    | Kiss: W&W (S:Skin Tone 4)                   | 👩‍❤️‍💋‍👩🏾     |
 | 0159 | E09E    | Kiss: W&W (S:Skin Tone 5)                   | 👩‍❤️‍💋‍👩🏿     |
 | 0160 | E09F    | Polar Bear                                  | 🐻‍❄️     |
+| 0161 | E0A0    | Black Cat                                   | 🐈‍⬛     |
 
 #### Country Flags Glyphs (F000 - F8FF)
 Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following 30 glyphs:
