@@ -390,6 +390,9 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0161 | E0A0    | Black Cat                                   | 🐈‍⬛     |
 | 0162 | E0A1    | Man Wearing Turban                          | 👳‍♂️     |
 | 0163 | E0A2    | Woman Wearing Turban                        | 👳‍♀️     |
+| 0164 | E0A3    | Mechanic                                    | 🧑‍🔧     |
+| 0165 | E0A4    | Man Mechanic                                | 👨‍🔧     |
+| 0166 | E0A5    | Woman Mechanic                              | 👩‍🔧     |
 
 #### Country Flags Glyphs (F000 - F8FF)
 Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following 30 glyphs:
@@ -456,7 +459,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 154 are supported currently in each subrange, supporting 770 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 157 are supported currently in each subrange, supporting 785 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                                          | Glyphs |
 | ---- | ------- | --------------------------------------------- | ------ |
@@ -614,6 +617,9 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 154 are supported 
 | 0152 | Fx097   | Man Dancing                                   | 🕺🏻🕺🏼🕺🏽🕺🏾🕺🏿  |
 | 0153 | Fx098   | Woman Dancing                                 | 💃🏻💃🏼💃🏽💃🏾💃🏿  |
 | 0154 | Fx099   | Nail Polish                                   | 💅🏻💅🏼💅🏽💅🏾💅🏿  |
+| 0155 | Fx09A   | **Mechanic**                                  | 🧑🏻‍🔧🧑🏼‍🔧🧑🏽‍🔧🧑🏾‍🔧🧑🏿‍🔧  |
+| 0156 | Fx09B   | **Man Mechanic**                              | 👨🏻‍🔧👨🏼‍🔧👨🏽‍🔧👨🏾‍🔧👨🏿‍🔧  |
+| 0157 | Fx09C   | **Woman Mechanic**                            | 👩🏻‍🔧👩🏼‍🔧👩🏽‍🔧👩🏾‍🔧👩🏿‍🔧  |
 
 ##### Light Skin Tone (F2000 - F2FFF)
 Unicode range F2000-F2FFF is allocated for all Light Skin Tone emoji. In BW font, it is rendered white
