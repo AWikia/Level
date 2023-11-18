@@ -135,6 +135,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Supplement Symbols and Pictographs (A few are supported, including Typikon Symbols)
   - Extended Symbols and Pictographs A (A few are supported)
   - Symbols for Legacy Computing
+  - Unified CJK Ideographs Extension B (Extremely Limited support, 11 supported currently)
   - Tags (Supports 37 glyphs related to subdivision flag creation)
   - Composite Glyphs (See [here](#private-use-area-e000---f8ff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
@@ -206,7 +207,6 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Boy and Girl Symbols
   - Supplement Symbols and Pictographs (A few are supported, excluding non-emoji glyphs)
   - Extended Symbols and Pictographs A (A few are supported)
-  - Unified CJK Ideographs Extension B (Extremely Limited support, 11 supported currently)
   - Tags (Supports 37 glyphs related to subdivision flag creation)
   - Composite Glyphs (See [here](#private-use-area-e000---f8ff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
