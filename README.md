@@ -3,7 +3,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 10059 different glyphs (Of which 5874 are in BMP, 2948 in SMP, 37 are tags, 175 are Component, 240 are SLS and 785 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 10094 different glyphs (Of which 5898 are in BMP, 2948 in SMP, 11 in SIP, 37 are tags, 175 are Component, 240 are SLS and 785 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -206,6 +206,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Boy and Girl Symbols
   - Supplement Symbols and Pictographs (A few are supported, excluding non-emoji glyphs)
   - Extended Symbols and Pictographs A (A few are supported)
+  - Unified CJK Ideographs Extension B (Extremely Limited support, 11 supported currently)
   - Tags (Supports 37 glyphs related to subdivision flag creation)
   - Composite Glyphs (See [here](#private-use-area-e000---f8ff) for character support; split between ZWJ and Country Flag glyphs)
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
@@ -639,25 +640,37 @@ Unicode range F6000-F6FFF is allocated for all Dark Skin Tone emoji, using the s
 
 ## Availability
 Black and White Level font is present in the following styles:
+- Thin UltraCondensed
 - Thin Condensed
 - Thin
 - Thin Expanded
+- Thin UltraExpanded
+- Light UltraCondensed
 - Light Condensed
 - Light
 - Light Expanded
+- Light UltraExpanded
+- UltraCondensed
 - Condensed
 - Regular
 - Expanded
+- UltraExpanded
+- Bold UltraCondensed
 - Bold Condensed
 - Bold
 - Bold Expanded
+- Bold UltraExpanded
+- Black UltraCondensed
 - Black Condensed
 - Black
 - Black Expanded
+- Black UltraExpanded
 
 COLR Level Color Symbols font is present in the following styles:
+- UltraCondensed
 - Condensed
 - Regular
 - Expanded
+- UltraExpanded
 
 [Try it now](https://awikia.github.io/Level/Main.html)
