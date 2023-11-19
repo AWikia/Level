@@ -402,6 +402,8 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0172 | E0AB    | Artist                                      | 🧑‍🎨     |
 | 0173 | E0AC    | Man Artist                                  | 👨‍🎨     |
 | 0174 | E0AD    | Woman Artist                                | 👩‍🎨     |
+| 0175 | E0AE    | Man Swimmer                                 | 🏊‍♂️     |
+| 0176 | E0AF    | Woman Swimmer                               | 🏊‍♀️     |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
@@ -469,7 +471,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 168 are supported currently in each subrange, supporting 840 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 171 are supported currently in each subrange, supporting 855 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                                          | Glyphs |
 | ---- | ------- | --------------------------------------------- | ------ |
@@ -641,6 +643,10 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 168 are supported 
 | 0166 | Fx0A5   | **Man Artist**                                | 👨🏻‍🎨👨🏼‍🎨👨🏽‍🎨👨🏾‍🎨👨🏿‍🎨  |
 | 0167 | Fx0A6   | **Woman Artist**                              | 👩🏻‍🎨👩🏼‍🎨👩🏽‍🎨👩🏾‍🎨👩🏿‍🎨  |
 | 0168 | Fx0A7   | Baby Angel                                    | 👼🏻👼🏼👼🏽👼🏾👼🏿  |
+| 0169 | Fx0A8   | Swimmer                                       | 🏊🏻🏊🏼🏊🏽🏊🏾🏊🏿  |
+| 0170 | Fx0A9   | **Man Swimmer**                               | 🏊🏻‍♂️🏊🏼‍♂️🏊🏽‍♂️🏊🏾‍♂️🏊🏿‍♂️  |
+| 0171 | Fx0AA   | **Woman Swimmer**                              | 🏊🏻‍♀️🏊🏼‍♀️🏊🏽‍♀️🏊🏾‍♀️🏊🏿‍♀️  |
+
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
