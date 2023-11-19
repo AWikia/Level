@@ -647,6 +647,7 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 171 are supported 
 | 0170 | Fx0A9   | **Man Swimmer**                               | 🏊🏻‍♂️🏊🏼‍♂️🏊🏽‍♂️🏊🏾‍♂️🏊🏿‍♂️  |
 | 0171 | Fx0AA   | **Woman Swimmer**                             | 🏊🏻‍♀️🏊🏼‍♀️🏊🏽‍♀️🏊🏾‍♀️🏊🏿‍♀️  |
 | 0172 | Fx0AB   | Raised Fist                                   | ✊🏻✊🏼✊🏽✊🏾✊🏿  |
+| 0173 | Fx0AC   | Oncoming Fist                                 | 👊🏻👊🏼👊🏽👊🏾👊🏿  |
 
 ##### Light Skin Tone (F2000 - F2FFF)
 Unicode range F2000-F2FFF is allocated for all Light Skin Tone emoji. In BW font, it is rendered white
