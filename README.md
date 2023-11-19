@@ -465,7 +465,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 163 are supported currently in each subrange, supporting 815 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 164 are supported currently in each subrange, supporting 820 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                                          | Glyphs |
 | ---- | ------- | --------------------------------------------- | ------ |
@@ -632,6 +632,7 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 163 are supported 
 | 0161 | Fx0A0   | Person Bowing                                 | 🙇🏻🙇🏼🙇🏽🙇🏾🙇🏿  |
 | 0162 | Fx0A1   | **Man Bowing**                                | 🙇🏻‍♂️🙇🏼‍♂️🙇🏽‍♂️🙇🏾‍♂️🙇🏿‍♂️  |
 | 0163 | Fx0A2   | **Woman Bowing**                              | 🙇🏻‍♀️🙇🏼‍♀️🙇🏽‍♀️🙇🏾‍♀️🙇🏿‍♀️  |
+| 0164 | Fx0A3   | Sign of the horns                             | 🤘🏻🤘🏼🤘🏽🤘🏾🤘🏿  |
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
