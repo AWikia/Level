@@ -399,6 +399,10 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0169 | E0A8    | Man Bowinig                                 | 🙇‍♂️     |
 | 0170 | E0A9    | Woman Bowing                                | 🙇‍♀️     |
 | 0171 | E0AA    | Face in Clouds                              | 😶‍🌫️     |
+| 0172 | E0AB    | Artist                                      | 🧑‍🎨     |
+| 0173 | E0AC    | Man Artist                                  | 👨‍🎨     |
+| 0174 | E0AD    | Woman Artist                                | 👩‍🎨     |
+
 
 #### Country Flags Glyphs (F000 - F8FF)
 Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following 30 glyphs:
@@ -633,6 +637,9 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 164 are supported 
 | 0162 | Fx0A1   | **Man Bowing**                                | 🙇🏻‍♂️🙇🏼‍♂️🙇🏽‍♂️🙇🏾‍♂️🙇🏿‍♂️  |
 | 0163 | Fx0A2   | **Woman Bowing**                              | 🙇🏻‍♀️🙇🏼‍♀️🙇🏽‍♀️🙇🏾‍♀️🙇🏿‍♀️  |
 | 0164 | Fx0A3   | Sign of the horns                             | 🤘🏻🤘🏼🤘🏽🤘🏾🤘🏿  |
+| 0165 | Fx0A4   | **Artist**                                    | 🧑🏻‍🎨🧑🏼‍🎨🧑🏽‍🎨🧑🏾‍🎨🧑🏿‍🎨  |
+| 0166 | Fx0A5   | **Man Artist**                                | 👨🏻‍🎨👨🏼‍🎨👨🏽‍🎨👨🏾‍🎨👨🏿‍🎨  |
+| 0167 | Fx0A6   | **Woman Artist**                              | 👩🏻‍🎨👩🏼‍🎨👩🏽‍🎨👩🏾‍🎨👩🏿‍🎨  |
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
