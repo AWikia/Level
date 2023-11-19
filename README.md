@@ -398,6 +398,7 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0168 | E0A7    | Woman Gesturing No                          | 🙅‍♀️     |
 | 0169 | E0A8    | Man Bowinig                                 | 🙇‍♂️     |
 | 0170 | E0A9    | Woman Bowing                                | 🙇‍♀️     |
+| 0171 | E0AA    | Face in Clouds                              | 😶‍🌫️     |
 
 #### Country Flags Glyphs (F000 - F8FF)
 Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following 30 glyphs:
