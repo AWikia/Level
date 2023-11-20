@@ -3,7 +3,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 10094 different glyphs (Of which 5898 are in BMP, 2948 in SMP, 11 in SIP, 37 are tags, 175 are Component, 240 are SLS and 785 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 10310 different glyphs (Of which 5930 are in BMP, 3022 in SMP, 11 in SIP, 37 are tags, 195 are Component, 240 are SLS and 875 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -82,6 +82,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - CJK Symbols and Punctuation (Many are supported)
   - Hiragana
   - Katakana
+  - Kanbun
   - CJK Strokes (Only the very last glyph is supported)
   - Katakana Phonetic Extensions
   - Enclosed CJK Letters and Months (A few are supported)
@@ -120,9 +121,10 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Mahjong Tiles (Supports Red and White Dragons, Bamboo tiles as well as its back card)
   - Domino Tiles
   - Miscellanneous Symbols and Pictographs (A few are supported, such as many food)
-  - Emoticons (Many are supported)
+  - Emoticons (Mostly supported)
   - Ornamental Dingbats (Many are supported)
   - Transport and Map Symbols (Supports the following):
+    - Some cars
     - Traffic Lights and Construction Signs
     - Triangular Flag
     - Disallowed Sign
@@ -141,7 +143,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 1860 different COLR glyphs (Of which 681 are Unicode, 166 are ZWJ, 30 are Country Flags, 175 are Component, 23 are SLS and 785 are Skin Tone Emoji) , which consist of:
+- 2038 different COLR glyphs (Of which 739 are Unicode, 176 are ZWJ, 30 are Country Flags, 195 are Component, 23 are SLS and 875 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -192,12 +194,13 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Enclosed Ideographic Supplement (Supports all 12 enclosed glyphs that are emoji)
   - Mahjong Tiles (Supports Red Dragon only)
   - Miscellanneous Symbols and Pictographs  (A few are supported, such as many food, excluding non-emoji glyphs)
-  - Emoticons (Many are supported)
+  - Emoticons (Mostly supported)
   - Geometric Shapes Extended (Supports the following):
     - Circles (Orange, Yellow, Green, Purple, Brown)
     - Squares (Red, Blue, Orange, Yellow, Green, Purple, Brown)
     - Equals Symbol
   - Transport and Map Symbols (Supports the following):
+    - Some cars
     - Traffic Lights and Construction Signs
     - Triangular Flag
     - Disallowed Sign
@@ -447,7 +450,7 @@ Unicode range F000-F8FF is allocated for all Composite Characters deployed using
 This unicode block includes various advanced glyphs, including Component ones
 
 #### Component Glyphs (F0000 - F0FFF)
-Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 175 are supported currently
+Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 195 are supported currently
 
 #### Supplementary Letter Style Glyphs (F1000 - F1FFF)
 Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 240 are supported currently and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well, with 22 being available in both fonts. All holes in each subrange indicate that a character can be found at a standarized unicode block like Letterlike Symbols. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
