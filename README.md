@@ -407,6 +407,7 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0174 | E0AD    | Woman Artist                                | 👩‍🎨     |
 | 0175 | E0AE    | Man Swimmer                                 | 🏊‍♂️     |
 | 0176 | E0AF    | Woman Swimmer                               | 🏊‍♀️     |
+| 0177 | E0B0    | Pirate Flag                                 | 🏴‍☠️     |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
