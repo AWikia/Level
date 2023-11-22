@@ -411,6 +411,9 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0178 | E0B1    | Doctor                                      | 🧑‍⚕️     |
 | 0179 | E0B2    | Man Doctor                                  | 👨‍⚕️     |
 | 0180 | E0B3    | Woman Doctor                                | 👩‍⚕️     |
+| 0181 | E0B4    | Man Bouncing Ball                           | ⛹️‍♂️     |
+| 0182 | E0B5    | Woman Bouncing Ball                         | ⛹️‍♀️     |
+
 
 
 #### Country Flags Glyphs (F000 - F8FF)
@@ -660,6 +663,9 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 178 are supported 
 | 0176 | Fx0AF   | **Doctor**                                    | 🧑🏻‍⚕️🧑🏼‍⚕️🧑🏽‍⚕️🧑🏾‍⚕️🧑🏿‍⚕️  |
 | 0177 | Fx0B0   | **Man Doctor**                                | 👨🏻‍⚕️👨🏼‍⚕️👨🏽‍⚕️👨🏾‍⚕️👨🏿‍⚕️  |
 | 0178 | Fx0B1   | **Woman Doctor**                              | 👩🏻‍⚕️👩🏼‍⚕️👩🏽‍⚕️👩🏾‍⚕️👩🏿‍⚕️  |
+| 0179 | Fx0B2   | Person Bouncing Ball                          | ⛹🏻⛹🏼⛹🏽⛹🏾⛹🏿  |
+| 0180 | Fx0B3   | **Man Bouncing Ball**                         | ⛹🏻‍♂️⛹🏼‍♂️⛹🏽‍♂️⛹🏾‍♂️⛹🏿‍♂️  |
+| 0171 | Fx0B4   | **Woman Bouncing Ball**                       | ⛹🏻‍♀️⛹🏼‍♀️⛹🏽‍♀️⛹🏾‍♀️⛹🏿‍♀️  |
 
 ##### Light Skin Tone (F2000 - F2FFF)
 Unicode range F2000-F2FFF is allocated for all Light Skin Tone emoji. In BW font, it is rendered white
