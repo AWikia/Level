@@ -408,6 +408,9 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0175 | E0AE    | Man Swimmer                                 | 🏊‍♂️     |
 | 0176 | E0AF    | Woman Swimmer                               | 🏊‍♀️     |
 | 0177 | E0B0    | Pirate Flag                                 | 🏴‍☠️     |
+| 0178 | E0B1    | Doctor                                      | 🧑‍⚕️     |
+| 0179 | E0B2    | Man Doctor                                  | 👨‍⚕️     |
+| 0180 | E0B3    | Woman Doctor                                | 👩‍⚕️     |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
@@ -475,7 +478,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 175 are supported currently in each subrange, supporting 875 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 178 are supported currently in each subrange, supporting 890 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                                          | Glyphs |
 | ---- | ------- | --------------------------------------------- | ------ |
@@ -654,6 +657,9 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 175 are supported 
 | 0173 | Fx0AC   | Raised Fist                                   | ✊🏻✊🏼✊🏽✊🏾✊🏿  |
 | 0174 | Fx0AD   | Oncoming Fist                                 | 👊🏻👊🏼👊🏽👊🏾👊🏿  |
 | 0175 | Fx0AE   | Waving Hand                                   | 👋🏻👋🏼👋🏽👋🏾👋🏿  |
+| 0176 | Fx0AF   | **Doctor**                                    | 🧑🏻‍⚕️🧑🏼‍⚕️🧑🏽‍⚕️🧑🏾‍⚕️🧑🏿‍⚕️  |
+| 0177 | Fx0B0   | **Man Doctor**                                | 👨🏻‍⚕️👨🏼‍⚕️👨🏽‍⚕️👨🏾‍⚕️👨🏿‍⚕️  |
+| 0178 | Fx0B1   | **Woman Doctor**                              | 👩🏻‍⚕️👩🏼‍⚕️👩🏽‍⚕️👩🏾‍⚕️👩🏿‍⚕️  |
 
 ##### Light Skin Tone (F2000 - F2FFF)
 Unicode range F2000-F2FFF is allocated for all Light Skin Tone emoji. In BW font, it is rendered white
