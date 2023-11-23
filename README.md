@@ -3,7 +3,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 10310 different glyphs (Of which 5930 are in BMP, 3022 in SMP, 11 in SIP, 37 are tags, 195 are Component, 240 are SLS and 875 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 10581 different glyphs (Of which 6038 are in BMP, 3123 in SMP, 11 in SIP, 37 are tags, 207 are Component, 240 are SLS and 925 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -46,16 +46,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Bow Drawings
   - Block Elements
   - Gemoetric Shapes
-  - Miscellaneous Symbols (Many are supported, including non-pictographic glyphs)
-  - Dingbats (Supports the following):
-    - Stars
-    - Raised Hand
-    - Checkmarks and Crosses
-    - Question Mark and Exclamation Symbols (Black, White)
-    - Hearts (Red, rotated and exclamation heart)
-    - Enclosed Glyphs
-    - Plus, Minus and Division Symbols
-    - Arrows
+  - Miscellaneous Symbols (Many are supported, including all emoji)
+  - Dingbats (Many are supported, including all emoji)
   - Miscellaneous Mathematical Symbols-A (Supports the following):
     - Triangle with a small one
     - Squared Triangle
@@ -135,6 +127,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Geometric Shapes Extended (Many are supported)
   - Supplemental Arrows C (Mostly supported, excluding arrow parts and shadowed arrows)
   - Supplement Symbols and Pictographs (A few are supported, including Typikon Symbols)
+  - Chess Symbols (Mostly supported, exlucding symbols representing game pieces for Xiangqui)
   - Extended Symbols and Pictographs A (A few are supported)
   - Symbols for Legacy Computing
   - Unified CJK Ideographs Extension B (Extremely Limited support, 11 supported currently)
@@ -143,7 +136,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 2038 different COLR glyphs (Of which 739 are Unicode, 176 are ZWJ, 30 are Country Flags, 195 are Component, 23 are SLS and 875 are Skin Tone Emoji) , which consist of:
+- 2163 different COLR glyphs (Of which 793 are Unicode, 185 are ZWJ, 30 are Country Flags, 207 are Component, 23 are SLS and 925 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -171,13 +164,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Large Circle 
     - Some triangles (Black)
     - Squares (White, Black)
-  - Miscellaneous Symbols (Supports various pictographic symbols)
-  - Dingbats (Supports the following):
-    - Raised Hand
-    - Checkboxes and Crosses (Heavy, Squared) 
-    - Question Mark and Exclamation Symbols (Black, White)
-    - Hearts (Red and exclamation heart)
-    - Plus, Minus and Division Symbols
+  - Miscellaneous Symbols (Supports all pictographic symbols)
+  - Dingbats (Supports all pictographis symbols)
   - Supplemental Arrows B (Supports two arrows only)
   - Miscellanneous Symbols and Arrows (Supports the following):
     - Arrows
@@ -459,7 +447,7 @@ Unicode range F000-F8FF is allocated for all Composite Characters deployed using
 This unicode block includes various advanced glyphs, including Component ones
 
 #### Component Glyphs (F0000 - F0FFF)
-Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 195 are supported currently
+Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 207 are supported currently
 
 #### Supplementary Letter Style Glyphs (F1000 - F1FFF)
 Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 240 are supported currently and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well, with 22 being available in both fonts. All holes in each subrange indicate that a character can be found at a standarized unicode block like Letterlike Symbols. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
