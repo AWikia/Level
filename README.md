@@ -404,6 +404,9 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0183 | E0B6    | Pilot                                       | 🧑‍✈️     |
 | 0184 | E0B7    | Man Pilot                                   | 👨‍✈️     |
 | 0185 | E0B8    | Woman Pilot                                 | 👩‍✈️     |
+| 0186 | E0B9    | Farmer                                      | 🧑‍🌾     |
+| 0187 | E0BA    | Man Farmer                                  | 👨‍🌾     |
+| 0188 | E0BB    | Woman Farmer                                | 👩‍🌾     |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
@@ -661,6 +664,9 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 186 are supported 
 | 0184 | Fx0B7   | **Woman Pilot**                               | 👩🏻‍✈️👩🏼‍✈️👩🏽‍✈️👩🏾‍✈️👩🏿‍✈️  |
 | 0185 | Fx0B8   | Writing Hand                                  | ✍🏻✍🏼✍🏽✍🏾✍🏿  |
 | 0186 | Fx0B9   | Hand with Index finger and Hand crossed       | 🫰🏻🫰🏼🫰🏽🫰🏾🫰🏿  |
+| 0187 | Fx0B8   | **Farmer**                                    | 🧑🏻‍🌾🧑🏼‍🌾🧑🏽‍🌾🧑🏾‍🌾🧑🏿‍🌾  |
+| 0188 | Fx0B9   | **Man Farmer**                                | 👨🏻‍🌾👨🏼‍🌾👨🏽‍🌾👨🏾‍🌾👨🏿‍🌾  |
+| 0189 | Fx0BA   | **Woman Farmer**                              | 👩🏻‍🌾👩🏼‍🌾👩🏽‍🌾👩🏾‍🌾👩🏿‍🌾  |
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
