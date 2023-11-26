@@ -474,7 +474,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 186 are supported currently in each subrange, supporting 930 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 189 are supported currently in each subrange, supporting 945 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                                          | Glyphs |
 | ---- | ------- | --------------------------------------------- | ------ |
@@ -664,9 +664,9 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 186 are supported 
 | 0184 | Fx0B7   | **Woman Pilot**                               | 👩🏻‍✈️👩🏼‍✈️👩🏽‍✈️👩🏾‍✈️👩🏿‍✈️  |
 | 0185 | Fx0B8   | Writing Hand                                  | ✍🏻✍🏼✍🏽✍🏾✍🏿  |
 | 0186 | Fx0B9   | Hand with Index finger and Hand crossed       | 🫰🏻🫰🏼🫰🏽🫰🏾🫰🏿  |
-| 0187 | Fx0B8   | **Farmer**                                    | 🧑🏻‍🌾🧑🏼‍🌾🧑🏽‍🌾🧑🏾‍🌾🧑🏿‍🌾  |
-| 0188 | Fx0B9   | **Man Farmer**                                | 👨🏻‍🌾👨🏼‍🌾👨🏽‍🌾👨🏾‍🌾👨🏿‍🌾  |
-| 0189 | Fx0BA   | **Woman Farmer**                              | 👩🏻‍🌾👩🏼‍🌾👩🏽‍🌾👩🏾‍🌾👩🏿‍🌾  |
+| 0187 | Fx0BA   | **Farmer**                                    | 🧑🏻‍🌾🧑🏼‍🌾🧑🏽‍🌾🧑🏾‍🌾🧑🏿‍🌾  |
+| 0188 | Fx0BB   | **Man Farmer**                                | 👨🏻‍🌾👨🏼‍🌾👨🏽‍🌾👨🏾‍🌾👨🏿‍🌾  |
+| 0189 | Fx0BC   | **Woman Farmer**                              | 👩🏻‍🌾👩🏼‍🌾👩🏽‍🌾👩🏾‍🌾👩🏿‍🌾  |
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
