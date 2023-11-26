@@ -667,7 +667,7 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 189 are supported 
 | 0187 | Fx0BA   | **Farmer**                                    | 🧑🏻‍🌾🧑🏼‍🌾🧑🏽‍🌾🧑🏾‍🌾🧑🏿‍🌾  |
 | 0188 | Fx0BB   | **Man Farmer**                                | 👨🏻‍🌾👨🏼‍🌾👨🏽‍🌾👨🏾‍🌾👨🏿‍🌾  |
 | 0189 | Fx0BC   | **Woman Farmer**                              | 👩🏻‍🌾👩🏼‍🌾👩🏽‍🌾👩🏾‍🌾👩🏿‍🌾  |
-
+| 0190 | Fx0BD   | Breast Breeding                               | 🤱🏻🤱🏼🤱🏽🤱🏾🤱🏿  |
 
 ##### Light Skin Tone (F2000 - F2FFF)
 Unicode range F2000-F2FFF is allocated for all Light Skin Tone emoji. In BW font, it is rendered white
