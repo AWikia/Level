@@ -407,6 +407,8 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0186 | E0B9    | Farmer                                      | 🧑‍🌾     |
 | 0187 | E0BA    | Man Farmer                                  | 👨‍🌾     |
 | 0188 | E0BB    | Woman Farmer                                | 👩‍🌾     |
+| 0189 | E0BC    | Man Detective                               | 🕵️‍♂️     |
+| 0190 | E0BD    | Woman Detective                             | 🕵️‍♀️     |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
@@ -474,7 +476,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 189 are supported currently in each subrange, supporting 945 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 193 are supported currently in each subrange, supporting 965 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                                          | Glyphs |
 | ---- | ------- | --------------------------------------------- | ------ |
@@ -668,6 +670,10 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 189 are supported 
 | 0188 | Fx0BB   | **Man Farmer**                                | 👨🏻‍🌾👨🏼‍🌾👨🏽‍🌾👨🏾‍🌾👨🏿‍🌾  |
 | 0189 | Fx0BC   | **Woman Farmer**                              | 👩🏻‍🌾👩🏼‍🌾👩🏽‍🌾👩🏾‍🌾👩🏿‍🌾  |
 | 0190 | Fx0BD   | Breast Breeding                               | 🤱🏻🤱🏼🤱🏽🤱🏾🤱🏿  |
+| 0191 | Fx0BE   | Detective                                     | 🕵🏻🕵🏼🕵🏽🕵🏾🕵🏿  |
+| 0192 | Fx0BF   | **Man Detective**                             | 🕵🏻‍♂️🕵🏼‍♂️🕵🏽‍♂️🕵🏾‍♂️🕵🏿‍♂️  |
+| 0193 | Fx0C0   | **Woman Detective**                           | 🕵🏻‍♀️🕵🏼‍♀️🕵🏽‍♀️🕵🏾‍♀️🕵🏿‍♀️  |
+
 
 ##### Light Skin Tone (F2000 - F2FFF)
 Unicode range F2000-F2FFF is allocated for all Light Skin Tone emoji. In BW font, it is rendered white
