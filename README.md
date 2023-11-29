@@ -411,6 +411,10 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0190 | E0BD    | Woman Detective                             | 🕵️‍♀️     |
 | 0191 | E0BE    | Man in Suit Levitating                      | 🕴️‍♂️     |
 | 0192 | E0BF    | Woman in Suit Levitating                    | 🕴️‍♀️     |
+| 0193 | E0C0    | Man Bicyclist                               | 🚴‍♂️     |
+| 0194 | E0C1    | Woman Bicyclist                             | 🚴‍♀️     |
+| 0195 | E0C2    | Man Mountain Bicyclist                      | 🚵‍♂️     |
+| 0196 | E0C3    | Woman Mountain Bicyclist                    | 🚵‍♀️     |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
@@ -478,7 +482,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 196 are supported currently in each subrange, supporting 980 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 203 are supported currently in each subrange, supporting 1010 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                                          | Glyphs |
 | ---- | ------- | --------------------------------------------- | ------ |
@@ -671,13 +675,19 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 196 are supported 
 | 0187 | Fx0BA   | **Farmer**                                    | 🧑🏻‍🌾🧑🏼‍🌾🧑🏽‍🌾🧑🏾‍🌾🧑🏿‍🌾  |
 | 0188 | Fx0BB   | **Man Farmer**                                | 👨🏻‍🌾👨🏼‍🌾👨🏽‍🌾👨🏾‍🌾👨🏿‍🌾  |
 | 0189 | Fx0BC   | **Woman Farmer**                              | 👩🏻‍🌾👩🏼‍🌾👩🏽‍🌾👩🏾‍🌾👩🏿‍🌾  |
-| 0190 | Fx0BD   | Breast Feeding                               | 🤱🏻🤱🏼🤱🏽🤱🏾🤱🏿  |
+| 0190 | Fx0BD   | Breast Feeding                                | 🤱🏻🤱🏼🤱🏽🤱🏾🤱🏿  |
 | 0191 | Fx0BE   | Detective                                     | 🕵🏻🕵🏼🕵🏽🕵🏾🕵🏿  |
 | 0192 | Fx0BF   | **Man Detective**                             | 🕵🏻‍♂️🕵🏼‍♂️🕵🏽‍♂️🕵🏾‍♂️🕵🏿‍♂️  |
 | 0193 | Fx0C0   | **Woman Detective**                           | 🕵🏻‍♀️🕵🏼‍♀️🕵🏽‍♀️🕵🏾‍♀️🕵🏿‍♀️  |
 | 0194 | Fx0C1   | Person in Suit Levitating                     | 🕴🏻🕴🏼🕴🏽🕴🏾🕴🏿  |
 | 0195 | Fx0C2   | **Man in Suit Levitating**                    | 🕴🏻‍♂️🕴🏼‍♂️🕴🏽‍♂️🕴🏾‍♂️🕴🏿‍♂️  |
 | 0196 | Fx0C3   | **Woman in Suit Levitaiting**                 | 🕴🏻‍♀️🕴🏼‍♀️🕴🏽‍♀️🕴🏾‍♀️🕴🏿‍♀️  |
+| 0197 | Fx0C4   | Person Bicyclist                              | 🚴🏻🚴🏼🚴🏽🚴🏾🚴🏿  |
+| 0198 | Fx0C5   | **Man Bicyclist**                             | 🚴🏻‍♂️🚴🏼‍♂️🚴🏽‍♂️🚴🏾‍♂️🚴🏿‍♂️  |
+| 0199 | Fx0C6   | **Woman Bicyclist**                           | 🚴🏻‍♀️🚴🏼‍♀️🚴🏽‍♀️🚴🏾‍♀️🚴🏿‍♀️  |
+| 0200 | Fx0C7   | Person Mountain Bicyclist                     | 🚵🏻🚵🏼🚵🏽🚵🏾🚵🏿  |
+| 0201 | Fx0C8   | **Man Mountain Bicyclist**                    | 🚵🏻‍♂️🚵🏼‍♂️🚵🏽‍♂️🚵🏾‍♂️🚵🏿‍♂️  |
+| 0202 | Fx0C9   | **Woman Mountain Bicyclist**                  | 🚵🏻‍♀️🚵🏼‍♀️🚵🏽‍♀️🚵🏾‍♀️🚵🏿‍♀️  |
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
