@@ -409,6 +409,8 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0188 | E0BB    | Woman Farmer                                | 👩‍🌾     |
 | 0189 | E0BC    | Man Detective                               | 🕵️‍♂️     |
 | 0190 | E0BD    | Woman Detective                             | 🕵️‍♀️     |
+| 0191 | E0BE    | Man in Suit Levitating                      | 🕴️‍♂️     |
+| 0192 | E0BF    | Woman in Suit Levitating                    | 🕴️‍♀️     |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
@@ -669,10 +671,13 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 193 are supported 
 | 0187 | Fx0BA   | **Farmer**                                    | 🧑🏻‍🌾🧑🏼‍🌾🧑🏽‍🌾🧑🏾‍🌾🧑🏿‍🌾  |
 | 0188 | Fx0BB   | **Man Farmer**                                | 👨🏻‍🌾👨🏼‍🌾👨🏽‍🌾👨🏾‍🌾👨🏿‍🌾  |
 | 0189 | Fx0BC   | **Woman Farmer**                              | 👩🏻‍🌾👩🏼‍🌾👩🏽‍🌾👩🏾‍🌾👩🏿‍🌾  |
-| 0190 | Fx0BD   | Breast Breeding                               | 🤱🏻🤱🏼🤱🏽🤱🏾🤱🏿  |
+| 0190 | Fx0BD   | Breast Feeding                               | 🤱🏻🤱🏼🤱🏽🤱🏾🤱🏿  |
 | 0191 | Fx0BE   | Detective                                     | 🕵🏻🕵🏼🕵🏽🕵🏾🕵🏿  |
 | 0192 | Fx0BF   | **Man Detective**                             | 🕵🏻‍♂️🕵🏼‍♂️🕵🏽‍♂️🕵🏾‍♂️🕵🏿‍♂️  |
 | 0193 | Fx0C0   | **Woman Detective**                           | 🕵🏻‍♀️🕵🏼‍♀️🕵🏽‍♀️🕵🏾‍♀️🕵🏿‍♀️  |
+| 0194 | Fx0C1   | Person in Suit Levitating                     | 🕴🏻🕴🏼🕴🏽🕴🏾🕴🏿  |
+| 0195 | Fx0C2   | **Man in Suit Levitating**                    | 🕴🏻‍♂️🕴🏼‍♂️🕴🏽‍♂️🕴🏾‍♂️🕴🏿‍♂️  |
+| 0196 | Fx0C3   | **Woman in Suit Levitaiting**                 | 🕴🏻‍♀️🕴🏼‍♀️🕴🏽‍♀️🕴🏾‍♀️🕴🏿‍♀️  |
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
