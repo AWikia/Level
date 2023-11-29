@@ -482,7 +482,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 203 are supported currently in each subrange, supporting 1015 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 203 are supported currently in each subrange, supporting 1030 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                                          | Glyphs |
 | ---- | ------- | --------------------------------------------- | ------ |
@@ -689,6 +689,9 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 203 are supported 
 | 0201 | Fx0C8   | **Man Mountain Bicyclist**                    | 🚵🏻‍♂️🚵🏼‍♂️🚵🏽‍♂️🚵🏾‍♂️🚵🏿‍♂️  |
 | 0202 | Fx0C9   | **Woman Mountain Bicyclist**                  | 🚵🏻‍♀️🚵🏼‍♀️🚵🏽‍♀️🚵🏾‍♀️🚵🏿‍♀️  |
 | 0203 | Fx0CA   | OK Hand Sign                                  | 👌🏻👌🏼👌🏽👌🏾👌🏿  |
+| 0204 | Fx0CB   | Pregnant Person                               | 🫄🏻🫄🏼🫄🏽🫄🏾🫄🏿  |
+| 0205 | Fx0CC   | Pregnant Man                                  | 🫃🏻🫃🏼🫃🏽🫃🏾🫃🏿  |
+| 0206 | Fx0CD   | Pregnant Woman                                | 🤰🏻🤰🏼🤰🏽🤰🏾🤰🏿  |
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
