@@ -415,6 +415,9 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0194 | E0C1    | Woman Bicyclist                             | 🚴‍♀️     |
 | 0195 | E0C2    | Man Mountain Bicyclist                      | 🚵‍♂️     |
 | 0196 | E0C3    | Woman Mountain Bicyclist                    | 🚵‍♀️     |
+| 0197 | E0C4    | Astronaut                                   | 🧑‍🚀     |
+| 0198 | E0C5    | Man Astronaut                               | 👨‍🚀     |
+| 0199 | E0C6    | Woman Astronaut                             | 👩‍🚀     |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
@@ -482,7 +485,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 203 are supported currently in each subrange, supporting 1030 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 209 are supported currently in each subrange, supporting 1045 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                                          | Glyphs |
 | ---- | ------- | --------------------------------------------- | ------ |
@@ -692,6 +695,9 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 203 are supported 
 | 0204 | Fx0CB   | Pregnant Person                               | 🫄🏻🫄🏼🫄🏽🫄🏾🫄🏿  |
 | 0205 | Fx0CC   | Pregnant Man                                  | 🫃🏻🫃🏼🫃🏽🫃🏾🫃🏿  |
 | 0206 | Fx0CD   | Pregnant Woman                                | 🤰🏻🤰🏼🤰🏽🤰🏾🤰🏿  |
+| 0207 | Fx0CE   | **Astronaut**                                 | 🧑🏻‍🚀🧑🏼‍🚀🧑🏽‍🚀🧑🏾‍🚀🧑🏿‍🚀  |
+| 0208 | Fx0CF   | **Man Astronaut**                             | 👨🏻‍🚀👨🏼‍🚀👨🏽‍🚀👨🏾‍🚀👨🏿‍🚀  |
+| 0209 | Fx0D0   | **Woman Astronaut**                           | 👩🏻‍🚀👩🏼‍🚀👩🏽‍🚀👩🏾‍🚀👩🏿‍🚀  |
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
