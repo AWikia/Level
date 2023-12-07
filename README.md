@@ -465,23 +465,23 @@ This unicode block includes various advanced glyphs, including Component ones
 Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 234 are supported currently
 
 #### Supplementary Letter Style Glyphs (F1000 - F1FFF)
-Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 265 are supported currently across 13 groups and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well, with 22 being available in both fonts. All holes in each subrange indicate that a character can either be found at a standarized unicode block like Letterlike Symbols or does not exist at all. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
+Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 267 are supported currently across 13 groups and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well, with 22 being available in both fonts. All holes in each subrange indicate that a character can either be found at a standarized unicode block like Letterlike Symbols or does not exist at all. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
 
-| No.  | Glyphs  | Unicode Range | Name                       |
-| ---- | ------- | ------------- | -------------------------- |
-| 0001 | 0010    | F1000-F1009   | Numbers: Serif             |
-| 0002 | 0010    | F100A-F1013   | Numbers: Serif Italic      |
-| 0003 | 0010    | F1014-F101D   | Numbers: Serif Bold Italic |
-| 0004 | 0010    | F101E-F1027   | Numbers: Outlined Italic   |
-| 0005 | 0010    | F1028-F1031   | Numbers: Italic            |
-| 0006 | 0010    | F1032-F103B   | Numbers: Bold Italic       |
-| 0007 | 0052    | F103C-F106F   | Latin: Serif               |
-| 0008 | 0047    | F1070-F10A3   | Latin: Oultlined Italic    |
-| 0009 | 0058    | F10A4-F10DD   | Greek: Serif               |
-| 0010 | 0012    | F10DE-F10E9   | **Numbers: Keycap**        |
-| 0011 | 0010    | F10EA-F10F3   | **Numbers: Old Style**     |
-| 0012 | 0001    | F10F4         | **Slashed Zero**           |
-| 0013 | 0027    | F1005-F1110   | Arabic: Bold               |
+| No.  | Glyphs (Unused)  | Unicode Range | Name                       |
+| ---- | ---------------- | ------------- | -------------------------- |
+| 0001 | 0010             | F1000-F1009   | Numbers: Serif             |
+| 0002 | 0010             | F100A-F1013   | Numbers: Serif Italic      |
+| 0003 | 0010             | F1014-F101D   | Numbers: Serif Bold Italic |
+| 0004 | 0010             | F101E-F1027   | Numbers: Outlined Italic   |
+| 0005 | 0010             | F1028-F1031   | Numbers: Italic            |
+| 0006 | 0010             | F1032-F103B   | Numbers: Bold Italic       |
+| 0007 | 0052             | F103C-F106F   | Latin: Serif               |
+| 0008 | 0047 (05)        | F1070-F10A3   | Latin: Oultlined Italic    |
+| 0009 | 0058             | F10A4-F10DD   | Greek: Serif               |
+| 0010 | 0012             | F10DE-F10E9   | **Numbers: Keycap**        |
+| 0011 | 0010             | F10EA-F10F3   | **Numbers: Old Style**     |
+| 0012 | 0001             | F10F4         | **Slashed Zero**           |
+| 0013 | 0027 (01)        | F1005-F1110   | Arabic: Bold               |
 
 
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
