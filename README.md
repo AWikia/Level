@@ -465,7 +465,7 @@ This unicode block includes various advanced glyphs, including Component ones
 Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 234 are supported currently
 
 #### Supplementary Letter Style Glyphs (F1000 - F1FFF)
-Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 265 are supported currently across 13 groups and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well, with 22 being available in both fonts. All holes in each subrange indicate that a character can be found at a standarized unicode block like Letterlike Symbols. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
+Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 265 are supported currently across 13 groups and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well, with 22 being available in both fonts. All holes in each subrange indicate that a character can either be found at a standarized unicode block like Letterlike Symbols or does not exist at all. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
 
 | No.  | Glyphs  | Unicode Range | Name                       |
 | ---- | ------- | ------------- | -------------------------- |
