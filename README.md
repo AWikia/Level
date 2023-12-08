@@ -465,7 +465,7 @@ This unicode block includes various advanced glyphs, including Component ones
 Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 234 are supported currently
 
 #### Supplementary Letter Style Glyphs (F1000 - F1FFF)
-Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 272 are supported currently across 13 groups and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well, with 22 being available in both fonts. All holes in each subrange indicate that a character can either be found at a standarized unicode block like Letterlike Symbols or does not exist at all. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
+Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 271 are supported currently across 13 groups and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well, with 22 being available in both fonts. All holes in each subrange indicate that a character can either be found at a standarized unicode block like Letterlike Symbols or does not exist at all. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
 
 | No.  | Glyphs (Unused)  | Unicode Range | Name                       |
 | ---- | ---------------- | ------------- | -------------------------- |
@@ -481,7 +481,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 | 0010 | 0012             | F10DE-F10E9   | **Numbers: Keycap**        |
 | 0011 | 0010             | F10EA-F10F3   | **Numbers: Old Style**     |
 | 0012 | 0001             | F10F4         | **Slashed Zero**           |
-| 0013 | 0032 (01)        | F1005-F1115   | Arabic: Bold               |
+| 0013 | 0031 (01)        | F1005-F1114   | Arabic: Bold               |
 
 
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
