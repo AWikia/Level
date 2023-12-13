@@ -420,6 +420,9 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0198 | E0C5    | Man Astronaut                               | 👨‍🚀     |
 | 0199 | E0C6    | Woman Astronaut                             | 👩‍🚀     |
 | 0200 | E0C7    | Eye in Speech Bubble                        | 👁️‍🗨️     |
+| 0201 | E0C8    | Cook                                        | 🧑‍🍳     |
+| 0202 | E0C9    | Man Cook                                    | 👨‍🍳     |
+| 0203 | E0CA    | Woman Cook                                  | 👩‍🍳     |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
@@ -489,7 +492,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 210 are supported currently in each subrange, supporting 1050 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 213 are supported currently in each subrange, supporting 1065 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                                          | Glyphs |
 | ---- | ------- | --------------------------------------------- | ------ |
@@ -703,6 +706,9 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 210 are supported 
 | 0208 | Fx0CF   | **Man Astronaut**                             | 👨🏻‍🚀👨🏼‍🚀👨🏽‍🚀👨🏾‍🚀👨🏿‍🚀  |
 | 0209 | Fx0D0   | **Woman Astronaut**                           | 👩🏻‍🚀👩🏼‍🚀👩🏽‍🚀👩🏾‍🚀👩🏿‍🚀  |
 | 0210 | Fx0D1   | Crossed Fingers                               | 🤞🏻🤞🏼🤞🏽🤞🏾🤞🏿  |
+| 0211 | Fx0D2   | Cook                                          | 🧑🏻‍🍳🧑🏼‍🍳🧑🏽‍🍳🧑🏾‍🍳🧑🏿‍🍳  |
+| 0212 | Fx0D3   | Man Cook                                      | 👨🏻‍🍳👨🏼‍🍳👨🏽‍🍳👨🏾‍🍳👨🏿‍🍳  |
+| 0213 | Fx0D4   | Woman Cook                                    | 👩🏻‍🍳👩🏼‍🍳👩🏽‍🍳👩🏾‍🍳👩🏿‍🍳  |
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
