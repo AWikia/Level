@@ -3,7 +3,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 10982 different glyphs (Of which 6076 are in BMP, 3274 in SMP, 11 in SIP, 97 are tags, 234 are Component, 240 are SLS and 1050 are Skin Tone Emoji) , supporting over 149 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 12162 different glyphs (Of which 6979 are in BMP, 3498 in SMP, 11 in SIP, 97 are tags, 241 are Component, 271 are SLS and 1065 are Skin Tone Emoji) , supporting over 159 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -16,7 +16,12 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Supplemental Cyrillic
   - Armenian
   - Hebrew
-  - Arabic (Supports numbers and most punctuation glyphs)
+  - Arabic
+  - Arabic Supplement
+  - NKo
+  - Extended Arabic B
+  - Extended Arabic A
+  - Thai
   - Georgian
   - Cherokee
   - Tai Le
@@ -60,6 +65,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Joined Squares
     - Triangles
     - Black Lozenge
+    - Solidus
   - Supplemental Mathematical Operators (A few are supported)
   - Miscellanneous Symbols and Arrows (Supports the following):
     - Everything related to Geometric Shapes glyphs
@@ -89,6 +95,9 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Extended Latin E
   - Cherokee Supplement
   - Alphabetic Presentation Forms
+  - Arabic Presentation Forms-A (A few are supported, including everything required for most Arabic Languages)
+  - Variation Selectors (Variation Selectors 1, 2, 15 and 16 are supported)
+  - Arabic Presentation Forms-B
   - Halfwidth and Fullwidth forms
   - Specials
   - Linear B Syllabary
@@ -100,6 +109,9 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Gothic
   - Deseret
   - Extended Latin F
+  - Lydian
+  - Old South Arabian
+  - Old North Arabian
   - Lisu Supplement
   - Small Kana Forms
   - Ancient Greek Music Notation
@@ -109,6 +121,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Mathematical Alphanumeric Symbols (Mostly supported, minus the Uppercase fraktur letters)
   - Extended Latin G
   - Extended Cyrillic D
+  - Arabic Mathematical Alphabetic Symbols
   - Enclosed Alphanumeric Supplement (Mostly supported, including the Copyleft symbol, excluding a very small ammount of enclosed symbols with more than two letters)
   - Enclosed Ideographic Supplement (Supports certain Squared glyphs and parethesized glyphs)
   - Mahjong Tiles (Supports Red and White Dragons, Bamboo tiles as well as its back card)
@@ -137,7 +150,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 2485 different COLR glyphs (Of which 949 are Unicode, 199 are ZWJ, 30 are Country Flags, 234 are Component, 23 are SLS and 1050 are Skin Tone Emoji) , which consist of:
+- 2527 different COLR glyphs (Of which 964 are Unicode, 203 are ZWJ, 31 are Country Flags, 241 are Component, 23 are SLS and 1065 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -172,10 +185,12 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Arrows
     - Squares (White, Black)
     - Large Circle and Star
-  - Enclosed CJK Letters and Months (Supports two circled ideographs only)
   - CJK Symbols and Punctuation (Supports the following):
     - Wavy Dash
     - Part Alternation Mark
+  - Enclosed CJK Letters and Months (Supports two circled ideographs only)
+  - Variation Selectors (Variation Selectors 1, 2, 15 and 16 are supported)
+  - Arabic Presentation Forms-B (Supports Zero Width No Break Space only)
   - Enclosed Alphanumeric Supplement (Supports the following):
     - Negative Squared Letters (A, B, O, P, AB)
     - Squared Letters (CL, COOL, FREE, ID, NEW, NG, OK, SOS, UP!, VS)
@@ -467,7 +482,7 @@ Unicode range F000-F8FF is allocated for all Composite Characters deployed using
 This unicode block includes various advanced glyphs, including Component ones
 
 #### Component Glyphs (F0000 - F0FFF)
-Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 234 are supported currently
+Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 241 are supported currently
 
 #### Supplementary Letter Style Glyphs (F1000 - F1FFF)
 Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 271 are supported currently across 13 groups and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well, with 22 being available in both fonts. All holes in each subrange indicate that a character can either be found at a standarized unicode block like Letterlike Symbols or does not exist at all. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
