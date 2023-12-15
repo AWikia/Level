@@ -39,7 +39,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Letterlike Symbols (Many are supported, including stroked letters)
   - Number Forms
   - Arrows
-  - Mathematic Operators (Mostly supported, 68 glyphs are absent)
+  - Mathematic Operators (Mostly supported, 59 glyphs are absent)
   - Miscellaneous Technical (Supports the following):
     - Watch
     - Hourglasses
