@@ -441,8 +441,7 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0204 | E0CB    | Person Feeding Baby                         | 🧑‍🍼     |
 | 0205 | E0CC    | Man Feeding Baby                            | 👨‍🍼     |
 | 0206 | E0CD    | Woman Feeding Baby                          | 👩‍🍼     |
-
-
+| 0207 | E0CE    | Mx. Claus                                   | 🧑‍🎄     |
 
 #### Country Flags Glyphs (F000 - F8FF)
 Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following 31 glyphs:
@@ -725,12 +724,15 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 216 are supported 
 | 0208 | Fx0CF   | **Man Astronaut**                             | 👨🏻‍🚀👨🏼‍🚀👨🏽‍🚀👨🏾‍🚀👨🏿‍🚀  |
 | 0209 | Fx0D0   | **Woman Astronaut**                           | 👩🏻‍🚀👩🏼‍🚀👩🏽‍🚀👩🏾‍🚀👩🏿‍🚀  |
 | 0210 | Fx0D1   | Crossed Fingers                               | 🤞🏻🤞🏼🤞🏽🤞🏾🤞🏿  |
-| 0211 | Fx0D2   | Cook                                          | 🧑🏻‍🍳🧑🏼‍🍳🧑🏽‍🍳🧑🏾‍🍳🧑🏿‍🍳  |
-| 0212 | Fx0D3   | Man Cook                                      | 👨🏻‍🍳👨🏼‍🍳👨🏽‍🍳👨🏾‍🍳👨🏿‍🍳  |
-| 0213 | Fx0D4   | Woman Cook                                    | 👩🏻‍🍳👩🏼‍🍳👩🏽‍🍳👩🏾‍🍳👩🏿‍🍳  |
+| 0211 | Fx0D2   | **Cook**                                      | 🧑🏻‍🍳🧑🏼‍🍳🧑🏽‍🍳🧑🏾‍🍳🧑🏿‍🍳  |
+| 0212 | Fx0D3   | **Man Cook**                                  | 👨🏻‍🍳👨🏼‍🍳👨🏽‍🍳👨🏾‍🍳👨🏿‍🍳  |
+| 0213 | Fx0D4   | **Woman Cook**                                | 👩🏻‍🍳👩🏼‍🍳👩🏽‍🍳👩🏾‍🍳👩🏿‍🍳  |
 | 0214 | Fx0D5   | **Person Feeding Baby**                       | 🧑🏻‍🍼🧑🏼‍🍼🧑🏽‍🍼🧑🏾‍🍼🧑🏿‍🍼  |
 | 0215 | Fx0D6   | **Man Feeding Baby**                          | 👨🏻‍🍼👨🏼‍🍼👨🏽‍🍼👨🏾‍🍼👨🏿‍🍼  |
 | 0216 | Fx0D7   | **Woman Feeding Baby**                        | 👩🏻‍🍼👩🏼‍🍼👩🏽‍🍼👩🏾‍🍼👩🏿‍🍼  |
+| 0217 | Fx0D5   | Mr. Claus                                     | 🎅🏻🎅🏼🎅🏽🎅🏾🎅🏿  |
+| 0218 | Fx0D6   | Mrs. Claus                                    | 🤶🏻🤶🏼🤶🏽🤶🏾🤶🏿  |
+| 0219 | Fx0D7   | **Mx. Claus**                                 | 🧑🏻‍🎄🧑🏼‍🎄🧑🏽‍🎄🧑🏾‍🎄🧑🏿‍🎄  |
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
