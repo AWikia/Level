@@ -3,7 +3,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 12162 different glyphs (Of which 6979 are in BMP, 3498 in SMP, 11 in SIP, 97 are tags, 241 are Component, 271 are SLS and 1065 are Skin Tone Emoji) , supporting over 159 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 12433 different glyphs (Of which 7007 are in BMP, 3703 in SMP, 11 in SIP, 97 are tags, 249 are Component, 271 are SLS and 1095 are Skin Tone Emoji) , supporting over 159 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -21,6 +21,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - NKo
   - Extended Arabic B
   - Extended Arabic A
+  - Devanagari (Supports the Om symbol only)
   - Thai
   - Georgian
   - Cherokee
@@ -36,7 +37,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Superscripts and Subscripts
   - Currency Symbols
   - Combining Diacritical Marks for Symbols (Supports 7 glyphs currently)
-  - Letterlike Symbols (Many are supported, including stroked letters)
+  - Letterlike Symbols
   - Number Forms
   - Arrows
   - Mathematic Operators (Mostly supported, 59 glyphs are absent)
@@ -108,6 +109,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Old Italic
   - Gothic
   - Deseret
+  - Shavian
   - Extended Latin F
   - Lydian
   - Old South Arabian
@@ -126,7 +128,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Enclosed Ideographic Supplement (Supports certain Squared glyphs and parethesized glyphs)
   - Mahjong Tiles (Supports Red and White Dragons, Bamboo tiles as well as its back card)
   - Domino Tiles
-  - Miscellanneous Symbols and Pictographs (A few are supported, such as many food, with all non-emoji glyphs being supported)
+  - Playing Cards
+  - Miscellanneous Symbols and Pictographs (Many are supported, such as many food, with all non-emoji glyphs being supported)
   - Emoticons (Mostly supported)
   - Ornamental Dingbats (Many are supported)
   - Transport and Map Symbols (Supports the following):
@@ -150,7 +153,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 2527 different COLR glyphs (Of which 964 are Unicode, 203 are ZWJ, 31 are Country Flags, 241 are Component, 23 are SLS and 1065 are Skin Tone Emoji) , which consist of:
+- 2598 different COLR glyphs (Of which 993 are Unicode, 207 are ZWJ, 31 are Country Flags, 249 are Component, 23 are SLS and 1095 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
@@ -197,7 +200,8 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Regional Indicators required to create flag emojis
   - Enclosed Ideographic Supplement (Supports all 12 enclosed glyphs that are emoji)
   - Mahjong Tiles (Supports Red Dragon only)
-  - Miscellanneous Symbols and Pictographs  (A few are supported, such as many food, excluding non-emoji glyphs)
+  - Playing Cards (Supports Black Joker only)
+  - Miscellanneous Symbols and Pictographs  (Many are supported, such as many food, excluding non-emoji glyphs)
   - Emoticons (Mostly supported)
   - Geometric Shapes Extended (Supports the following):
     - Circles (Orange, Yellow, Green, Purple, Brown)
@@ -485,7 +489,7 @@ Unicode range F000-F8FF is allocated for all Composite Characters deployed using
 This unicode block includes various advanced glyphs, including Component ones
 
 #### Component Glyphs (F0000 - F0FFF)
-Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 241 are supported currently
+Unicode range F000-F0FFF is allocated for all Component Glyphs. Those glyphs are used for properly constructing the COLR font, but they can be used as stationary characters if needed by the user. 249 are supported currently
 
 #### Supplementary Letter Style Glyphs (F1000 - F1FFF)
 Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs and all glyphs. 271 are supported currently across 13 groups and are exclusive to the BW font unless its name is bolded in where it will exist in COLR font as well, with 22 being available in both fonts. All holes in each subrange indicate that a character can either be found at a standarized unicode block like Letterlike Symbols or does not exist at all. It is also allocated for glyphs constructed with combining characters, including the enclosing keycap glyphs
@@ -510,7 +514,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 216 are supported currently in each subrange, supporting 1095 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 219 are supported currently in each subrange, supporting 1095 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                                          | Glyphs |
 | ---- | ------- | --------------------------------------------- | ------ |
