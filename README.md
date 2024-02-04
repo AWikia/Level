@@ -446,6 +446,10 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0205 | E0CC    | Man Feeding Baby                            | 👨‍🍼     |
 | 0206 | E0CD    | Woman Feeding Baby                          | 👩‍🍼     |
 | 0207 | E0CE    | Mx. Claus                                   | 🧑‍🎄     |
+| 0208 | E0CF    | Student                                     | 🧑‍🎓     |
+| 0209 | E0D0    | Man Student                                 | 👨‍🎓     |
+| 0210 | E0Dq    | Woman Student                               | 👩‍🎓     |
+
 
 #### Country Flags Glyphs (F000 - F8FF)
 Unicode range F000-F8FF is allocated for all Composite Characters deployed using Regional Indicators which are in F000-F2A3 subrange and unlike others, when a new one is added it is not added next to the previously defined ones but in its intended spot based on its two-letter country code. It also contains subdivision flags at F2A4-F8FE and each time a new one gets added, it will appear next to the previously defined one. F8FF is the question mark flag and it is used when an invalid Regional Indicator sequence is being used  It includes the following 31 glyphs:
@@ -514,7 +518,7 @@ Unicode range F1000-F1FFF is allocated for all Supplementary Letter Style Glyphs
 Once glyphs from this range come to Unicode, those will be removed entirely from the original spot to encourage using the standarized equivalents, with the original spots being permanently unallocated so users can know that it had those glyphs previously. This does not apply to composition glyphs as those will permanently reside here (Like the Keycap Number glyphs)
 
 #### Emoji Skin Tones (F2000 - F6FFF)
-Unicode range F2000-F6FFF is allocated for all skinned emoji. 219 are supported currently in each subrange, supporting 1095 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
+Unicode range F2000-F6FFF is allocated for all skinned emoji. 222 are supported currently in each subrange, supporting 1110 total glyphs. Those with bolded names are ZWJ glyphs in addition which also include mixed-skin tone glyphs. Includes the following glyphs in both BW and COLR fonts (Where **x** is a hexadecimal number between 2 to 6):
 
 | No.  | Unicode | Name                                          | Glyphs |
 | ---- | ------- | --------------------------------------------- | ------ |
@@ -737,6 +741,10 @@ Unicode range F2000-F6FFF is allocated for all skinned emoji. 219 are supported 
 | 0217 | Fx0D8   | Mr. Claus                                     | 🎅🏻🎅🏼🎅🏽🎅🏾🎅🏿  |
 | 0218 | Fx0D9   | Mrs. Claus                                    | 🤶🏻🤶🏼🤶🏽🤶🏾🤶🏿  |
 | 0219 | Fx0DA   | **Mx. Claus**                                 | 🧑🏻‍🎄🧑🏼‍🎄🧑🏽‍🎄🧑🏾‍🎄🧑🏿‍🎄  |
+| 0220 | Fx0DB   | **Stduent**                                   | 🧑🏻‍🎓🧑🏼‍🎓🧑🏽‍🎓🧑🏾‍🎓🧑🏿‍🎓  |
+| 0221 | Fx0DC   | **Man Student**                               | 👨🏻‍🎓👨🏼‍🎓👨🏽‍🎓👨🏾‍🎓👨🏿‍🎓  |
+| 0222 | Fx0DD   | **Woman Student**                             | 👩🏻‍🎓👩🏼‍🎓👩🏽‍🎓👩🏾‍🎓👩🏿‍🎓  |
+
 
 
 ##### Light Skin Tone (F2000 - F2FFF)
