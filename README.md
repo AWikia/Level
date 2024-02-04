@@ -448,7 +448,7 @@ Unicode range E000-EFFF is allocated for all Composite Characters deployed using
 | 0207 | E0CE    | Mx. Claus                                   | 🧑‍🎄     |
 | 0208 | E0CF    | Student                                     | 🧑‍🎓     |
 | 0209 | E0D0    | Man Student                                 | 👨‍🎓     |
-| 0210 | E0Dq    | Woman Student                               | 👩‍🎓     |
+| 0210 | E0D1    | Woman Student                               | 👩‍🎓     |
 
 
 #### Country Flags Glyphs (F000 - F8FF)
