@@ -1,0 +1,1859 @@
+feature ccmp {
+# Glyph Composition/Decomposition
+
+#> feature
+#< feature
+
+  sub u1F3F3 uni200D uni26A7 by uniE000; # Transgender Flag
+  sub u1F3F3 uni200D u1F7E7 uni200D uni2B1B uni200D u1F7E7 by uniE001; # Refugee Nation Flag
+  sub u1F3F3 uni200D u1F308 by uniE002; # Rainbow Flag
+  sub u1F5A4 uni200D u1F494 by uniE003; # Broken Black Heart
+  sub u1F9E1 uni200D u1F494 by uniE004; # Broken Orange Heart
+  sub u1F49A uni200D u1F494 by uniE005; # Broken Green Heart
+  sub u1F49B uni200D u1F494 by uniE006; # Broken Yellow Heart
+  sub u1F49C uni200D u1F494 by uniE007; # Broken Purple Heart
+  sub u1F90D uni200D u1F494 by uniE008; # Broken White Heart
+  sub u1F90E uni200D u1F494 by uniE009; # Broken Brown Heart
+  sub u1F499 uni200D u1F494 by uniE00A; # Broken Blue Heart
+  sub u1FA75 uni200D u1F494 by uniE00B; # Broken Light Blue Heart
+  sub u1FA76 uni200D u1F494 by uniE00C; # Broken Gray Heart
+  sub u1FA77 uni200D u1F494 by uniE00D; # Broken Pink Heart
+  sub u1F34B uni200D u1F7E9 by uniE00E; # Lime
+  sub u1F3F3 uni200D u1F7E5 uni200D u1F7EA uni200D uni2B1C uni200D u1F7E8 uni200D uni2B1B by uniE00F; # Qora Qore Flag
+  sub u1F344 uni200D u1F7EB by uniE010; # Brown Mushroom
+  sub u1F426 uni200D uni2B1B by uniE011; # Black Bird
+  sub u1F426 uni200D u1F525 by uniE012; # Phoenix Bird
+  sub uni2764 uni200D u1F525 by uniE013; # Heart on Fire
+  sub u1F635 uni200D u1F4AB by uniE014; # Face with Spiral Eyes
+  sub u1F642 uni200D uni2195 by uniE015; # Head Shaking Vertically
+  sub u1F642 uni200D uni2194 by uniE016; # Head Shaking Horizontally
+  # Boy
+  sub u1F466 u1F3FB by uF2000; # 1
+  sub u1F466 u1F3FC by uF3000; # 2
+  sub u1F466 u1F3FD by uF4000; # 3
+  sub u1F466 u1F3FE by uF5000; # 4
+  sub u1F466 u1F3FF by uF6000; # 5
+  # Girl
+  sub u1F467 u1F3FB by uF2001; # 1
+  sub u1F467 u1F3FC by uF3001; # 2
+  sub u1F467 u1F3FD by uF4001; # 3
+  sub u1F467 u1F3FE by uF5001; # 4
+  sub u1F467 u1F3FF by uF6001; # 5
+  # Man
+  sub u1F468 u1F3FB by uF2002; # 1
+  sub u1F468 u1F3FC by uF3002; # 2
+  sub u1F468 u1F3FD by uF4002; # 3
+  sub u1F468 u1F3FE by uF5002; # 4
+  sub u1F468 u1F3FF by uF6002; # 5
+  # Woman
+  sub u1F469 u1F3FB by uF2003; # 1
+  sub u1F469 u1F3FC by uF3003; # 2
+  sub u1F469 u1F3FD by uF4003; # 3
+  sub u1F469 u1F3FE by uF5003; # 4
+  sub u1F469 u1F3FF by uF6003; # 5
+  # Person
+  sub u1F9D1 u1F3FB by uF2004; # 1
+  sub u1F9D1 u1F3FC by uF3004; # 2
+  sub u1F9D1 u1F3FD by uF4004; # 3
+  sub u1F9D1 u1F3FE by uF5004; # 4
+  sub u1F9D1 u1F3FF by uF6004; # 5
+  # Child
+  sub u1F9D2 u1F3FB by uF2005; # 1
+  sub u1F9D2 u1F3FC by uF3005; # 2
+  sub u1F9D2 u1F3FD by uF4005; # 3
+  sub u1F9D2 u1F3FE by uF5005; # 4
+  sub u1F9D2 u1F3FF by uF6005; # 5
+  # Frowing Person
+  sub u1F64D u1F3FB by uF2006; # 1
+  sub u1F64D u1F3FC by uF3006; # 2
+  sub u1F64D u1F3FD by uF4006; # 3
+  sub u1F64D u1F3FE by uF5006; # 4
+  sub u1F64D u1F3FF by uF6006; # 5
+  # Frowning Man
+  sub u1F64D uni200D uni2642 by uniE017; # Normal
+  sub u1F64D u1F3FB uni200D uni2642 by uF2007; # 1
+  sub u1F64D u1F3FC uni200D uni2642 by uF3007; # 2
+  sub u1F64D u1F3FD uni200D uni2642 by uF4007; # 3
+  sub u1F64D u1F3FE uni200D uni2642 by uF5007; # 4
+  sub u1F64D u1F3FF uni200D uni2642 by uF6007; # 5
+  # Frowning Woman
+  sub u1F64D uni200D uni2640 by uniE018; # Normal
+  sub u1F64D u1F3FB uni200D uni2640 by uF2008; # 1
+  sub u1F64D u1F3FC uni200D uni2640 by uF3008; # 2
+  sub u1F64D u1F3FD uni200D uni2640 by uF4008; # 3
+  sub u1F64D u1F3FE uni200D uni2640 by uF5008; # 4
+  sub u1F64D u1F3FF uni200D uni2640 by uF6008; # 5
+  # Enclosing Keycaps
+  sub one uni20E3 by uF10DE; # 1
+  sub one uniFE0F uni20E3 by uF10DE; # 1 (Emoji)
+
+
+  sub two uni20E3 by uF10DF; # 2
+  sub two uniFE0F uni20E3 by uF10DF; # 2 (Emoji)
+
+  sub three uni20E3 by uF10E0; # 3
+  sub three uniFE0F uni20E3 by uF10E0; # 3 (Emoji)
+
+  sub four uni20E3 by uF10E1; # 4
+  sub four uniFE0F uni20E3 by uF10E1; # 4 (Emoji)
+
+  sub five uni20E3 by uF10E2; # 5
+  sub five uniFE0F uni20E3 by uF10E2; # 5 (Emoji)
+
+  sub six uni20E3 by uF10E3; # 6
+  sub six uniFE0F uni20E3 by uF10E3; # 6 (Emoji)
+
+  sub seven uni20E3 by uF10E4; # 7
+  sub seven uniFE0F uni20E3 by uF10E4; # 7 (Emoji)
+
+  sub eight uni20E3 by uF10E5; # 8
+  sub eight uniFE0F uni20E3 by uF10E5; # 8 (Emoji)
+
+  sub nine uni20E3 by uF10E6; # 9
+  sub nine uniFE0F uni20E3 by uF10E6; # 9 (Emoji)
+
+  sub zero uni20E3 by uF10E7; # 0
+  sub zero uniFE0F uni20E3 by uF10E7; # 0 (Emoji)
+
+  sub asterisk uni20E3 by uF10E8; # Asterisk
+  sub asterisk uniFE0F uni20E3 by uF10E8; # Asterisk (Emoji)
+
+  sub numbersign uni20E3 by uF10E9; # Number Sign
+  sub numbersign uniFE0F uni20E3 by uF10E9; # Number Sign (Emoji)
+  # Person Standing
+  sub u1F9CD u1F3FB by uF2009; # 1
+  sub u1F9CD u1F3FC by uF3009; # 2
+  sub u1F9CD u1F3FD by uF4009; # 3
+  sub u1F9CD u1F3FE by uF5009; # 4
+  sub u1F9CD u1F3FF by uF6009; # 5
+  # Man Standing
+  sub u1F9CD uni200D uni2642 by uniE019; # Normal
+  sub u1F9CD u1F3FB uni200D uni2642 by uF200A; # 1
+  sub u1F9CD u1F3FC uni200D uni2642 by uF300A; # 2
+  sub u1F9CD u1F3FD uni200D uni2642 by uF400A; # 3
+  sub u1F9CD u1F3FE uni200D uni2642 by uF500A; # 4
+  sub u1F9CD u1F3FF uni200D uni2642 by uF600A; # 5
+  # Woman Standing
+  sub u1F9CD uni200D uni2640 by uniE01A; # Normal
+  sub u1F9CD u1F3FB uni200D uni2640 by uF200B; # 1
+  sub u1F9CD u1F3FC uni200D uni2640 by uF300B; # 2
+  sub u1F9CD u1F3FD uni200D uni2640 by uF400B; # 3
+  sub u1F9CD u1F3FE uni200D uni2640 by uF500B; # 4
+  sub u1F9CD u1F3FF uni200D uni2640 by uF600B; # 5
+  # Fronthand Index Pointing Up
+  sub uni261D u1F3FB by uF200C; # 1
+  sub uni261D u1F3FC by uF300C; # 2
+  sub uni261D u1F3FD by uF400C; # 3
+  sub uni261D u1F3FE by uF500C; # 4
+  sub uni261D u1F3FF by uF600C; # 5
+  # Index Pointing Up
+  sub u1F446 u1F3FB by uF200D; # 1
+  sub u1F446 u1F3FC by uF300D; # 2
+  sub u1F446 u1F3FD by uF400D; # 3
+  sub u1F446 u1F3FE by uF500D; # 4
+  sub u1F446 u1F3FF by uF600D; # 5
+  # Index Pointing Down
+  sub u1F447 u1F3FB by uF200E; # 1
+  sub u1F447 u1F3FC by uF300E; # 2
+  sub u1F447 u1F3FD by uF400E; # 3
+  sub u1F447 u1F3FE by uF500E; # 4
+  sub u1F447 u1F3FF by uF600E; # 5
+  # Index Pointing Left
+  sub u1F448 u1F3FB by uF200F; # 1
+  sub u1F448 u1F3FC by uF300F; # 2
+  sub u1F448 u1F3FD by uF400F; # 3
+  sub u1F448 u1F3FE by uF500F; # 4
+  sub u1F448 u1F3FF by uF600F; # 5
+  # Index Pointing Right
+  sub u1F449 u1F3FB by uF2010; # 1
+  sub u1F449 u1F3FC by uF3010; # 2
+  sub u1F449 u1F3FD by uF4010; # 3
+  sub u1F449 u1F3FE by uF5010; # 4
+  sub u1F449 u1F3FF by uF6010; # 5
+  # Rightwards Hand
+  sub u1FAF1 u1F3FB by uF2011; # 1
+  sub u1FAF1 u1F3FC by uF3011; # 2
+  sub u1FAF1 u1F3FD by uF4011; # 3
+  sub u1FAF1 u1F3FE by uF5011; # 4
+  sub u1FAF1 u1F3FF by uF6011; # 5
+  # Leftwards Hand
+  sub u1FAF2 u1F3FB by uF2012; # 1
+  sub u1FAF2 u1F3FC by uF3012; # 2
+  sub u1FAF2 u1F3FD by uF4012; # 3
+  sub u1FAF2 u1F3FE by uF5012; # 4
+  sub u1FAF2 u1F3FF by uF6012; # 5
+  # Raised Back of Hand
+  sub u1F91A u1F3FB by uF2013; # 1
+  sub u1F91A u1F3FC by uF3013; # 2
+  sub u1F91A u1F3FD by uF4013; # 3
+  sub u1F91A u1F3FE by uF5013; # 4
+  sub u1F91A u1F3FF by uF6013; # 5
+  # Handshake (S: Skin Tone 0)
+  sub u1FAF1 uni200D u1FAF2 by u1F91D; # 0-0
+  sub u1FAF1 u1F3FB uni200D u1FAF2 by uF2014; # 1-0
+  sub u1FAF1 u1F3FC uni200D u1FAF2 by uF3014; # 2-0
+  sub u1FAF1 u1F3FD uni200D u1FAF2 by uF4014; # 3-0
+  sub u1FAF1 u1F3FE uni200D u1FAF2 by uF5014; # 4-0
+  sub u1FAF1 u1F3FF uni200D u1FAF2 by uF6014; # 5-0
+  # Handshake (S: Skin Tone 1)
+  sub u1F91D u1F3FB by uF2015; # Shared
+  sub u1FAF1 uni200D u1FAF2 u1F3FB by uniE01B; # 0-1
+  sub u1FAF1 u1F3FB uni200D u1FAF2 u1F3FB by uF2015; # 1-1
+  sub u1FAF1 u1F3FC uni200D u1FAF2 u1F3FB by uF3015; # 2-1
+  sub u1FAF1 u1F3FD uni200D u1FAF2 u1F3FB by uF4015; # 3-1
+  sub u1FAF1 u1F3FE uni200D u1FAF2 u1F3FB by uF5015; # 4-1
+  sub u1FAF1 u1F3FF uni200D u1FAF2 u1F3FB by uF6015; # 5-1
+  # Handshake (S: Skin Tone 2)
+  sub u1F91D u1F3FC by uF3016; # Shared
+  sub u1FAF1 uni200D u1FAF2 u1F3FC by uniE01C; # 0-2
+  sub u1FAF1 u1F3FB uni200D u1FAF2 u1F3FC by uF2016; # 1-2
+  sub u1FAF1 u1F3FC uni200D u1FAF2 u1F3FC by uF3016; # 2-2
+  sub u1FAF1 u1F3FD uni200D u1FAF2 u1F3FC by uF4016; # 3-2
+  sub u1FAF1 u1F3FE uni200D u1FAF2 u1F3FC by uF5016; # 4-2
+  sub u1FAF1 u1F3FF uni200D u1FAF2 u1F3FC by uF6016; # 5-2
+  # Handshake (S: Skin Tone 3)
+  sub u1F91D u1F3FD by uF4017; # Shared
+  sub u1FAF1 uni200D u1FAF2 u1F3FD by uniE01D; # 0-3
+  sub u1FAF1 u1F3FB uni200D u1FAF2 u1F3FD by uF2017; # 1-3
+  sub u1FAF1 u1F3FC uni200D u1FAF2 u1F3FD by uF3017; # 2-3
+  sub u1FAF1 u1F3FD uni200D u1FAF2 u1F3FD by uF4017; # 3-3
+  sub u1FAF1 u1F3FE uni200D u1FAF2 u1F3FD by uF5017; # 4-3
+  sub u1FAF1 u1F3FF uni200D u1FAF2 u1F3FD by uF6017; # 5-3
+  # Handshake (S: Skin Tone 4)
+  sub u1F91D u1F3FE by uF5018; # Shared
+  sub u1FAF1 uni200D u1FAF2 u1F3FE by uniE01E; # 0-4
+  sub u1FAF1 u1F3FB uni200D u1FAF2 u1F3FE by uF2018; # 1-4
+  sub u1FAF1 u1F3FC uni200D u1FAF2 u1F3FE by uF3018; # 2-4
+  sub u1FAF1 u1F3FD uni200D u1FAF2 u1F3FE by uF4018; # 3-4
+  sub u1FAF1 u1F3FE uni200D u1FAF2 u1F3FE by uF5018; # 4-4
+  sub u1FAF1 u1F3FF uni200D u1FAF2 u1F3FE by uF6018; # 5-4
+  # Handshake (S: Skin Tone 5)
+  sub u1F91D u1F3FF by uF6019; # Shared
+  sub u1FAF1 uni200D u1FAF2 u1F3FF by uniE01F; # 0-5
+  sub u1FAF1 u1F3FB uni200D u1FAF2 u1F3FF by uF2019; # 1-5
+  sub u1FAF1 u1F3FC uni200D u1FAF2 u1F3FF by uF3019; # 2-5
+  sub u1FAF1 u1F3FD uni200D u1FAF2 u1F3FF by uF4019; # 3-5
+  sub u1FAF1 u1F3FE uni200D u1FAF2 u1F3FF by uF5019; # 4-5
+  sub u1FAF1 u1F3FF uni200D u1FAF2 u1F3FF by uF6019; # 5-5
+  # W&M Holding Hands (S: Skin Tone 0)
+  sub u1F469 uni200D u1F91D uni200D u1F468 by u1F46B; # 0-0
+  sub u1F469 u1F3FB uni200D u1F91D uni200D u1F468 by uF201A; # 1-0
+  sub u1F469 u1F3FC uni200D u1F91D uni200D u1F468 by uF301A; # 2-0
+  sub u1F469 u1F3FD uni200D u1F91D uni200D u1F468 by uF401A; # 3-0
+  sub u1F469 u1F3FE uni200D u1F91D uni200D u1F468 by uF501A; # 4-0
+  sub u1F469 u1F3FF uni200D u1F91D uni200D u1F468 by uF601A; # 5-0
+  # W&M Holding Hands (S: Skin Tone 1)
+  sub u1F46B u1F3FB by uF201B; # Shared
+  sub u1F469 uni200D u1F91D uni200D u1F468 u1F3FB by uniE020; # 0-1
+  sub u1F469 u1F3FB uni200D u1F91D uni200D u1F468 u1F3FB by uF201B; # 1-1
+  sub u1F469 u1F3FC uni200D u1F91D uni200D u1F468 u1F3FB by uF301B; # 2-1
+  sub u1F469 u1F3FD uni200D u1F91D uni200D u1F468 u1F3FB by uF401B; # 3-1
+  sub u1F469 u1F3FE uni200D u1F91D uni200D u1F468 u1F3FB by uF501B; # 4-1
+  sub u1F469 u1F3FF uni200D u1F91D uni200D u1F468 u1F3FB by uF601B; # 5-1
+  # W&M Holding Hands (S: Skin Tone 2)
+  sub u1F46B u1F3FC by uF301C; # Shared
+  sub u1F469 uni200D u1F91D uni200D u1F468 u1F3FC by uniE021; # 0-2
+  sub u1F469 u1F3FB uni200D u1F91D uni200D u1F468 u1F3FC by uF201C; # 1-2
+  sub u1F469 u1F3FC uni200D u1F91D uni200D u1F468 u1F3FC by uF301C; # 2-2
+  sub u1F469 u1F3FD uni200D u1F91D uni200D u1F468 u1F3FC by uF401C; # 3-2
+  sub u1F469 u1F3FE uni200D u1F91D uni200D u1F468 u1F3FC by uF501C; # 4-2
+  sub u1F469 u1F3FF uni200D u1F91D uni200D u1F468 u1F3FC by uF601C; # 5-2
+  # W&M Holding Hands (S: Skin Tone 3)
+  sub u1F46B u1F3FD by uF401D; # Shared
+  sub u1F469 uni200D u1F91D uni200D u1F468 u1F3FD by uniE022; # 0-3
+  sub u1F469 u1F3FB uni200D u1F91D uni200D u1F468 u1F3FD by uF201D; # 1-3
+  sub u1F469 u1F3FC uni200D u1F91D uni200D u1F468 u1F3FD by uF301D; # 2-3
+  sub u1F469 u1F3FD uni200D u1F91D uni200D u1F468 u1F3FD by uF401D; # 3-3
+  sub u1F469 u1F3FE uni200D u1F91D uni200D u1F468 u1F3FD by uF501D; # 4-3
+  sub u1F469 u1F3FF uni200D u1F91D uni200D u1F468 u1F3FD by uF601D; # 5-3
+  # W&M Holding Hands (S: Skin Tone 4)
+  sub u1F46B u1F3FE by uF501E; # Shared
+  sub u1F469 uni200D u1F91D uni200D u1F468 u1F3FE by uniE023; # 0-4
+  sub u1F469 u1F3FB uni200D u1F91D uni200D u1F468 u1F3FE by uF201E; # 1-4
+  sub u1F469 u1F3FC uni200D u1F91D uni200D u1F468 u1F3FE by uF301E; # 2-4
+  sub u1F469 u1F3FD uni200D u1F91D uni200D u1F468 u1F3FE by uF401E; # 3-4
+  sub u1F469 u1F3FE uni200D u1F91D uni200D u1F468 u1F3FE by uF501E; # 4-4
+  sub u1F469 u1F3FF uni200D u1F91D uni200D u1F468 u1F3FE by uF601E; # 5-4
+  # W&M Holding Hands (S: Skin Tone 5)
+  sub u1F46B u1F3FF by uF601F; # Shared
+  sub u1F469 uni200D u1F91D uni200D u1F468 u1F3FF by uniE024; # 0-5
+  sub u1F469 u1F3FB uni200D u1F91D uni200D u1F468 u1F3FF by uF201F; # 1-5
+  sub u1F469 u1F3FC uni200D u1F91D uni200D u1F468 u1F3FF by uF301F; # 2-5
+  sub u1F469 u1F3FD uni200D u1F91D uni200D u1F468 u1F3FF by uF401F; # 3-5
+  sub u1F469 u1F3FE uni200D u1F91D uni200D u1F468 u1F3FF by uF501F; # 4-5
+  sub u1F469 u1F3FF uni200D u1F91D uni200D u1F468 u1F3FF by uF601F; # 5-5
+  # M&M Holding Hands (S: Skin Tone 0)
+  sub u1F468 uni200D u1F91D uni200D u1F468 by u1F46C; # 0-0
+  sub u1F468 u1F3FB uni200D u1F91D uni200D u1F468 by uF2020; # 1-0
+  sub u1F468 u1F3FC uni200D u1F91D uni200D u1F468 by uF3020; # 2-0
+  sub u1F468 u1F3FD uni200D u1F91D uni200D u1F468 by uF4020; # 3-0
+  sub u1F468 u1F3FE uni200D u1F91D uni200D u1F468 by uF5020; # 4-0
+  sub u1F468 u1F3FF uni200D u1F91D uni200D u1F468 by uF6020; # 5-0
+  # M&M Holding Hands (S: Skin Tone 1)
+  sub u1F46C u1F3FB by uF201B; # Shared
+  sub u1F468 uni200D u1F91D uni200D u1F468 u1F3FB by uniE025; # 0-1
+  sub u1F468 u1F3FB uni200D u1F91D uni200D u1F468 u1F3FB by uF2021; # 1-1
+  sub u1F468 u1F3FC uni200D u1F91D uni200D u1F468 u1F3FB by uF3021; # 2-1
+  sub u1F468 u1F3FD uni200D u1F91D uni200D u1F468 u1F3FB by uF4021; # 3-1
+  sub u1F468 u1F3FE uni200D u1F91D uni200D u1F468 u1F3FB by uF5021; # 4-1
+  sub u1F468 u1F3FF uni200D u1F91D uni200D u1F468 u1F3FB by uF6021; # 5-1
+  # M&M Holding Hands (S: Skin Tone 2)
+  sub u1F46C u1F3FC by uF301C; # Shared
+  sub u1F468 uni200D u1F91D uni200D u1F468 u1F3FC by uniE026; # 0-2
+  sub u1F468 u1F3FB uni200D u1F91D uni200D u1F468 u1F3FC by uF2022; # 1-2
+  sub u1F468 u1F3FC uni200D u1F91D uni200D u1F468 u1F3FC by uF3022; # 2-2
+  sub u1F468 u1F3FD uni200D u1F91D uni200D u1F468 u1F3FC by uF4022; # 3-2
+  sub u1F468 u1F3FE uni200D u1F91D uni200D u1F468 u1F3FC by uF5022; # 4-2
+  sub u1F468 u1F3FF uni200D u1F91D uni200D u1F468 u1F3FC by uF6022; # 5-2
+  # M&M Holding Hands (S: Skin Tone 3)
+  sub u1F46C u1F3FD by uF401D; # Shared
+  sub u1F468 uni200D u1F91D uni200D u1F468 u1F3FD by uniE027; # 0-3
+  sub u1F468 u1F3FB uni200D u1F91D uni200D u1F468 u1F3FD by uF2023; # 1-3
+  sub u1F468 u1F3FC uni200D u1F91D uni200D u1F468 u1F3FD by uF3023; # 2-3
+  sub u1F468 u1F3FD uni200D u1F91D uni200D u1F468 u1F3FD by uF4023; # 3-3
+  sub u1F468 u1F3FE uni200D u1F91D uni200D u1F468 u1F3FD by uF5023; # 4-3
+  sub u1F468 u1F3FF uni200D u1F91D uni200D u1F468 u1F3FD by uF6023; # 5-3
+  # M&M Holding Hands (S: Skin Tone 4)
+  sub u1F46C u1F3FE by uF501E; # Shared
+  sub u1F468 uni200D u1F91D uni200D u1F468 u1F3FE by uniE028; # 0-4
+  sub u1F468 u1F3FB uni200D u1F91D uni200D u1F468 u1F3FE by uF2024; # 1-4
+  sub u1F468 u1F3FC uni200D u1F91D uni200D u1F468 u1F3FE by uF3024; # 2-4
+  sub u1F468 u1F3FD uni200D u1F91D uni200D u1F468 u1F3FE by uF4024; # 3-4
+  sub u1F468 u1F3FE uni200D u1F91D uni200D u1F468 u1F3FE by uF5024; # 4-4
+  sub u1F468 u1F3FF uni200D u1F91D uni200D u1F468 u1F3FE by uF6024; # 5-4
+  # M&M Holding Hands (S: Skin Tone 5)
+  sub u1F46C u1F3FF by uF601F; # Shared
+  sub u1F468 uni200D u1F91D uni200D u1F468 u1F3FF by uniE029; # 0-5
+  sub u1F468 u1F3FB uni200D u1F91D uni200D u1F468 u1F3FF by uF2025; # 1-5
+  sub u1F468 u1F3FC uni200D u1F91D uni200D u1F468 u1F3FF by uF3025; # 2-5
+  sub u1F468 u1F3FD uni200D u1F91D uni200D u1F468 u1F3FF by uF4025; # 3-5
+  sub u1F468 u1F3FE uni200D u1F91D uni200D u1F468 u1F3FF by uF5025; # 4-5
+  sub u1F468 u1F3FF uni200D u1F91D uni200D u1F468 u1F3FF by uF6025; # 5-5
+  # W&W Holding Hands (S: Skin Tone 0)
+  sub u1F469 uni200D u1F91D uni200D u1F469 by u1F46D; # 0-0
+  sub u1F469 u1F3FB uni200D u1F91D uni200D u1F469 by uF2026; # 1-0
+  sub u1F469 u1F3FC uni200D u1F91D uni200D u1F469 by uF3026; # 2-0
+  sub u1F469 u1F3FD uni200D u1F91D uni200D u1F469 by uF4026; # 3-0
+  sub u1F469 u1F3FE uni200D u1F91D uni200D u1F469 by uF5026; # 4-0
+  sub u1F469 u1F3FF uni200D u1F91D uni200D u1F469 by uF6026; # 5-0
+  # W&W Holding Hands (S: Skin Tone 1)
+  sub u1F46D u1F3FB by uF201B; # Shared
+  sub u1F469 uni200D u1F91D uni200D u1F469 u1F3FB by uniE02A; # 0-1
+  sub u1F469 u1F3FB uni200D u1F91D uni200D u1F469 u1F3FB by uF2027; # 1-1
+  sub u1F469 u1F3FC uni200D u1F91D uni200D u1F469 u1F3FB by uF3027; # 2-1
+  sub u1F469 u1F3FD uni200D u1F91D uni200D u1F469 u1F3FB by uF4027; # 3-1
+  sub u1F469 u1F3FE uni200D u1F91D uni200D u1F469 u1F3FB by uF5027; # 4-1
+  sub u1F469 u1F3FF uni200D u1F91D uni200D u1F469 u1F3FB by uF6027; # 5-1
+  # W&W Holding Hands (S: Skin Tone 2)
+  sub u1F46D u1F3FC by uF301C; # Shared
+  sub u1F469 uni200D u1F91D uni200D u1F469 u1F3FC by uniE02B; # 0-2
+  sub u1F469 u1F3FB uni200D u1F91D uni200D u1F469 u1F3FC by uF2028; # 1-2
+  sub u1F469 u1F3FC uni200D u1F91D uni200D u1F469 u1F3FC by uF3028; # 2-2
+  sub u1F469 u1F3FD uni200D u1F91D uni200D u1F469 u1F3FC by uF4028; # 3-2
+  sub u1F469 u1F3FE uni200D u1F91D uni200D u1F469 u1F3FC by uF5028; # 4-2
+  sub u1F469 u1F3FF uni200D u1F91D uni200D u1F469 u1F3FC by uF6028; # 5-2
+  # W&W Holding Hands (S: Skin Tone 3)
+  sub u1F46D u1F3FD by uF401D; # Shared
+  sub u1F469 uni200D u1F91D uni200D u1F469 u1F3FD by uniE02C; # 0-3
+  sub u1F469 u1F3FB uni200D u1F91D uni200D u1F469 u1F3FD by uF2029; # 1-3
+  sub u1F469 u1F3FC uni200D u1F91D uni200D u1F469 u1F3FD by uF3029; # 2-3
+  sub u1F469 u1F3FD uni200D u1F91D uni200D u1F469 u1F3FD by uF4029; # 3-3
+  sub u1F469 u1F3FE uni200D u1F91D uni200D u1F469 u1F3FD by uF5029; # 4-3
+  sub u1F469 u1F3FF uni200D u1F91D uni200D u1F469 u1F3FD by uF6029; # 5-3
+  # W&W Holding Hands (S: Skin Tone 4)
+  sub u1F46D u1F3FE by uF501E; # Shared
+  sub u1F469 uni200D u1F91D uni200D u1F469 u1F3FE by uniE02D; # 0-4
+  sub u1F469 u1F3FB uni200D u1F91D uni200D u1F469 u1F3FE by uF202A; # 1-4
+  sub u1F469 u1F3FC uni200D u1F91D uni200D u1F469 u1F3FE by uF302A; # 2-4
+  sub u1F469 u1F3FD uni200D u1F91D uni200D u1F469 u1F3FE by uF402A; # 3-4
+  sub u1F469 u1F3FE uni200D u1F91D uni200D u1F469 u1F3FE by uF502A; # 4-4
+  sub u1F469 u1F3FF uni200D u1F91D uni200D u1F469 u1F3FE by uF602A; # 5-4
+  # W&W Holding Hands (S: Skin Tone 5)
+  sub u1F46D u1F3FF by uF601F; # Shared
+  sub u1F469 uni200D u1F91D uni200D u1F469 u1F3FF by uniE02E; # 0-5
+  sub u1F469 u1F3FB uni200D u1F91D uni200D u1F469 u1F3FF by uF202B; # 1-5
+  sub u1F469 u1F3FC uni200D u1F91D uni200D u1F469 u1F3FF by uF302B; # 2-5
+  sub u1F469 u1F3FD uni200D u1F91D uni200D u1F469 u1F3FF by uF402B; # 3-5
+  sub u1F469 u1F3FE uni200D u1F91D uni200D u1F469 u1F3FF by uF502B; # 4-5
+  sub u1F469 u1F3FF uni200D u1F91D uni200D u1F469 u1F3FF by uF602B; # 5-5
+  # P&P Holding Hands (S: Skin Tone 0)
+  sub u1F9D1 uni200D u1F91D uni200D u1F9D1 by uniE02F; # 0-0
+  sub u1F9D1 u1F3FB uni200D u1F91D uni200D u1F9D1 by uF202C; # 1-0
+  sub u1F9D1 u1F3FC uni200D u1F91D uni200D u1F9D1 by uF302C; # 2-0
+  sub u1F9D1 u1F3FD uni200D u1F91D uni200D u1F9D1 by uF402C; # 3-0
+  sub u1F9D1 u1F3FE uni200D u1F91D uni200D u1F9D1 by uF502C; # 4-0
+  sub u1F9D1 u1F3FF uni200D u1F91D uni200D u1F9D1 by uF602C; # 5-0
+  # P&P Holding Hands (S: Skin Tone 1)
+  sub u1F9D1 uni200D u1F91D uni200D u1F9D1 u1F3FB by uniE030; # 0-1
+  sub u1F9D1 u1F3FB uni200D u1F91D uni200D u1F9D1 u1F3FB by uF202D; # 1-1
+  sub u1F9D1 u1F3FC uni200D u1F91D uni200D u1F9D1 u1F3FB by uF302D; # 2-1
+  sub u1F9D1 u1F3FD uni200D u1F91D uni200D u1F9D1 u1F3FB by uF402D; # 3-1
+  sub u1F9D1 u1F3FE uni200D u1F91D uni200D u1F9D1 u1F3FB by uF502D; # 4-1
+  sub u1F9D1 u1F3FF uni200D u1F91D uni200D u1F9D1 u1F3FB by uF602D; # 5-1
+  # P&P Holding Hands (S: Skin Tone 2)
+  sub u1F9D1 uni200D u1F91D uni200D u1F9D1 u1F3FC by uniE031; # 0-2
+  sub u1F9D1 u1F3FB uni200D u1F91D uni200D u1F9D1 u1F3FC by uF202E; # 1-2
+  sub u1F9D1 u1F3FC uni200D u1F91D uni200D u1F9D1 u1F3FC by uF302E; # 2-2
+  sub u1F9D1 u1F3FD uni200D u1F91D uni200D u1F9D1 u1F3FC by uF402E; # 3-2
+  sub u1F9D1 u1F3FE uni200D u1F91D uni200D u1F9D1 u1F3FC by uF502E; # 4-2
+  sub u1F9D1 u1F3FF uni200D u1F91D uni200D u1F9D1 u1F3FC by uF602E; # 5-2
+  # P&P Holding Hands (S: Skin Tone 3)
+  sub u1F9D1 uni200D u1F91D uni200D u1F9D1 u1F3FD by uniE032; # 0-3
+  sub u1F9D1 u1F3FB uni200D u1F91D uni200D u1F9D1 u1F3FD by uF202F; # 1-3
+  sub u1F9D1 u1F3FC uni200D u1F91D uni200D u1F9D1 u1F3FD by uF302F; # 2-3
+  sub u1F9D1 u1F3FD uni200D u1F91D uni200D u1F9D1 u1F3FD by uF402F; # 3-3
+  sub u1F9D1 u1F3FE uni200D u1F91D uni200D u1F9D1 u1F3FD by uF502F; # 4-3
+  sub u1F9D1 u1F3FF uni200D u1F91D uni200D u1F9D1 u1F3FD by uF602F; # 5-3
+  # P&P Holding Hands (S: Skin Tone 4)
+  sub u1F9D1 uni200D u1F91D uni200D u1F9D1 u1F3FE by uniE033; # 0-4
+  sub u1F9D1 u1F3FB uni200D u1F91D uni200D u1F9D1 u1F3FE by uF2030; # 1-4
+  sub u1F9D1 u1F3FC uni200D u1F91D uni200D u1F9D1 u1F3FE by uF3030; # 2-4
+  sub u1F9D1 u1F3FD uni200D u1F91D uni200D u1F9D1 u1F3FE by uF4030; # 3-4
+  sub u1F9D1 u1F3FE uni200D u1F91D uni200D u1F9D1 u1F3FE by uF5030; # 4-4
+  sub u1F9D1 u1F3FF uni200D u1F91D uni200D u1F9D1 u1F3FE by uF6030; # 5-4
+  # P&P Holding Hands (S: Skin Tone 5)
+  sub u1F9D1 uni200D u1F91D uni200D u1F9D1 u1F3FF by uniE034; # 0-5
+  sub u1F9D1 u1F3FB uni200D u1F91D uni200D u1F9D1 u1F3FF by uF2031; # 1-5
+  sub u1F9D1 u1F3FC uni200D u1F91D uni200D u1F9D1 u1F3FF by uF3031; # 2-5
+  sub u1F9D1 u1F3FD uni200D u1F91D uni200D u1F9D1 u1F3FF by uF4031; # 3-5
+  sub u1F9D1 u1F3FE uni200D u1F91D uni200D u1F9D1 u1F3FF by uF5031; # 4-5
+  sub u1F9D1 u1F3FF uni200D u1F91D uni200D u1F9D1 u1F3FF by uF6031; # 5-5
+
+# Valid Subdivision Flag sequences
+  sub u1F3F4 uE0067 uE0062 uE0065 uE006E uE0067 uE007F by uniF2A4; # England/gbeng
+  sub u1F3F4 uE0067 uE0062 uE0073 uE0063 uE0074 uE007F by uniF2A5; # Scotland/gbsct
+  sub u1F3F4 uE0067 uE0062 uE0077 uE006C uE0073 uE007F by uniF2A6; # Wales/gbwls
+  sub u1F3F4 uE0075 uE0073 uE0074 uE0078 uE007F by uniF2A7; # Texas/ustx
+
+# Valid Flag Sequences
+  sub u1F1E6 u1F1E9 by uniF003; # Andorra/AD
+  sub u1F1E6 u1F1EB by uniF005; # Afghanistan/AF
+  sub u1F1E7 u1F1EA by uniF01E; # Belgium/BE
+  sub u1F1E8 u1F1EE by uniF03C; # Côte d'Ivoire/CI
+  sub u1F1E8 u1F1F3 by uniF041; # China/CN
+  sub u1F1E8 u1F1F6 by uniF044; # Sark/CQ
+  sub u1F1E9 u1F1EA by uniF052; # Germany/DE
+  sub u1F1EA u1F1F8 by uniF07A; # Spain/ES
+  sub u1F1EA u1F1FA by uniF07C; # European Union/EU
+  sub u1F1EB u1F1F7 by uniF093; # France/FR
+  sub u1F1EC u1F1E7 by uniF09D; # Great Britain/GB
+  sub u1F1EC u1F1F3 by uniF0A9; # Guinea/GN
+  sub u1F1EC u1F1F7 by uniF0AD; # Greece/GR
+  sub u1F1EE u1F1E8 by uniF0D2; # Canary Islands/IC
+  sub u1F1EE u1F1EA by uniF0D4; # Ireland/IE
+  sub u1F1EE u1F1F9 by uniF0E3; # Italy/IT
+  sub u1F1EF u1F1F5 by uniF0F9; # Japan/JP
+  sub u1F1F0 u1F1F7 by uniF115; # Korea/KR
+  sub u1F1F2 u1F1F1 by uniF143; # Mali/ML
+  sub u1F1F3 u1F1EC by uniF158; # Nigeria/NG
+  sub u1F1F5 u1F1EA by uniF18A; # Peru/PE
+  sub u1F1F7 u1F1F4 by uniF1C8; # Romania/RO
+  sub u1F1F7 u1F1FA by uniF1CE; # Russia/RU
+  sub u1F1F8 u1F1F3 by uniF1E1; # Senegal/SN
+  sub u1F1F9 u1F1E9 by uniF1F1; # Chad/TD
+  sub u1F1FA u1F1F8 by uniF21A; # USA/US
+
+  # Invalid Flag Sequences
+  sub u1F1E6 [u1F1E6 u1F1E7 u1F1ED u1F1EF u1F1F0 u1F1F5 u1F1FB u1F1FE] by uniF8FF; # A
+  sub u1F1E7 [u1F1E8 u1F1F0 u1F1F5 u1F1FD] by uniF8FF; # B
+  sub u1F1E8 [u1F1E7 u1F1EA u1F1EF u1F1F9] by uniF8FF; # C
+  sub u1F1E9 [u1F1E6 u1F1E7 u1F1E8 u1F1EB u1F1ED u1F1EE u1F1F1 u1F1F3 u1F1F5 u1F1F6 u1F1F7 u1F1F8 u1F1F9 u1F1FA u1F1FB u1F1FC u1F1FD u1F1FE] by uniF8FF; # D
+  sub u1F1EA [u1F1E7 u1F1E9 u1F1EB u1F1EE u1F1EF u1F1F0 u1F1F1 u1F1F2 u1F1F3 u1F1F4 u1F1F5 u1F1F6 u1F1FB u1F1FC u1F1FD u1F1FE u1F1FF] by uniF8FF; # E
+  sub u1F1EB [u1F1E6 u1F1E7 u1F1E8 u1F1E9 u1F1EA u1F1EB u1F1EC u1F1ED u1F1F1 u1F1F3 u1F1F5 u1F1F6 u1F1F8 u1F1F9 u1F1FA u1F1FB u1F1FC u1F1FE u1F1FF] by uniF8FF; # F
+  sub u1F1EC [u1F1E8 u1F1EF u1F1F0 u1F1F4 u1F1FD u1F1FF] by uniF8FF; # G
+  sub u1F1ED [u1F1E6 u1F1E7 u1F1E8 u1F1E9 u1F1EA u1F1EB u1F1EC u1F1ED u1F1EE u1F1EF u1F1F1 u1F1F4 u1F1F5 u1F1F6 u1F1F8 u1F1FB u1F1FC u1F1FD u1F1FE u1F1FF] by uniF8FF; # H
+  sub u1F1EE [u1F1E6 u1F1E7 u1F1EB u1F1EC u1F1ED u1F1EE u1F1EF u1F1F0 u1F1F5 u1F1FA u1F1FB u1F1FC u1F1FD u1F1FE u1F1FF] by uniF8FF; # I
+  sub u1F1EF [u1F1E6 u1F1E7 u1F1E8 u1F1E9 u1F1EB u1F1EC u1F1ED u1F1EE u1F1EF u1F1F0 u1F1F1 u1F1F3 u1F1F6 u1F1F7 u1F1F8 u1F1F9 u1F1FA u1F1FB u1F1FC u1F1FD u1F1FE u1F1FF] by uniF8FF; # J
+  sub u1F1F0 [u1F1E6 u1F1E7 u1F1E8 u1F1E9 u1F1EB u1F1EF u1F1F0 u1F1F1 u1F1F4 u1F1F6 u1F1F8 u1F1F9 u1F1FA u1F1FB u1F1FD] by uniF8FF; # K
+  sub u1F1F1 [u1F1E9 u1F1EA u1F1EB u1F1EC u1F1ED u1F1EF u1F1F1 u1F1F2 u1F1F3 u1F1F4 u1F1F5 u1F1F6 u1F1FC u1F1FD u1F1FF] by uniF8FF; # L
+  sub u1F1F2 [u1F1E7 u1F1EE u1F1EF] by uniF8FF; # M
+  sub u1F1F3 [u1F1E7 u1F1E9 u1F1ED u1F1EF u1F1F0 u1F1F2 u1F1F3 u1F1F6 u1F1F8 u1F1FB u1F1FC u1F1FD u1F1FE] by uniF8FF; # N
+  sub u1F1F4 [u1F1E6 u1F1E7 u1F1E8 u1F1E9 u1F1EA u1F1EB u1F1EC u1F1ED u1F1EE u1F1EF u1F1F0 u1F1F1 u1F1F3 u1F1F4 u1F1F5 u1F1F6 u1F1F7 u1F1F8 u1F1F9 u1F1FA u1F1FB u1F1FC u1F1FD u1F1FE u1F1FF] by uniF8FF; # O
+  sub u1F1F5 [u1F1E7 u1F1E8 u1F1E9 u1F1EE u1F1EF u1F1F4 u1F1F5 u1F1F6 u1F1FA u1F1FB u1F1FD u1F1FF] by uniF8FF; # P
+  sub u1F1F6 [u1F1E7 u1F1E8 u1F1E9 u1F1EA u1F1EB u1F1EC u1F1ED u1F1EE u1F1EF u1F1F0 u1F1F1 u1F1F2 u1F1F3 u1F1F4 u1F1F5 u1F1F6 u1F1F7 u1F1F8 u1F1F9 u1F1FB u1F1FC u1F1FD u1F1FE u1F1FF] by uniF8FF; # Q
+  sub u1F1F7 [u1F1E6 u1F1E7 u1F1E8 u1F1E9 u1F1EB u1F1EC u1F1ED u1F1EE u1F1EF u1F1F0 u1F1F1 u1F1F2 u1F1F3 u1F1F5 u1F1F6 u1F1F7 u1F1F9 u1F1FB u1F1FD u1F1FE u1F1FF] by uniF8FF; # R
+  sub u1F1F8 [u1F1EB u1F1F5 u1F1F6 u1F1FC] by uniF8FF; # S
+  sub u1F1F9 [u1F1E7 u1F1EA u1F1EE u1F1F6 u1F1F8 u1F1FA u1F1FD u1F1FE] by uniF8FF; # T
+  sub u1F1FA [u1F1E7 u1F1E8 u1F1E9 u1F1EA u1F1EB u1F1ED u1F1EE u1F1EF u1F1F0 u1F1F1 u1F1F4 u1F1F5 u1F1F6 u1F1F7 u1F1F9 u1F1FA u1F1FB u1F1FC u1F1FD] by uniF8FF; # U
+  sub u1F1FB [u1F1E7 u1F1E9 u1F1EB u1F1ED u1F1EF u1F1F0 u1F1F1 u1F1F2 u1F1F4 u1F1F5 u1F1F6 u1F1F7 u1F1F8 u1F1F9 u1F1FB u1F1FC u1F1FD u1F1FE u1F1FF] by uniF8FF; # V
+  sub u1F1FC [u1F1E6 u1F1E7 u1F1E8 u1F1E9 u1F1EA u1F1EC u1F1ED u1F1EE u1F1EF u1F1F0 u1F1F1 u1F1F2 u1F1F3 u1F1F4 u1F1F5 u1F1F6 u1F1F7 u1F1F9 u1F1FA u1F1FB u1F1FC u1F1FD u1F1FE u1F1FF] by uniF8FF; # W
+  sub u1F1FD [u1F1E6 u1F1E7 u1F1E8 u1F1E9 u1F1EA u1F1EB u1F1EC u1F1ED u1F1EE u1F1EF u1F1F1 u1F1F2 u1F1F3 u1F1F4 u1F1F5 u1F1F6 u1F1F7 u1F1F8 u1F1F9 u1F1FA u1F1FB u1F1FC u1F1FD u1F1FE u1F1FF] by uniF8FF; # X
+  sub u1F1FE [u1F1E6 u1F1E7 u1F1E8 u1F1EB u1F1EC u1F1ED u1F1EE u1F1EF u1F1F0 u1F1F1 u1F1F2 u1F1F3 u1F1F4 u1F1F5 u1F1F6 u1F1F7 u1F1F8 u1F1FB u1F1FC u1F1FD u1F1FE u1F1FF] by uniF8FF; # Y
+  sub u1F1FF [u1F1E7 u1F1E8 u1F1E9 u1F1EA u1F1EB u1F1EC u1F1ED u1F1EE u1F1EF u1F1F0 u1F1F1 u1F1F3 u1F1F4 u1F1F5 u1F1F6 u1F1F8 u1F1F9 u1F1FA u1F1FB u1F1FD u1F1FE u1F1FF] by uniF8FF; # Z
+
+
+  sub u1F35E uni200D u1F7EB by uniE035; # Brown Bread
+  # Raised Hand
+  sub uni270B u1F3FB by uF2032; # 1
+  sub uni270B u1F3FC by uF3032; # 2
+  sub uni270B u1F3FD by uF4032; # 3
+  sub uni270B u1F3FE by uF5032; # 4
+  sub uni270B u1F3FF by uF6032; # 5
+
+
+  sub uni2764 uni200D u1FA79 by uniE036; # Mending Heart
+  sub zero uniFE00 by uF10F4; # 0 (Slashed)
+  sub uni25EF uni200D uni25EF uni200D uni25EF uni200D uni25EF uni200D uni25EF by uniE037; # Olympic Rings
+
+  # Middle Finger
+  sub u1F595 u1F3FB by uF2033; # 1
+  sub u1F595 u1F3FC by uF3033; # 2
+  sub u1F595 u1F3FD by uF4033; # 3
+  sub u1F595 u1F3FE by uF5033; # 4
+  sub u1F595 u1F3FF by uF6033; # 5
+
+  # Couple with Heart: P&P (S: Skin Tone 0)
+  sub u1F9D1 uni200D uni2764 uni200D u1F9D1 by u1F491; # 0-0
+  sub u1F9D1 u1F3FB uni200D uni2764 uni200D u1F9D1 by uF2034; # 1-0
+  sub u1F9D1 u1F3FC uni200D uni2764 uni200D u1F9D1 by uF3034; # 2-0
+  sub u1F9D1 u1F3FD uni200D uni2764 uni200D u1F9D1 by uF4034; # 3-0
+  sub u1F9D1 u1F3FE uni200D uni2764 uni200D u1F9D1 by uF5034; # 4-0
+  sub u1F9D1 u1F3FF uni200D uni2764 uni200D u1F9D1 by uF6034; # 5-0
+  # Couple with Heart: P&P (S: Skin Tone 1)
+  sub u1F491 u1F3FB by uF2035; # Shared
+  sub u1F9D1 uni200D uni2764 uni200D u1F9D1 u1F3FB by uniE038; # 0-1
+  sub u1F9D1 u1F3FB uni200D uni2764 uni200D u1F9D1 u1F3FB by uF2035; # 1-1
+  sub u1F9D1 u1F3FC uni200D uni2764 uni200D u1F9D1 u1F3FB by uF3035; # 2-1
+  sub u1F9D1 u1F3FD uni200D uni2764 uni200D u1F9D1 u1F3FB by uF4035; # 3-1
+  sub u1F9D1 u1F3FE uni200D uni2764 uni200D u1F9D1 u1F3FB by uF5035; # 4-1
+  sub u1F9D1 u1F3FF uni200D uni2764 uni200D u1F9D1 u1F3FB by uF6035; # 5-1
+  # Couple with Heart: P&P (S: Skin Tone 2)
+  sub u1F491 u1F3FC by uF3036; # Shared
+  sub u1F9D1 uni200D uni2764 uni200D u1F9D1 u1F3FC by uniE039; # 0-2
+  sub u1F9D1 u1F3FB uni200D uni2764 uni200D u1F9D1 u1F3FC by uF2036; # 1-2
+  sub u1F9D1 u1F3FC uni200D uni2764 uni200D u1F9D1 u1F3FC by uF3036; # 2-2
+  sub u1F9D1 u1F3FD uni200D uni2764 uni200D u1F9D1 u1F3FC by uF4036; # 3-2
+  sub u1F9D1 u1F3FE uni200D uni2764 uni200D u1F9D1 u1F3FC by uF5036; # 4-2
+  sub u1F9D1 u1F3FF uni200D uni2764 uni200D u1F9D1 u1F3FC by uF6036; # 5-2
+  # Couple with Heart: P&P (S: Skin Tone 3)
+  sub u1F491 u1F3FD by uF4037; # Shared
+  sub u1F9D1 uni200D uni2764 uni200D u1F9D1 u1F3FD by uniE03A; # 0-3
+  sub u1F9D1 u1F3FB uni200D uni2764 uni200D u1F9D1 u1F3FD by uF2037; # 1-3
+  sub u1F9D1 u1F3FC uni200D uni2764 uni200D u1F9D1 u1F3FD by uF3037; # 2-3
+  sub u1F9D1 u1F3FD uni200D uni2764 uni200D u1F9D1 u1F3FD by uF4037; # 3-3
+  sub u1F9D1 u1F3FE uni200D uni2764 uni200D u1F9D1 u1F3FD by uF5037; # 4-3
+  sub u1F9D1 u1F3FF uni200D uni2764 uni200D u1F9D1 u1F3FD by uF6037; # 5-3
+  # Couple with Heart: P&P (S: Skin Tone 4)
+  sub u1F491 u1F3FE by uF5038; # Shared
+  sub u1F9D1 uni200D uni2764 uni200D u1F9D1 u1F3FE by uniE03B; # 0-4
+  sub u1F9D1 u1F3FB uni200D uni2764 uni200D u1F9D1 u1F3FE by uF2038; # 1-4
+  sub u1F9D1 u1F3FC uni200D uni2764 uni200D u1F9D1 u1F3FE by uF3038; # 2-4
+  sub u1F9D1 u1F3FD uni200D uni2764 uni200D u1F9D1 u1F3FE by uF4038; # 3-4
+  sub u1F9D1 u1F3FE uni200D uni2764 uni200D u1F9D1 u1F3FE by uF5038; # 4-4
+  sub u1F9D1 u1F3FF uni200D uni2764 uni200D u1F9D1 u1F3FE by uF6038; # 5-4
+  # Couple with Heart: P&P (S: Skin Tone 5)
+  sub u1F491 u1F3FF by uF6039; # Shared
+  sub u1F9D1 uni200D uni2764 uni200D u1F9D1 u1F3FF by uniE03C; # 0-5
+  sub u1F9D1 u1F3FB uni200D uni2764 uni200D u1F9D1 u1F3FF by uF2039; # 1-5
+  sub u1F9D1 u1F3FC uni200D uni2764 uni200D u1F9D1 u1F3FF by uF3039; # 2-5
+  sub u1F9D1 u1F3FD uni200D uni2764 uni200D u1F9D1 u1F3FF by uF4039; # 3-5
+  sub u1F9D1 u1F3FE uni200D uni2764 uni200D u1F9D1 u1F3FF by uF5039; # 4-5
+  sub u1F9D1 u1F3FF uni200D uni2764 uni200D u1F9D1 u1F3FF by uF6039; # 5-5
+
+  # Couple with Heart: W&M (S: Skin Tone 0)
+  sub u1F469 uni200D uni2764 uni200D u1F468 by uniE03D; # 0-0
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F468 by uF203A; # 1-0
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F468 by uF303A; # 2-0
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F468 by uF403A; # 3-0
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F468 by uF503A; # 4-0
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F468 by uF603A; # 5-0
+  # Couple with Heart: W&M (S: Skin Tone 1)
+  sub u1F469 uni200D uni2764 uni200D u1F468 u1F3FB by uniE03E; # 0-1
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F468 u1F3FB by uF203B; # 1-1
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F468 u1F3FB by uF303B; # 2-1
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F468 u1F3FB by uF403B; # 3-1
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F468 u1F3FB by uF503B; # 4-1
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F468 u1F3FB by uF603B; # 5-1
+  # Couple with Heart: W&M (S: Skin Tone 2)
+  sub u1F469 uni200D uni2764 uni200D u1F468 u1F3FC by uniE03F; # 0-2
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F468 u1F3FC by uF203C; # 1-2
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F468 u1F3FC by uF303C; # 2-2
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F468 u1F3FC by uF403C; # 3-2
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F468 u1F3FC by uF503C; # 4-2
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F468 u1F3FC by uF603C; # 5-2
+  # Couple with Heart: W&M (S: Skin Tone 3)
+  sub u1F469 uni200D uni2764 uni200D u1F468 u1F3FD by uniE040; # 0-3
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F468 u1F3FD by uF203D; # 1-3
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F468 u1F3FD by uF303D; # 2-3
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F468 u1F3FD by uF403D; # 3-3
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F468 u1F3FD by uF503D; # 4-3
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F468 u1F3FD by uF603D; # 5-3
+  # Couple with Heart: W&M (S: Skin Tone 4)
+  sub u1F469 uni200D uni2764 uni200D u1F468 u1F3FE by uniE041; # 0-4
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F468 u1F3FE by uF203E; # 1-4
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F468 u1F3FE by uF303E; # 2-4
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F468 u1F3FE by uF403E; # 3-4
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F468 u1F3FE by uF503E; # 4-4
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F468 u1F3FE by uF603E; # 5-4
+  # Couple with Heart: W&M (S: Skin Tone 5)
+  sub u1F469 uni200D uni2764 uni200D u1F468 u1F3FF by uniE042; # 0-5
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F468 u1F3FF by uF203F; # 1-5
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F468 u1F3FF by uF303F; # 2-5
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F468 u1F3FF by uF403F; # 3-5
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F468 u1F3FF by uF503F; # 4-5
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F468 u1F3FF by uF603F; # 5-5
+
+  # Couple with Heart: M&M (S: Skin Tone 0)
+  sub u1F468 uni200D uni2764 uni200D u1F468 by uniE043; # 0-0
+  sub u1F468 u1F3FB uni200D uni2764 uni200D u1F468 by uF2040; # 1-0
+  sub u1F468 u1F3FC uni200D uni2764 uni200D u1F468 by uF3040; # 2-0
+  sub u1F468 u1F3FD uni200D uni2764 uni200D u1F468 by uF4040; # 3-0
+  sub u1F468 u1F3FE uni200D uni2764 uni200D u1F468 by uF5040; # 4-0
+  sub u1F468 u1F3FF uni200D uni2764 uni200D u1F468 by uF6040; # 5-0
+  # Couple with Heart: M&M (S: Skin Tone 1)
+  sub u1F468 uni200D uni2764 uni200D u1F468 u1F3FB by uniE044; # 0-1
+  sub u1F468 u1F3FB uni200D uni2764 uni200D u1F468 u1F3FB by uF2041; # 1-1
+  sub u1F468 u1F3FC uni200D uni2764 uni200D u1F468 u1F3FB by uF3041; # 2-1
+  sub u1F468 u1F3FD uni200D uni2764 uni200D u1F468 u1F3FB by uF4041; # 3-1
+  sub u1F468 u1F3FE uni200D uni2764 uni200D u1F468 u1F3FB by uF5041; # 4-1
+  sub u1F468 u1F3FF uni200D uni2764 uni200D u1F468 u1F3FB by uF6041; # 5-1
+  # Couple with Heart: M&M (S: Skin Tone 2)
+  sub u1F468 uni200D uni2764 uni200D u1F468 u1F3FC by uniE045; # 0-2
+  sub u1F468 u1F3FB uni200D uni2764 uni200D u1F468 u1F3FC by uF2042; # 1-2
+  sub u1F468 u1F3FC uni200D uni2764 uni200D u1F468 u1F3FC by uF3042; # 2-2
+  sub u1F468 u1F3FD uni200D uni2764 uni200D u1F468 u1F3FC by uF4042; # 3-2
+  sub u1F468 u1F3FE uni200D uni2764 uni200D u1F468 u1F3FC by uF5042; # 4-2
+  sub u1F468 u1F3FF uni200D uni2764 uni200D u1F468 u1F3FC by uF6042; # 5-2
+  # Couple with Heart: M&M (S: Skin Tone 3)
+  sub u1F468 uni200D uni2764 uni200D u1F468 u1F3FD by uniE046; # 0-3
+  sub u1F468 u1F3FB uni200D uni2764 uni200D u1F468 u1F3FD by uF2043; # 1-3
+  sub u1F468 u1F3FC uni200D uni2764 uni200D u1F468 u1F3FD by uF3043; # 2-3
+  sub u1F468 u1F3FD uni200D uni2764 uni200D u1F468 u1F3FD by uF4043; # 3-3
+  sub u1F468 u1F3FE uni200D uni2764 uni200D u1F468 u1F3FD by uF5043; # 4-3
+  sub u1F468 u1F3FF uni200D uni2764 uni200D u1F468 u1F3FD by uF6043; # 5-3
+  # Couple with Heart: M&M (S: Skin Tone 4)
+  sub u1F468 uni200D uni2764 uni200D u1F468 u1F3FE by uniE047; # 0-4
+  sub u1F468 u1F3FB uni200D uni2764 uni200D u1F468 u1F3FE by uF2044; # 1-4
+  sub u1F468 u1F3FC uni200D uni2764 uni200D u1F468 u1F3FE by uF3044; # 2-4
+  sub u1F468 u1F3FD uni200D uni2764 uni200D u1F468 u1F3FE by uF4044; # 3-4
+  sub u1F468 u1F3FE uni200D uni2764 uni200D u1F468 u1F3FE by uF5044; # 4-4
+  sub u1F468 u1F3FF uni200D uni2764 uni200D u1F468 u1F3FE by uF6044; # 5-4
+  # Couple with Heart: M&M (S: Skin Tone 5)
+  sub u1F468 uni200D uni2764 uni200D u1F468 u1F3FF by uniE048; # 0-5
+  sub u1F468 u1F3FB uni200D uni2764 uni200D u1F468 u1F3FF by uF2045; # 1-5
+  sub u1F468 u1F3FC uni200D uni2764 uni200D u1F468 u1F3FF by uF3045; # 2-5
+  sub u1F468 u1F3FD uni200D uni2764 uni200D u1F468 u1F3FF by uF4045; # 3-5
+  sub u1F468 u1F3FE uni200D uni2764 uni200D u1F468 u1F3FF by uF5045; # 4-5
+  sub u1F468 u1F3FF uni200D uni2764 uni200D u1F468 u1F3FF by uF6045; # 5-5
+
+  # Couple with Heart: W&W (S: Skin Tone 0)
+  sub u1F469 uni200D uni2764 uni200D u1F469 by uniE049; # 0-0
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F469 by uF2046; # 1-0
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F469 by uF3046; # 2-0
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F469 by uF4046; # 3-0
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F469 by uF5046; # 4-0
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F469 by uF6046; # 5-0
+  # Couple with Heart: W&W (S: Skin Tone 1)
+  sub u1F469 uni200D uni2764 uni200D u1F469 u1F3FB by uniE04A; # 0-1
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F469 u1F3FB by uF2047; # 1-1
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F469 u1F3FB by uF3047; # 2-1
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F469 u1F3FB by uF4047; # 3-1
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F469 u1F3FB by uF5047; # 4-1
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F469 u1F3FB by uF6047; # 5-1
+  # Couple with Heart: W&W (S: Skin Tone 2)
+  sub u1F469 uni200D uni2764 uni200D u1F469 u1F3FC by uniE04B; # 0-2
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F469 u1F3FC by uF2048; # 1-2
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F469 u1F3FC by uF3048; # 2-2
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F469 u1F3FC by uF4048; # 3-2
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F469 u1F3FC by uF5048; # 4-2
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F469 u1F3FC by uF6048; # 5-2
+  # Couple with Heart: W&W (S: Skin Tone 3)
+  sub u1F469 uni200D uni2764 uni200D u1F469 u1F3FD by uniE04C; # 0-3
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F469 u1F3FD by uF2049; # 1-3
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F469 u1F3FD by uF3049; # 2-3
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F469 u1F3FD by uF4049; # 3-3
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F469 u1F3FD by uF5049; # 4-3
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F469 u1F3FD by uF6049; # 5-3
+  # Couple with Heart: W&W (S: Skin Tone 4)
+  sub u1F469 uni200D uni2764 uni200D u1F469 u1F3FE by uniE04D; # 0-4
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F469 u1F3FE by uF204A; # 1-4
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F469 u1F3FE by uF304A; # 2-4
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F469 u1F3FE by uF404A; # 3-4
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F469 u1F3FE by uF504A; # 4-4
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F469 u1F3FE by uF604A; # 5-4
+  # Couple with Heart: W&W (S: Skin Tone 5)
+  sub u1F469 uni200D uni2764 uni200D u1F469 u1F3FF by uniE04E; # 0-5
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F469 u1F3FF by uF204B; # 1-5
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F469 u1F3FF by uF304B; # 2-5
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F469 u1F3FF by uF404B; # 3-5
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F469 u1F3FF by uF504B; # 4-5
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F469 u1F3FF by uF604B; # 5-5
+
+  # Baby
+  sub u1F476 u1F3FB by uF204C; # 1
+  sub u1F476 u1F3FC by uF304C; # 2
+  sub u1F476 u1F3FD by uF404C; # 3
+  sub u1F476 u1F3FE by uF504C; # 4
+  sub u1F476 u1F3FF by uF604C; # 5
+
+  # Family
+  sub u1F9D1 uni200D u1F9D1 uni200D u1F9D2 by u1F46A; # AAC
+  sub u1F9D1 uni200D u1F9D1 uni200D u1F9D2 uni200D u1F9D2 by uniE04F; # AACC
+  sub u1F9D1 uni200D u1F9D2 by uniE050; # AC
+  sub u1F9D1 uni200D u1F9D2 uni200D u1F9D2 by uniE051; # ACC
+
+  sub u1F468 uni200D u1F469 uni200D u1F466 by uniE052; # MWB
+  sub u1F468 uni200D u1F469 uni200D u1F467 by uniE053; # MWG
+  sub u1F468 uni200D u1F469 uni200D u1F467 uni200D u1F466 by uniE054; # MWGB
+  sub u1F468 uni200D u1F469 uni200D u1F466 uni200D u1F466 by uniE055; # MWBB
+  sub u1F468 uni200D u1F469 uni200D u1F467 uni200D u1F467 by uniE056; # MWGG
+
+  sub u1F468 uni200D u1F468 uni200D u1F466 by uniE057; # MMB
+  sub u1F468 uni200D u1F468 uni200D u1F467 by uniE058; # MMG
+  sub u1F468 uni200D u1F468 uni200D u1F467 uni200D u1F466 by uniE059; # MMGB
+  sub u1F468 uni200D u1F468 uni200D u1F466 uni200D u1F466 by uniE05A; # MMBB
+  sub u1F468 uni200D u1F468 uni200D u1F467 uni200D u1F467 by uniE05B; # MMGG
+
+  sub u1F469 uni200D u1F469 uni200D u1F466 by uniE05C; # WWB
+  sub u1F469 uni200D u1F469 uni200D u1F467 by uniE05D; # WWG
+  sub u1F469 uni200D u1F469 uni200D u1F467 uni200D u1F466 by uniE05E; # WWGB
+  sub u1F469 uni200D u1F469 uni200D u1F466 uni200D u1F466 by uniE05F; # WWBB
+  sub u1F469 uni200D u1F469 uni200D u1F467 uni200D u1F467 by uniE060; # WWGG
+
+  sub u1F468 uni200D u1F466 by uniE061; # MB
+  sub u1F468 uni200D u1F467 by uniE062; # MG
+  sub u1F468 uni200D u1F467 uni200D u1F466 by uniE063; # MGB
+  sub u1F468 uni200D u1F466 uni200D u1F466 by uniE064; # MBB
+  sub u1F468 uni200D u1F467 uni200D u1F467 by uniE065; # MGG
+
+  sub u1F469 uni200D u1F466 by uniE066; # WB
+  sub u1F469 uni200D u1F467 by uniE067; # WG
+  sub u1F469 uni200D u1F467 uni200D u1F466 by uniE068; # WGB
+  sub u1F469 uni200D u1F466 uni200D u1F466 by uniE069; # WBB
+  sub u1F469 uni200D u1F467 uni200D u1F467 by uniE06A; # WGG
+
+  # Raised Hand with Fingers Splayed
+  sub u1F590 u1F3FB by uF204D; # 1
+  sub u1F590 u1F3FC by uF304D; # 2
+  sub u1F590 u1F3FD by uF404D; # 3
+  sub u1F590 u1F3FE by uF504D; # 4
+  sub u1F590 u1F3FF by uF604D; # 5
+
+  # Vulcan Salute
+  sub u1F596 u1F3FB by uF204E; # 1
+  sub u1F596 u1F3FC by uF304E; # 2
+  sub u1F596 u1F3FD by uF404E; # 3
+  sub u1F596 u1F3FE by uF504E; # 4
+  sub u1F596 u1F3FF by uF604E; # 5
+
+  # Golfer
+  sub u1F3CC u1F3FB by uF204F; # 1
+  sub u1F3CC u1F3FC by uF304F; # 2
+  sub u1F3CC u1F3FD by uF404F; # 3
+  sub u1F3CC u1F3FE by uF504F; # 4
+  sub u1F3CC u1F3FF by uF604F; # 5
+
+  # Man Golfer
+  sub u1F3CC uni200D uni2642 by uniE06B; # Normal
+  sub u1F3CC u1F3FB uni200D uni2642 by uF2050; # 1
+  sub u1F3CC u1F3FC uni200D uni2642 by uF3050; # 2
+  sub u1F3CC u1F3FD uni200D uni2642 by uF4050; # 3
+  sub u1F3CC u1F3FE uni200D uni2642 by uF5050; # 4
+  sub u1F3CC u1F3FF uni200D uni2642 by uF6050; # 5
+
+  # Woman Golfer
+  sub u1F3CC uni200D uni2640 by uniE06C; # Normal
+  sub u1F3CC u1F3FB uni200D uni2640 by uF2051; # 1
+  sub u1F3CC u1F3FC uni200D uni2640 by uF3051; # 2
+  sub u1F3CC u1F3FD uni200D uni2640 by uF4051; # 3
+  sub u1F3CC u1F3FE uni200D uni2640 by uF5051; # 4
+  sub u1F3CC u1F3FF uni200D uni2640 by uF6051; # 5
+
+  # Person: Blond Hair
+  sub u1F471 u1F3FB by uF2052; # 1
+  sub u1F471 u1F3FC by uF3052; # 2
+  sub u1F471 u1F3FD by uF4052; # 3
+  sub u1F471 u1F3FE by uF5052; # 4
+  sub u1F471 u1F3FF by uF6052; # 5
+
+  # Man: Blond Hair
+  sub u1F471 uni200D uni2642 by uniE06D; # Normal
+  sub u1F471 u1F3FB uni200D uni2642 by uF2053; # 1
+  sub u1F471 u1F3FC uni200D uni2642 by uF3053; # 2
+  sub u1F471 u1F3FD uni200D uni2642 by uF4053; # 3
+  sub u1F471 u1F3FE uni200D uni2642 by uF5053; # 4
+  sub u1F471 u1F3FF uni200D uni2642 by uF6053; # 5
+
+  # Woman: Blond Hair
+  sub u1F471 uni200D uni2640 by uniE06E; # Normal
+  sub u1F471 u1F3FB uni200D uni2640 by uF2054; # 1
+  sub u1F471 u1F3FC uni200D uni2640 by uF3054; # 2
+  sub u1F471 u1F3FD uni200D uni2640 by uF4054; # 3
+  sub u1F471 u1F3FE uni200D uni2640 by uF5054; # 4
+  sub u1F471 u1F3FF uni200D uni2640 by uF6054; # 5
+
+  # Person: Red Hair
+  sub u1F9D1 uni200D u1F9B0 by uniE06F; # Normal
+  sub u1F9D1 u1F3FB uni200D u1F9B0 by uF2055; # 1
+  sub u1F9D1 u1F3FC uni200D u1F9B0 by uF3055; # 2
+  sub u1F9D1 u1F3FD uni200D u1F9B0 by uF4055; # 3
+  sub u1F9D1 u1F3FE uni200D u1F9B0 by uF5055; # 4
+  sub u1F9D1 u1F3FF uni200D u1F9B0 by uF6055; # 5
+
+  # Man: Red Hair
+  sub u1F468 uni200D u1F9B0 by uniE070; # Normal
+  sub u1F468 u1F3FB uni200D u1F9B0 by uF2056; # 1
+  sub u1F468 u1F3FC uni200D u1F9B0 by uF3056; # 2
+  sub u1F468 u1F3FD uni200D u1F9B0 by uF4056; # 3
+  sub u1F468 u1F3FE uni200D u1F9B0 by uF5056; # 4
+  sub u1F468 u1F3FF uni200D u1F9B0 by uF6056; # 5
+
+  # Woman: Red Hair
+  sub u1F469 uni200D u1F9B0 by uniE071; # Normal
+  sub u1F469 u1F3FB uni200D u1F9B0 by uF2057; # 1
+  sub u1F469 u1F3FC uni200D u1F9B0 by uF3057; # 2
+  sub u1F469 u1F3FD uni200D u1F9B0 by uF4057; # 3
+  sub u1F469 u1F3FE uni200D u1F9B0 by uF5057; # 4
+  sub u1F469 u1F3FF uni200D u1F9B0 by uF6057; # 5
+
+  # Person: Curly Hair
+  sub u1F9D1 uni200D u1F9B1 by uniE072; # Normal
+  sub u1F9D1 u1F3FB uni200D u1F9B1 by uF2058; # 1
+  sub u1F9D1 u1F3FC uni200D u1F9B1 by uF3058; # 2
+  sub u1F9D1 u1F3FD uni200D u1F9B1 by uF4058; # 3
+  sub u1F9D1 u1F3FE uni200D u1F9B1 by uF5058; # 4
+  sub u1F9D1 u1F3FF uni200D u1F9B1 by uF6058; # 5
+
+  # Man: Curly Hair
+  sub u1F468 uni200D u1F9B1 by uniE073; # Normal
+  sub u1F468 u1F3FB uni200D u1F9B1 by uF2059; # 1
+  sub u1F468 u1F3FC uni200D u1F9B1 by uF3059; # 2
+  sub u1F468 u1F3FD uni200D u1F9B1 by uF4059; # 3
+  sub u1F468 u1F3FE uni200D u1F9B1 by uF5059; # 4
+  sub u1F468 u1F3FF uni200D u1F9B1 by uF6059; # 5
+
+  # Woman: Curly Hair
+  sub u1F469 uni200D u1F9B1 by uniE074; # Normal
+  sub u1F469 u1F3FB uni200D u1F9B1 by uF205A; # 1
+  sub u1F469 u1F3FC uni200D u1F9B1 by uF305A; # 2
+  sub u1F469 u1F3FD uni200D u1F9B1 by uF405A; # 3
+  sub u1F469 u1F3FE uni200D u1F9B1 by uF505A; # 4
+  sub u1F469 u1F3FF uni200D u1F9B1 by uF605A; # 5
+
+  # Person: Bald
+  sub u1F9D1 uni200D u1F9B2 by uniE075; # Normal
+  sub u1F9D1 u1F3FB uni200D u1F9B2 by uF205B; # 1
+  sub u1F9D1 u1F3FC uni200D u1F9B2 by uF305B; # 2
+  sub u1F9D1 u1F3FD uni200D u1F9B2 by uF405B; # 3
+  sub u1F9D1 u1F3FE uni200D u1F9B2 by uF505B; # 4
+  sub u1F9D1 u1F3FF uni200D u1F9B2 by uF605B; # 5
+
+  # Man: Bald
+  sub u1F468 uni200D u1F9B2 by uniE076; # Normal
+  sub u1F468 u1F3FB uni200D u1F9B2 by uF205C; # 1
+  sub u1F468 u1F3FC uni200D u1F9B2 by uF305C; # 2
+  sub u1F468 u1F3FD uni200D u1F9B2 by uF405C; # 3
+  sub u1F468 u1F3FE uni200D u1F9B2 by uF505C; # 4
+  sub u1F468 u1F3FF uni200D u1F9B2 by uF605C; # 5
+
+  # Woman: Bald
+  sub u1F469 uni200D u1F9B2 by uniE077; # Normal
+  sub u1F469 u1F3FB uni200D u1F9B2 by uF205D; # 1
+  sub u1F469 u1F3FC uni200D u1F9B2 by uF305D; # 2
+  sub u1F469 u1F3FD uni200D u1F9B2 by uF405D; # 3
+  sub u1F469 u1F3FE uni200D u1F9B2 by uF505D; # 4
+  sub u1F469 u1F3FF uni200D u1F9B2 by uF605D; # 5
+
+  # Person: White Hair
+  sub u1F9D1 uni200D u1F9B3 by uniE078; # Normal
+  sub u1F9D1 u1F3FB uni200D u1F9B3 by uF205E; # 1
+  sub u1F9D1 u1F3FC uni200D u1F9B3 by uF305E; # 2
+  sub u1F9D1 u1F3FD uni200D u1F9B3 by uF405E; # 3
+  sub u1F9D1 u1F3FE uni200D u1F9B3 by uF505E; # 4
+  sub u1F9D1 u1F3FF uni200D u1F9B3 by uF605E; # 5
+
+  # Man: White Hair
+  sub u1F468 uni200D u1F9B3 by uniE079; # Normal
+  sub u1F468 u1F3FB uni200D u1F9B3 by uF205F; # 1
+  sub u1F468 u1F3FC uni200D u1F9B3 by uF305F; # 2
+  sub u1F468 u1F3FD uni200D u1F9B3 by uF405F; # 3
+  sub u1F468 u1F3FE uni200D u1F9B3 by uF505F; # 4
+  sub u1F468 u1F3FF uni200D u1F9B3 by uF605F; # 5
+
+  # Woman: White Hair
+  sub u1F469 uni200D u1F9B3 by uniE07A; # Normal
+  sub u1F469 u1F3FB uni200D u1F9B3 by uF2060; # 1
+  sub u1F469 u1F3FC uni200D u1F9B3 by uF3060; # 2
+  sub u1F469 u1F3FD uni200D u1F9B3 by uF4060; # 3
+  sub u1F469 u1F3FE uni200D u1F9B3 by uF5060; # 4
+  sub u1F469 u1F3FF uni200D u1F9B3 by uF6060; # 5
+
+
+  # Person Lifting Weight
+  sub u1F3CB u1F3FB by uF2061; # 1
+  sub u1F3CB u1F3FC by uF3061; # 2
+  sub u1F3CB u1F3FD by uF4061; # 3
+  sub u1F3CB u1F3FE by uF5061; # 4
+  sub u1F3CB u1F3FF by uF6061; # 5
+
+  # Man Lifting Weight
+  sub u1F3CB uni200D uni2642 by uniE07B; # Normal
+  sub u1F3CB u1F3FB uni200D uni2642 by uF2062; # 1
+  sub u1F3CB u1F3FC uni200D uni2642 by uF3062; # 2
+  sub u1F3CB u1F3FD uni200D uni2642 by uF4062; # 3
+  sub u1F3CB u1F3FE uni200D uni2642 by uF5062; # 4
+  sub u1F3CB u1F3FF uni200D uni2642 by uF6062; # 5
+
+  # Woman Lifting Weight
+  sub u1F3CB uni200D uni2640 by uniE07C; # Normal
+  sub u1F3CB u1F3FB uni200D uni2640 by uF2063; # 1
+  sub u1F3CB u1F3FC uni200D uni2640 by uF3063; # 2
+  sub u1F3CB u1F3FD uni200D uni2640 by uF4063; # 3
+  sub u1F3CB u1F3FE uni200D uni2640 by uF5063; # 4
+  sub u1F3CB u1F3FF uni200D uni2640 by uF6063; # 5
+
+  # Person Running
+  sub u1F3C3 u1F3FB by uF2064; # L-1
+  sub u1F3C3 u1F3FC by uF3064; # L-2
+  sub u1F3C3 u1F3FD by uF4064; # L-3
+  sub u1F3C3 u1F3FE by uF5064; # L-4
+  sub u1F3C3 u1F3FF by uF6064; # L-5
+  sub u1F3C3 uni200D uni27A1 by uniE07F; # R-Normal
+  sub u1F3C3 u1F3FB uni200D uni27A1 by uF2067; # R-1
+  sub u1F3C3 u1F3FC uni200D uni27A1 by uF3067; # R-2
+  sub u1F3C3 u1F3FD uni200D uni27A1 by uF4067; # R-3
+  sub u1F3C3 u1F3FE uni200D uni27A1 by uF5067; # R-4
+  sub u1F3C3 u1F3FF uni200D uni27A1 by uF6067; # R-5
+
+  # Man Running
+  sub u1F3C3 uni200D uni2642 by uniE07D; # L-Normal
+  sub u1F3C3 u1F3FB uni200D uni2642 by uF2065; # L-1
+  sub u1F3C3 u1F3FC uni200D uni2642 by uF3065; # L-2
+  sub u1F3C3 u1F3FD uni200D uni2642 by uF4065; # L-3
+  sub u1F3C3 u1F3FE uni200D uni2642 by uF5065; # L-4
+  sub u1F3C3 u1F3FF uni200D uni2642 by uF6065; # L-5
+  sub u1F3C3 uni200D uni2642 uni200D uni27A1 by uniE080; # R-Normal
+  sub u1F3C3 u1F3FB uni200D uni2642 uni200D uni27A1 by uF2068; # R-1
+  sub u1F3C3 u1F3FC uni200D uni2642 uni200D uni27A1 by uF3068; # R-2
+  sub u1F3C3 u1F3FD uni200D uni2642 uni200D uni27A1 by uF4068; # R-3
+  sub u1F3C3 u1F3FE uni200D uni2642 uni200D uni27A1 by uF5068; # R-4
+  sub u1F3C3 u1F3FF uni200D uni2642 uni200D uni27A1 by uF6068; # R-5
+
+  # Woman Running
+  sub u1F3C3 uni200D uni2640 by uniE07E; # L-Normal
+  sub u1F3C3 u1F3FB uni200D uni2640 by uF2066; # L-1
+  sub u1F3C3 u1F3FC uni200D uni2640 by uF3066; # L-2
+  sub u1F3C3 u1F3FD uni200D uni2640 by uF4066; # L-3
+  sub u1F3C3 u1F3FE uni200D uni2640 by uF5066; # L-4
+  sub u1F3C3 u1F3FF uni200D uni2640 by uF6066; # L-5
+  sub u1F3C3 uni200D uni2640 uni200D uni27A1 by uniE081; # R-Normal
+  sub u1F3C3 u1F3FB uni200D uni2640 uni200D uni27A1 by uF2069; # R-1
+  sub u1F3C3 u1F3FC uni200D uni2640 uni200D uni27A1 by uF3069; # R-2
+  sub u1F3C3 u1F3FD uni200D uni2640 uni200D uni27A1 by uF4069; # R-3
+  sub u1F3C3 u1F3FE uni200D uni2640 uni200D uni27A1 by uF5069; # R-4
+  sub u1F3C3 u1F3FF uni200D uni2640 uni200D uni27A1 by uF6069; # R-5
+
+  # Person Walking
+  sub u1F6B6 u1F3FB by uF206A; # L-1
+  sub u1F6B6 u1F3FC by uF306A; # L-2
+  sub u1F6B6 u1F3FD by uF406A; # L-3
+  sub u1F6B6 u1F3FE by uF506A; # L-4
+  sub u1F6B6 u1F3FF by uF606A; # L-5
+  sub u1F6B6 uni200D uni27A1 by uniE084; # R-Normal
+  sub u1F6B6 u1F3FB uni200D uni27A1 by uF206D; # R-1
+  sub u1F6B6 u1F3FC uni200D uni27A1 by uF306D; # R-2
+  sub u1F6B6 u1F3FD uni200D uni27A1 by uF406D; # R-3
+  sub u1F6B6 u1F3FE uni200D uni27A1 by uF506D; # R-4
+  sub u1F6B6 u1F3FF uni200D uni27A1 by uF606D; # R-5
+
+  # Man Walking
+  sub u1F6B6 uni200D uni2642 by uniE082; # L-Normal
+  sub u1F6B6 u1F3FB uni200D uni2642 by uF206B; # L-1
+  sub u1F6B6 u1F3FC uni200D uni2642 by uF306B; # L-2
+  sub u1F6B6 u1F3FD uni200D uni2642 by uF406B; # L-3
+  sub u1F6B6 u1F3FE uni200D uni2642 by uF506B; # L-4
+  sub u1F6B6 u1F3FF uni200D uni2642 by uF606B; # L-5
+  sub u1F6B6 uni200D uni2642 uni200D uni27A1 by uniE085; # R-Normal
+  sub u1F6B6 u1F3FB uni200D uni2642 uni200D uni27A1 by uF206E; # R-1
+  sub u1F6B6 u1F3FC uni200D uni2642 uni200D uni27A1 by uF306E; # R-2
+  sub u1F6B6 u1F3FD uni200D uni2642 uni200D uni27A1 by uF406E; # R-3
+  sub u1F6B6 u1F3FE uni200D uni2642 uni200D uni27A1 by uF506E; # R-4
+  sub u1F6B6 u1F3FF uni200D uni2642 uni200D uni27A1 by uF606E; # R-5
+
+  # Woman Walking
+  sub u1F6B6 uni200D uni2640 by uniE083; # L-Normal
+  sub u1F6B6 u1F3FB uni200D uni2640 by uF206C; # L-1
+  sub u1F6B6 u1F3FC uni200D uni2640 by uF306C; # L-2
+  sub u1F6B6 u1F3FD uni200D uni2640 by uF406C; # L-3
+  sub u1F6B6 u1F3FE uni200D uni2640 by uF506C; # L-4
+  sub u1F6B6 u1F3FF uni200D uni2640 by uF606C; # L-5
+  sub u1F6B6 uni200D uni2640 uni200D uni27A1 by uniE086; # R-Normal
+  sub u1F6B6 u1F3FB uni200D uni2640 uni200D uni27A1 by uF206F; # R-1
+  sub u1F6B6 u1F3FC uni200D uni2640 uni200D uni27A1 by uF306F; # R-2
+  sub u1F6B6 u1F3FD uni200D uni2640 uni200D uni27A1 by uF406F; # R-3
+  sub u1F6B6 u1F3FE uni200D uni2640 uni200D uni27A1 by uF506F; # R-4
+  sub u1F6B6 u1F3FF uni200D uni2640 uni200D uni27A1 by uF606F; # R-5
+
+  # Thumbs Up
+  sub u1F44D u1F3FB by uF2070; # 1
+  sub u1F44D u1F3FC by uF3070; # 2
+  sub u1F44D u1F3FD by uF4070; # 3
+  sub u1F44D u1F3FE by uF5070; # 4
+  sub u1F44D u1F3FF by uF6070; # 5
+
+  # Thumbs Down
+  sub u1F44E u1F3FB by uF2071; # 1
+  sub u1F44E u1F3FC by uF3071; # 2
+  sub u1F44E u1F3FD by uF4071; # 3
+  sub u1F44E u1F3FE by uF5071; # 4
+  sub u1F44E u1F3FF by uF6071; # 5
+
+  # Call Me Hand
+  sub u1F919 u1F3FB by uF2072; # 1
+  sub u1F919 u1F3FC by uF3072; # 2
+  sub u1F919 u1F3FD by uF4072; # 3
+  sub u1F919 u1F3FE by uF5072; # 4
+  sub u1F919 u1F3FF by uF6072; # 5
+
+
+  # I Love You Hand
+  sub u1F91F u1F3FB by uF2073; # 1
+  sub u1F91F u1F3FC by uF3073; # 2
+  sub u1F91F u1F3FD by uF4073; # 3
+  sub u1F91F u1F3FE by uF5073; # 4
+  sub u1F91F u1F3FF by uF6073; # 5
+
+  sub u1F3F3 uni200D u1F7E5 uni200D uni2B1B uni200D u1F7E9 by uniE087; # Pan-African Flag
+
+  # Pinched Fingers
+  sub u1F90C u1F3FB by uF2074; # 1
+  sub u1F90C u1F3FC by uF3074; # 2
+  sub u1F90C u1F3FD by uF4074; # 3
+  sub u1F90C u1F3FE by uF5074; # 4
+  sub u1F90C u1F3FF by uF6074; # 5
+
+  # Pinching Hand
+  sub u1F90F u1F3FB by uF2075; # 1
+  sub u1F90F u1F3FC by uF3075; # 2
+  sub u1F90F u1F3FD by uF4075; # 3
+  sub u1F90F u1F3FE by uF5075; # 4
+  sub u1F90F u1F3FF by uF6075; # 5
+
+  # Palm Down Hand
+  sub u1FAF3 u1F3FB by uF2076; # 1
+  sub u1FAF3 u1F3FC by uF3076; # 2
+  sub u1FAF3 u1F3FD by uF4076; # 3
+  sub u1FAF3 u1F3FE by uF5076; # 4
+  sub u1FAF3 u1F3FF by uF6076; # 5
+
+  # Palm Up Hand
+  sub u1FAF4 u1F3FB by uF2077; # 1
+  sub u1FAF4 u1F3FC by uF3077; # 2
+  sub u1FAF4 u1F3FD by uF4077; # 3
+  sub u1FAF4 u1F3FE by uF5077; # 4
+  sub u1FAF4 u1F3FF by uF6077; # 5
+
+
+  # Kiss: P&P (S: Skin Tone 0)
+  sub u1F9D1 uni200D uni2764 uni200D u1F48B uni200D u1F9D1 by u1F48F; # 0-0
+  sub u1F9D1 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F9D1 by uF2078; # 1-0
+  sub u1F9D1 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F9D1 by uF3078; # 2-0
+  sub u1F9D1 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F9D1 by uF4078; # 3-0
+  sub u1F9D1 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F9D1 by uF5078; # 4-0
+  sub u1F9D1 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F9D1 by uF6034; # 5-0
+  # Kiss: P&P (S: Skin Tone 1)
+  sub u1F48F u1F3FB by uF2079; # Shared
+  sub u1F9D1 uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FB by uniE088; # 0-1
+  sub u1F9D1 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FB by uF2079; # 1-1
+  sub u1F9D1 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FB by uF3079; # 2-1
+  sub u1F9D1 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FB by uF4079; # 3-1
+  sub u1F9D1 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FB by uF5079; # 4-1
+  sub u1F9D1 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FB by uF6079; # 5-1
+  # Kiss: P&P (S: Skin Tone 2)
+  sub u1F48F u1F3FC by uF307A; # Shared
+  sub u1F9D1 uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FC by uniE089; # 0-2
+  sub u1F9D1 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FC by uF207A; # 1-2
+  sub u1F9D1 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FC by uF307A; # 2-2
+  sub u1F9D1 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FC by uF407A; # 3-2
+  sub u1F9D1 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FC by uF507A; # 4-2
+  sub u1F9D1 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FC by uF607A; # 5-2
+  # Kiss: P&P (S: Skin Tone 3)
+  sub u1F48F u1F3FD by uF407B; # Shared
+  sub u1F9D1 uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FD by uniE08A; # 0-3
+  sub u1F9D1 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FD by uF207B; # 1-3
+  sub u1F9D1 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FD by uF307B; # 2-3
+  sub u1F9D1 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FD by uF407B; # 3-3
+  sub u1F9D1 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FD by uF507B; # 4-3
+  sub u1F9D1 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FD by uF607B; # 5-3
+  # Kiss: P&P (S: Skin Tone 4)
+  sub u1F48F u1F3FE by uF507C; # Shared
+  sub u1F9D1 uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FE by uniE08B; # 0-4
+  sub u1F9D1 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FE by uF207C; # 1-4
+  sub u1F9D1 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FE by uF307C; # 2-4
+  sub u1F9D1 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FE by uF407C; # 3-4
+  sub u1F9D1 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FE by uF507C; # 4-4
+  sub u1F9D1 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FE by uF607C; # 5-4
+  # Kiss: P&P (S: Skin Tone 5)
+  sub u1F48F u1F3FF by uF607D; # Shared
+  sub u1F9D1 uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FF by uniE08C; # 0-5
+  sub u1F9D1 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FF by uF207D; # 1-5
+  sub u1F9D1 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FF by uF307D; # 2-5
+  sub u1F9D1 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FF by uF407D; # 3-5
+  sub u1F9D1 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FF by uF507D; # 4-5
+  sub u1F9D1 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F9D1 u1F3FF by uF607D; # 5-5
+
+  # Kiss: W&M (S: Skin Tone 0)
+  sub u1F469 uni200D uni2764 uni200D u1F48B uni200D u1F468 by uniE08D; # 0-0
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F468 by uF207E; # 1-0
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F468 by uF307E; # 2-0
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F468 by uF407E; # 3-0
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F468 by uF507E; # 4-0
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F468 by uF607E; # 5-0
+  # Kiss: W&M (S: Skin Tone 1)
+  sub u1F469 uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FB by uniE08E; # 0-1
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FB by uF207F; # 1-1
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FB by uF307F; # 2-1
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FB by uF407F; # 3-1
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FB by uF507F; # 4-1
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FB by uF607F; # 5-1
+  # Kiss: W&M (S: Skin Tone 2)
+  sub u1F469 uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FC by uniE08F; # 0-2
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FC by uF2080; # 1-2
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FC by uF3080; # 2-2
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FC by uF4080; # 3-2
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FC by uF5080; # 4-2
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FC by uF6080; # 5-2
+  # Kiss: W&M (S: Skin Tone 3)
+  sub u1F469 uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FD by uniE090; # 0-3
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FD by uF2081; # 1-3
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FD by uF3081; # 2-3
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FD by uF4081; # 3-3
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FD by uF5081; # 4-3
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FD by uF6081; # 5-3
+  # Kiss: W&M (S: Skin Tone 4)
+  sub u1F469 uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FE by uniE091; # 0-4
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FE by uF2082; # 1-4
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FE by uF3082; # 2-4
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FE by uF4082; # 3-4
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FE by uF5082; # 4-4
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FE by uF6082; # 5-4
+  # Kiss: W&M (S: Skin Tone 5)
+  sub u1F469 uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FF by uniE092; # 0-5
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FF by uF2083; # 1-5
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FF by uF3083; # 2-5
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FF by uF4083; # 3-5
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FF by uF5083; # 4-5
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FF by uF6083; # 5-5
+
+  # Kiss: M&M (S: Skin Tone 0)
+  sub u1F468 uni200D uni2764 uni200D u1F48B uni200D u1F468 by uniE093; # 0-0
+  sub u1F468 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F468 by uF2084; # 1-0
+  sub u1F468 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F468 by uF3084; # 2-0
+  sub u1F468 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F468 by uF4084; # 3-0
+  sub u1F468 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F468 by uF5084; # 4-0
+  sub u1F468 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F468 by uF6084; # 5-0
+  # Kiss: M&M (S: Skin Tone 1)
+  sub u1F468 uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FB by uniE094; # 0-1
+  sub u1F468 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FB by uF2085; # 1-1
+  sub u1F468 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FB by uF3085; # 2-1
+  sub u1F468 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FB by uF4085; # 3-1
+  sub u1F468 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FB by uF5085; # 4-1
+  sub u1F468 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FB by uF6085; # 5-1
+  # Kiss: M&M (S: Skin Tone 2)
+  sub u1F468 uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FC by uniE095; # 0-2
+  sub u1F468 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FC by uF2086; # 1-2
+  sub u1F468 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FC by uF3086; # 2-2
+  sub u1F468 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FC by uF4086; # 3-2
+  sub u1F468 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FC by uF5086; # 4-2
+  sub u1F468 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FC by uF6086; # 5-2
+  # Kiss: M&M (S: Skin Tone 3)
+  sub u1F468 uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FD by uniE096; # 0-3
+  sub u1F468 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FD by uF2087; # 1-3
+  sub u1F468 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FD by uF3087; # 2-3
+  sub u1F468 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FD by uF4087; # 3-3
+  sub u1F468 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FD by uF5087; # 4-3
+  sub u1F468 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FD by uF6087; # 5-3
+  # Kiss: M&M (S: Skin Tone 4)
+  sub u1F468 uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FE by uniE097; # 0-4
+  sub u1F468 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FE by uF2088; # 1-4
+  sub u1F468 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FE by uF3088; # 2-4
+  sub u1F468 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FE by uF4088; # 3-4
+  sub u1F468 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FE by uF5088; # 4-4
+  sub u1F468 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FE by uF6088; # 5-4
+  # Kiss: M&M (S: Skin Tone 5)
+  sub u1F468 uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FF by uniE098; # 0-5
+  sub u1F468 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FF by uF2089; # 1-5
+  sub u1F468 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FF by uF3089; # 2-5
+  sub u1F468 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FF by uF4089; # 3-5
+  sub u1F468 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FF by uF5089; # 4-5
+  sub u1F468 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F468 u1F3FF by uF6089; # 5-5
+
+  # Kiss: W&W (S: Skin Tone 0)
+  sub u1F469 uni200D uni2764 uni200D u1F48B uni200D u1F469 by uniE099; # 0-0
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F469 by uF208A; # 1-0
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F469 by uF308A; # 2-0
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F469 by uF408A; # 3-0
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F469 by uF508A; # 4-0
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F469 by uF608A; # 5-0
+  # Kiss: W&W (S: Skin Tone 1)
+  sub u1F469 uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FB by uniE09A; # 0-1
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FB by uF208B; # 1-1
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FB by uF308B; # 2-1
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FB by uF408B; # 3-1
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FB by uF508B; # 4-1
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FB by uF608B; # 5-1
+  # Kiss: W&W (S: Skin Tone 2)
+  sub u1F469 uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FC by uniE09B; # 0-2
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FC by uF208C; # 1-2
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FC by uF308C; # 2-2
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FC by uF408C; # 3-2
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FC by uF508C; # 4-2
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FC by uF608C; # 5-2
+  # Kiss: W&W (S: Skin Tone 3)
+  sub u1F469 uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FD by uniE09C; # 0-3
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FD by uF208D; # 1-3
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FD by uF308D; # 2-3
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FD by uF408D; # 3-3
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FD by uF508D; # 4-3
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FD by uF608D; # 5-3
+  # Kiss: W&W (S: Skin Tone 4)
+  sub u1F469 uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FE by uniE09D; # 0-4
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FE by uF208E; # 1-4
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FE by uF308E; # 2-4
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FE by uF408E; # 3-4
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FE by uF508E; # 4-4
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FE by uF608E; # 5-4
+  # Kiss: W&W (S: Skin Tone 5)
+  sub u1F469 uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FF by uniE09E; # 0-5
+  sub u1F469 u1F3FB uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FF by uF208F; # 1-5
+  sub u1F469 u1F3FC uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FF by uF308F; # 2-5
+  sub u1F469 u1F3FD uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FF by uF408F; # 3-5
+  sub u1F469 u1F3FE uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FF by uF508F; # 4-5
+  sub u1F469 u1F3FF uni200D uni2764 uni200D u1F48B uni200D u1F469 u1F3FF by uF608F; # 5-5
+
+  # Leftwards Pushing Hand
+  sub u1FAF7 u1F3FB by uF2090; # 1
+  sub u1FAF7 u1F3FC by uF3090; # 2
+  sub u1FAF7 u1F3FD by uF4090; # 3
+  sub u1FAF7 u1F3FE by uF5090; # 4
+  sub u1FAF7 u1F3FF by uF6090; # 5
+
+  # Rightwards Pushing Hand
+  sub u1FAF8 u1F3FB by uF2091; # 1
+  sub u1FAF8 u1F3FC by uF3091; # 2
+  sub u1FAF8 u1F3FD by uF4091; # 3
+  sub u1FAF8 u1F3FE by uF5091; # 4
+  sub u1FAF8 u1F3FF by uF6091; # 5
+
+  # Victory Hand
+  sub uni270C u1F3FB by uF2092; # 1
+  sub uni270C u1F3FC by uF3092; # 2
+  sub uni270C u1F3FD by uF4092; # 3
+  sub uni270C u1F3FE by uF5092; # 4
+  sub uni270C u1F3FF by uF6092; # 5
+
+  # Foot
+  sub u1F9B6 u1F3FB by uF2093; # 1
+  sub u1F9B6 u1F3FC by uF3093; # 2
+  sub u1F9B6 u1F3FD by uF4093; # 3
+  sub u1F9B6 u1F3FE by uF5093; # 4
+  sub u1F9B6 u1F3FF by uF6093; # 5
+
+  sub u1F43B uni200D uni2744 by uniE09F; # Polar Bear
+  sub u1F408 uni200D uni2B1B by uniE0A0; # Black Cat
+
+
+
+  # Person Wearing Turban
+  sub u1F473 u1F3FB by uF2094; # 1
+  sub u1F473 u1F3FC by uF3094; # 2
+  sub u1F473 u1F3FD by uF4094; # 3
+  sub u1F473 u1F3FE by uF5094; # 4
+  sub u1F473 u1F3FF by uF6094; # 5
+
+  # Man Wearing Turban
+  sub u1F473 uni200D uni2642 by uniE0A1; # Normal
+  sub u1F473 u1F3FB uni200D uni2642 by uF2095; # 1
+  sub u1F473 u1F3FC uni200D uni2642 by uF3095; # 2
+  sub u1F473 u1F3FD uni200D uni2642 by uF4095; # 3
+  sub u1F473 u1F3FE uni200D uni2642 by uF5095; # 4
+  sub u1F473 u1F3FF uni200D uni2642 by uF6095; # 5
+
+  # Woman Wearing Turban
+  sub u1F473 uni200D uni2640 by uniE0A2; # Normal
+  sub u1F473 u1F3FB uni200D uni2640 by uF2096; # 1
+  sub u1F473 u1F3FC uni200D uni2640 by uF3096; # 2
+  sub u1F473 u1F3FD uni200D uni2640 by uF4096; # 3
+  sub u1F473 u1F3FE uni200D uni2640 by uF5096; # 4
+  sub u1F473 u1F3FF uni200D uni2640 by uF6096; # 5
+
+  # Man Dancing
+  sub u1F57A u1F3FB by uF2097; # 1
+  sub u1F57A u1F3FC by uF3097; # 2
+  sub u1F57A u1F3FD by uF4097; # 3
+  sub u1F57A u1F3FE by uF5097; # 4
+  sub u1F57A u1F3FF by uF6097; # 5
+
+  # Woman Dancing
+  sub u1F483 u1F3FB by uF2098; # 1
+  sub u1F483 u1F3FC by uF3098; # 2
+  sub u1F483 u1F3FD by uF4098; # 3
+  sub u1F483 u1F3FE by uF5098; # 4
+  sub u1F483 u1F3FF by uF6098; # 5
+
+  # Nail Polish
+  sub u1F485 u1F3FB by uF2099; # 1
+  sub u1F485 u1F3FC by uF3099; # 2
+  sub u1F485 u1F3FD by uF4099; # 3
+  sub u1F485 u1F3FE by uF5099; # 4
+  sub u1F485 u1F3FF by uF6099; # 5
+
+  # Merchant
+  sub u1F9D1 uni200D u1F527 by uniE0A3; # Normal
+  sub u1F9D1 u1F3FB uni200D u1F527 by uF209A; # 1
+  sub u1F9D1 u1F3FC uni200D u1F527 by uF309A; # 2
+  sub u1F9D1 u1F3FD uni200D u1F527 by uF409A; # 3
+  sub u1F9D1 u1F3FE uni200D u1F527 by uF509A; # 4
+  sub u1F9D1 u1F3FF uni200D u1F527 by uF609A; # 5
+
+  # Man Merchant
+  sub u1F468 uni200D u1F527 by uniE0A4; # Normal
+  sub u1F468 u1F3FB uni200D u1F527 by uF209B; # 1
+  sub u1F468 u1F3FC uni200D u1F527 by uF309B; # 2
+  sub u1F468 u1F3FD uni200D u1F527 by uF409B; # 3
+  sub u1F468 u1F3FE uni200D u1F527 by uF509B; # 4
+  sub u1F468 u1F3FF uni200D u1F527 by uF609B; # 5
+
+  # Woman Merchant
+  sub u1F469 uni200D u1F527 by uniE0A5; # Normal
+  sub u1F469 u1F3FB uni200D u1F527 by uF209C; # 1
+  sub u1F469 u1F3FC uni200D u1F527 by uF309C; # 2
+  sub u1F469 u1F3FD uni200D u1F527 by uF409C; # 3
+  sub u1F469 u1F3FE uni200D u1F527 by uF509C; # 4
+  sub u1F469 u1F3FF uni200D u1F527 by uF609C; # 5
+
+  # Person Gesturing No
+  sub u1F645 u1F3FB by uF209D; # 1
+  sub u1F645 u1F3FC by uF309D; # 2
+  sub u1F645 u1F3FD by uF409D; # 3
+  sub u1F645 u1F3FE by uF509D; # 4
+  sub u1F645 u1F3FF by uF609D; # 5
+
+  # Man Gesturing No
+  sub u1F645 uni200D uni2642 by uniE0A6; # Normal
+  sub u1F645 u1F3FB uni200D uni2642 by uF209E; # 1
+  sub u1F645 u1F3FC uni200D uni2642 by uF309E; # 2
+  sub u1F645 u1F3FD uni200D uni2642 by uF409E; # 3
+  sub u1F645 u1F3FE uni200D uni2642 by uF509E; # 4
+  sub u1F645 u1F3FF uni200D uni2642 by uF609E; # 5
+
+  # Woman Gesturing No
+  sub u1F645 uni200D uni2640 by uniE0A7; # Normal
+  sub u1F645 u1F3FB uni200D uni2640 by uF209F; # 1
+  sub u1F645 u1F3FC uni200D uni2640 by uF309F; # 2
+  sub u1F645 u1F3FD uni200D uni2640 by uF409F; # 3
+  sub u1F645 u1F3FE uni200D uni2640 by uF509F; # 4
+  sub u1F645 u1F3FF uni200D uni2640 by uF609F; # 5
+
+  # Person Bowing
+  sub u1F647 u1F3FB by uF20A0; # 1
+  sub u1F647 u1F3FC by uF30A0; # 2
+  sub u1F647 u1F3FD by uF40A0; # 3
+  sub u1F647 u1F3FE by uF50A0; # 4
+  sub u1F647 u1F3FF by uF60A0; # 5
+
+  # Man Bowing
+  sub u1F647 uni200D uni2642 by uniE0A8; # Normal
+  sub u1F647 u1F3FB uni200D uni2642 by uF20A1; # 1
+  sub u1F647 u1F3FC uni200D uni2642 by uF30A1; # 2
+  sub u1F647 u1F3FD uni200D uni2642 by uF40A1; # 3
+  sub u1F647 u1F3FE uni200D uni2642 by uF50A1; # 4
+  sub u1F647 u1F3FF uni200D uni2642 by uF60A1; # 5
+
+  # Woman Bowing
+  sub u1F647 uni200D uni2640 by uniE0A9; # Normal
+  sub u1F647 u1F3FB uni200D uni2640 by uF20A2; # 1
+  sub u1F647 u1F3FC uni200D uni2640 by uF30A2; # 2
+  sub u1F647 u1F3FD uni200D uni2640 by uF40A2; # 3
+  sub u1F647 u1F3FE uni200D uni2640 by uF50A2; # 4
+  sub u1F647 u1F3FF uni200D uni2640 by uF60A2; # 5
+
+  sub u1F636 uni200D u1F32B by uniE0AA; # Face In Clouds
+
+  # Sign of the horns
+  sub u1F918 u1F3FB by uF20A3; # 1
+  sub u1F918 u1F3FC by uF30A3; # 2
+  sub u1F918 u1F3FD by uF40A3; # 3
+  sub u1F918 u1F3FE by uF50A3; # 4
+  sub u1F918 u1F3FF by uF60A3; # 5
+
+  # Folded Hands
+  sub u1F64F u1F3FB by uF20A4; # 1
+  sub u1F64F u1F3FC by uF30A4; # 2
+  sub u1F64F u1F3FD by uF40A4; # 3
+  sub u1F64F u1F3FE by uF50A4; # 4
+  sub u1F64F u1F3FF by uF60A4; # 5
+
+  # Artist
+  sub u1F9D1 uni200D u1F3A8 by uniE0AB; # Normal
+  sub u1F9D1 u1F3FB uni200D u1F3A8 by uF20A5; # 1
+  sub u1F9D1 u1F3FC uni200D u1F3A8 by uF30A5; # 2
+  sub u1F9D1 u1F3FD uni200D u1F3A8 by uF40A5; # 3
+  sub u1F9D1 u1F3FE uni200D u1F3A8 by uF50A5; # 4
+  sub u1F9D1 u1F3FF uni200D u1F3A8 by uF60A5; # 5
+
+  # Man Artist
+  sub u1F468 uni200D u1F3A8 by uniE0AC; # Normal
+  sub u1F468 u1F3FB uni200D u1F3A8 by uF20A6; # 1
+  sub u1F468 u1F3FC uni200D u1F3A8 by uF30A6; # 2
+  sub u1F468 u1F3FD uni200D u1F3A8 by uF40A6; # 3
+  sub u1F468 u1F3FE uni200D u1F3A8 by uF50A6; # 4
+  sub u1F468 u1F3FF uni200D u1F3A8 by uF60A6; # 5
+
+  # Woman Artist
+  sub u1F469 uni200D u1F3A8 by uniE0AD; # Normal
+  sub u1F469 u1F3FB uni200D u1F3A8 by uF20A7; # 1
+  sub u1F469 u1F3FC uni200D u1F3A8 by uF30A7; # 2
+  sub u1F469 u1F3FD uni200D u1F3A8 by uF40A7; # 3
+  sub u1F469 u1F3FE uni200D u1F3A8 by uF50A7; # 4
+  sub u1F469 u1F3FF uni200D u1F3A8 by uF60A7; # 5
+
+  # Baby Angel
+  sub u1F47C u1F3FB by uF20A8; # 1
+  sub u1F47C u1F3FC by uF30A8; # 2
+  sub u1F47C u1F3FD by uF40A8; # 3
+  sub u1F47C u1F3FE by uF50A8; # 4
+  sub u1F47C u1F3FF by uF60A8; # 5
+
+
+  # Person Swimming
+  sub u1F3CA u1F3FB by uF20A9; # 1
+  sub u1F3CA u1F3FC by uF30A9; # 2
+  sub u1F3CA u1F3FD by uF40A9; # 3
+  sub u1F3CA u1F3FE by uF50A9; # 4
+  sub u1F3CA u1F3FF by uF60A9; # 5
+
+  # Man Swimming
+  sub u1F3CA uni200D uni2642 by uniE0AE; # Normal
+  sub u1F3CA u1F3FB uni200D uni2642 by uF20AA; # 1
+  sub u1F3CA u1F3FC uni200D uni2642 by uF30AA; # 2
+  sub u1F3CA u1F3FD uni200D uni2642 by uF40AA; # 3
+  sub u1F3CA u1F3FE uni200D uni2642 by uF50AA; # 4
+  sub u1F3CA u1F3FF uni200D uni2642 by uF60AA; # 5
+
+  # Woman Swimming
+  sub u1F3CA uni200D uni2640 by uniE0AF; # Normal
+  sub u1F3CA u1F3FB uni200D uni2640 by uF20AB; # 1
+  sub u1F3CA u1F3FC uni200D uni2640 by uF30AB; # 2
+  sub u1F3CA u1F3FD uni200D uni2640 by uF40AB; # 3
+  sub u1F3CA u1F3FE uni200D uni2640 by uF50AB; # 4
+  sub u1F3CA u1F3FF uni200D uni2640 by uF60AB; # 5
+
+  # Raised Fist
+  sub uni270A u1F3FB by uF20AC; # 1
+  sub uni270A u1F3FC by uF30AC; # 2
+  sub uni270A u1F3FD by uF40AC; # 3
+  sub uni270A u1F3FE by uF50AC; # 4
+  sub uni270A u1F3FF by uF60AC; # 5
+
+  # Oncoming Fist
+  sub u1F44A u1F3FB by uF20AD; # 1
+  sub u1F44A u1F3FC by uF30AD; # 2
+  sub u1F44A u1F3FD by uF40AD; # 3
+  sub u1F44A u1F3FE by uF50AD; # 4
+  sub u1F44A u1F3FF by uF60AD; # 5
+
+  # Waving Hand
+  sub u1F44B u1F3FB by uF20AE; # 1
+  sub u1F44B u1F3FC by uF30AE; # 2
+  sub u1F44B u1F3FD by uF40AE; # 3
+  sub u1F44B u1F3FE by uF50AE; # 4
+  sub u1F44B u1F3FF by uF60AE; # 5
+
+  sub u1F3F4 uni200D uni2620 by uniE0B0; # Pirate Flag
+
+  # Doctor
+  sub u1F9D1 uni200D uni2695 by uniE0B1; # Normal
+  sub u1F9D1 u1F3FB uni200D uni2695 by uF20AF; # 1
+  sub u1F9D1 u1F3FC uni200D uni2695 by uF30AF; # 2
+  sub u1F9D1 u1F3FD uni200D uni2695 by uF40AF; # 3
+  sub u1F9D1 u1F3FE uni200D uni2695 by uF50AF; # 4
+  sub u1F9D1 u1F3FF uni200D uni2695 by uF60AF; # 5
+
+  # Man Doctor
+  sub u1F468 uni200D uni2695 by uniE0B2; # Normal
+  sub u1F468 u1F3FB uni200D uni2695 by uF20B0; # 1
+  sub u1F468 u1F3FC uni200D uni2695 by uF30B0; # 2
+  sub u1F468 u1F3FD uni200D uni2695 by uF40B0; # 3
+  sub u1F468 u1F3FE uni200D uni2695 by uF50B0; # 4
+  sub u1F468 u1F3FF uni200D uni2695 by uF60B0; # 5
+
+  # Woman Doctor
+  sub u1F469 uni200D uni2695 by uniE0B3; # Normal
+  sub u1F469 u1F3FB uni200D uni2695 by uF20B1; # 1
+  sub u1F469 u1F3FC uni200D uni2695 by uF30B1; # 2
+  sub u1F469 u1F3FD uni200D uni2695 by uF40B1; # 3
+  sub u1F469 u1F3FE uni200D uni2695 by uF50B1; # 4
+  sub u1F469 u1F3FF uni200D uni2695 by uF60B1; # 5
+
+  # Person Bouncing Ball
+  sub uni2639 u1F3FB by uF20B2; # 1
+  sub uni2639 u1F3FC by uF30B2; # 2
+  sub uni2639 u1F3FD by uF40B2; # 3
+  sub uni2639 u1F3FE by uF50B2; # 4
+  sub uni2639 u1F3FF by uF60B2; # 5
+
+  # Man Bouncing Ball
+  sub uni2639 uni200D uni2642 by uniE0B4; # Normal
+  sub uni2639 u1F3FB uni200D uni2642 by uF20B3; # 1
+  sub uni2639 u1F3FC uni200D uni2642 by uF30B3; # 2
+  sub uni2639 u1F3FD uni200D uni2642 by uF40B3; # 3
+  sub uni2639 u1F3FE uni200D uni2642 by uF50B3; # 4
+  sub uni2639 u1F3FF uni200D uni2642 by uF60B3; # 5
+
+  # Woman Bouncing Ball
+  sub uni2639 uni200D uni2640 by uniE0B5; # Normal
+  sub uni2639 u1F3FB uni200D uni2640 by uF20B4; # 1
+  sub uni2639 u1F3FC uni200D uni2640 by uF30B4; # 2
+  sub uni2639 u1F3FD uni200D uni2640 by uF40B4; # 3
+  sub uni2639 u1F3FE uni200D uni2640 by uF50B4; # 4
+  sub uni2639 u1F3FF uni200D uni2640 by uF60B4; # 5
+
+  # Pilot
+  sub u1F9D1 uni200D uni2708 by uniE0B6; # Normal
+  sub u1F9D1 u1F3FB uni200D uni2708 by uF20B5; # 1
+  sub u1F9D1 u1F3FC uni200D uni2708 by uF30B5; # 2
+  sub u1F9D1 u1F3FD uni200D uni2708 by uF40B5; # 3
+  sub u1F9D1 u1F3FE uni200D uni2708 by uF50B5; # 4
+  sub u1F9D1 u1F3FF uni200D uni2708 by uF60B5; # 5
+
+  # Man Pilot
+  sub u1F468 uni200D uni2708 by uniE0B7; # Normal
+  sub u1F468 u1F3FB uni200D uni2708 by uF20B6; # 1
+  sub u1F468 u1F3FC uni200D uni2708 by uF30B6; # 2
+  sub u1F468 u1F3FD uni200D uni2708 by uF40B6; # 3
+  sub u1F468 u1F3FE uni200D uni2708 by uF50B6; # 4
+  sub u1F468 u1F3FF uni200D uni2708 by uF60B6; # 5
+
+  # Woman Pilot
+  sub u1F469 uni200D uni2708 by uniE0B8; # Normal
+  sub u1F469 u1F3FB uni200D uni2708 by uF20B7; # 1
+  sub u1F469 u1F3FC uni200D uni2708 by uF30B7; # 2
+  sub u1F469 u1F3FD uni200D uni2708 by uF40B7; # 3
+  sub u1F469 u1F3FE uni200D uni2708 by uF50B7; # 4
+  sub u1F469 u1F3FF uni200D uni2708 by uF60B7; # 5
+
+  # Writing Hand
+  sub uni270D u1F3FB by uF20B8; # 1
+  sub uni270D u1F3FC by uF30B8; # 2
+  sub uni270D u1F3FD by uF40B8; # 3
+  sub uni270D u1F3FE by uF50B8; # 4
+  sub uni270D u1F3FF by uF60B8; # 5
+
+  # Hand with Index Finger and Thumb Crossed
+  sub u1FAF0 u1F3FB by uF20B9; # 1
+  sub u1FAF0 u1F3FC by uF30B9; # 2
+  sub u1FAF0 u1F3FD by uF40B9; # 3
+  sub u1FAF0 u1F3FE by uF50B9; # 4
+  sub u1FAF0 u1F3FF by uF60B9; # 5
+
+  # Farmer
+  sub u1F9D1 uni200D u1F33E by uniE0B9; # Normal
+  sub u1F9D1 u1F3FB uni200D u1F33E by uF20BA; # 1
+  sub u1F9D1 u1F3FC uni200D u1F33E by uF30BA; # 2
+  sub u1F9D1 u1F3FD uni200D u1F33E by uF40BA; # 3
+  sub u1F9D1 u1F3FE uni200D u1F33E by uF50BA; # 4
+  sub u1F9D1 u1F3FF uni200D u1F33E by uF60BA; # 5
+
+  # Man Farmer
+  sub u1F468 uni200D u1F33E by uniE0BA; # Normal
+  sub u1F468 u1F3FB uni200D u1F33E by uF20BB; # 1
+  sub u1F468 u1F3FC uni200D u1F33E by uF30BB; # 2
+  sub u1F468 u1F3FD uni200D u1F33E by uF40BB; # 3
+  sub u1F468 u1F3FE uni200D u1F33E by uF50BB; # 4
+  sub u1F468 u1F3FF uni200D u1F33E by uF60BB; # 5
+
+  # Woman Farmer
+  sub u1F469 uni200D u1F33E by uniE0BB; # Normal
+  sub u1F469 u1F3FB uni200D u1F33E by uF20BC; # 1
+  sub u1F469 u1F3FC uni200D u1F33E by uF30BC; # 2
+  sub u1F469 u1F3FD uni200D u1F33E by uF40BC; # 3
+  sub u1F469 u1F3FE uni200D u1F33E by uF50BC; # 4
+  sub u1F469 u1F3FF uni200D u1F33E by uF60BC; # 5
+
+  # Breast-Feeding
+  sub u1F931 u1F3FB by uF20BD; # 1
+  sub u1F931 u1F3FC by uF30BD; # 2
+  sub u1F931 u1F3FD by uF40BD; # 3
+  sub u1F931 u1F3FE by uF50BD; # 4
+  sub u1F931 u1F3FF by uF60BD; # 5
+
+  # Person Detective
+  sub u1F575 u1F3FB by uF20BE; # 1
+  sub u1F575 u1F3FC by uF30BE; # 2
+  sub u1F575 u1F3FD by uF40BE; # 3
+  sub u1F575 u1F3FE by uF50BE; # 4
+  sub u1F575 u1F3FF by uF60BE; # 5
+
+  # Man Detective
+  sub u1F575 uni200D uni2642 by uniE0BC; # Normal
+  sub u1F575 u1F3FB uni200D uni2642 by uF20BF; # 1
+  sub u1F575 u1F3FC uni200D uni2642 by uF30BF; # 2
+  sub u1F575 u1F3FD uni200D uni2642 by uF40BF; # 3
+  sub u1F575 u1F3FE uni200D uni2642 by uF50BF; # 4
+  sub u1F575 u1F3FF uni200D uni2642 by uF60BF; # 5
+
+  # Woman Detective
+  sub u1F575 uni200D uni2640 by uniE0BD; # Normal
+  sub u1F575 u1F3FB uni200D uni2640 by uF20C0; # 1
+  sub u1F575 u1F3FC uni200D uni2640 by uF30C0; # 2
+  sub u1F575 u1F3FD uni200D uni2640 by uF40C0; # 3
+  sub u1F575 u1F3FE uni200D uni2640 by uF50C0; # 4
+  sub u1F575 u1F3FF uni200D uni2640 by uF60C0; # 5
+
+  # Person in Suit Levitating
+  sub u1F574 u1F3FB by uF20C1; # 1
+  sub u1F574 u1F3FC by uF30C1; # 2
+  sub u1F574 u1F3FD by uF40C1; # 3
+  sub u1F574 u1F3FE by uF50C1; # 4
+  sub u1F574 u1F3FF by uF60C1; # 5
+
+  # Man in Suit Levitating
+  sub u1F574 uni200D uni2642 by uniE0BE; # Normal
+  sub u1F574 u1F3FB uni200D uni2642 by uF20C2; # 1
+  sub u1F574 u1F3FC uni200D uni2642 by uF30C2; # 2
+  sub u1F574 u1F3FD uni200D uni2642 by uF40C2; # 3
+  sub u1F574 u1F3FE uni200D uni2642 by uF50C2; # 4
+  sub u1F574 u1F3FF uni200D uni2642 by uF60C2; # 5
+
+  # Woman in Suit Levitating
+  sub u1F574 uni200D uni2640 by uniE0BF; # Normal
+  sub u1F574 u1F3FB uni200D uni2640 by uF20C3; # 1
+  sub u1F574 u1F3FC uni200D uni2640 by uF30C3; # 2
+  sub u1F574 u1F3FD uni200D uni2640 by uF40C3; # 3
+  sub u1F574 u1F3FE uni200D uni2640 by uF50C3; # 4
+  sub u1F574 u1F3FF uni200D uni2640 by uF60C3; # 5
+
+  # Person Bicyclist
+  sub u1F6B4 u1F3FB by uF20C4; # 1
+  sub u1F6B4 u1F3FC by uF30C4; # 2
+  sub u1F6B4 u1F3FD by uF40C4; # 3
+  sub u1F6B4 u1F3FE by uF50C4; # 4
+  sub u1F6B4 u1F3FF by uF60C4; # 5
+
+  # Man Bicyclist
+  sub u1F6B4 uni200D uni2642 by uniE0C0; # Normal
+  sub u1F6B4 u1F3FB uni200D uni2642 by uF20C5; # 1
+  sub u1F6B4 u1F3FC uni200D uni2642 by uF30C5; # 2
+  sub u1F6B4 u1F3FD uni200D uni2642 by uF40C5; # 3
+  sub u1F6B4 u1F3FE uni200D uni2642 by uF50C5; # 4
+  sub u1F6B4 u1F3FF uni200D uni2642 by uF60C5; # 5
+
+  # Woman Bicyclist
+  sub u1F6B4 uni200D uni2640 by uniE0C1; # Normal
+  sub u1F6B4 u1F3FB uni200D uni2640 by uF20C6; # 1
+  sub u1F6B4 u1F3FC uni200D uni2640 by uF30C6; # 2
+  sub u1F6B4 u1F3FD uni200D uni2640 by uF40C6; # 3
+  sub u1F6B4 u1F3FE uni200D uni2640 by uF50C6; # 4
+  sub u1F6B4 u1F3FF uni200D uni2640 by uF60C6; # 5
+
+  # Person Mountain Bicyclist
+  sub u1F6B5 u1F3FB by uF20C7; # 1
+  sub u1F6B5 u1F3FC by uF30C7; # 2
+  sub u1F6B5 u1F3FD by uF40C7; # 3
+  sub u1F6B5 u1F3FE by uF50C7; # 4
+  sub u1F6B5 u1F3FF by uF60C7; # 5
+
+  # Man Mountain Bicyclist
+  sub u1F6B5 uni200D uni2642 by uniE0C2; # Normal
+  sub u1F6B5 u1F3FB uni200D uni2642 by uF20C8; # 1
+  sub u1F6B5 u1F3FC uni200D uni2642 by uF30C8; # 2
+  sub u1F6B5 u1F3FD uni200D uni2642 by uF40C8; # 3
+  sub u1F6B5 u1F3FE uni200D uni2642 by uF50C8; # 4
+  sub u1F6B5 u1F3FF uni200D uni2642 by uF60C8; # 5
+
+  # Woman Mountain Bicyclist
+  sub u1F6B5 uni200D uni2640 by uniE0C3; # Normal
+  sub u1F6B5 u1F3FB uni200D uni2640 by uF20C9; # 1
+  sub u1F6B5 u1F3FC uni200D uni2640 by uF30C9; # 2
+  sub u1F6B5 u1F3FD uni200D uni2640 by uF40C9; # 3
+  sub u1F6B5 u1F3FE uni200D uni2640 by uF50C9; # 4
+  sub u1F6B5 u1F3FF uni200D uni2640 by uF60C9; # 5
+
+  # OK hand Sign
+  sub u1F44C u1F3FB by uF20CA; # 1
+  sub u1F44C u1F3FC by uF30CA; # 2
+  sub u1F44C u1F3FD by uF40CA; # 3
+  sub u1F44C u1F3FE by uF50CA; # 4
+  sub u1F44C u1F3FF by uF60CA; # 5
+
+  # Pregnant Woman
+  sub u1F930 u1F3FB by uF20CB; # 1
+  sub u1F930 u1F3FC by uF30CB; # 2
+  sub u1F930 u1F3FD by uF40CB; # 3
+  sub u1F930 u1F3FE by uF50CB; # 4
+  sub u1F930 u1F3FF by uF60CB; # 5
+
+  # Pregnant Man
+  sub u1FAC3 u1F3FB by uF20CC; # 1
+  sub u1FAC3 u1F3FC by uF30CC; # 2
+  sub u1FAC3 u1F3FD by uF40CC; # 3
+  sub u1FAC3 u1F3FE by uF50CC; # 4
+  sub u1FAC3 u1F3FF by uF60CC; # 5
+
+  # Pregnant Person
+  sub u1FAC4 u1F3FB by uF20CD; # 1
+  sub u1FAC4 u1F3FC by uF30CD; # 2
+  sub u1FAC4 u1F3FD by uF40CD; # 3
+  sub u1FAC4 u1F3FE by uF50CD; # 4
+  sub u1FAC4 u1F3FF by uF60CD; # 5
+
+  # Astronaut
+  sub u1F9D1 uni200D u1F680 by uniE0C4; # Normal
+  sub u1F9D1 u1F3FB uni200D u1F680 by uF20CE; # 1
+  sub u1F9D1 u1F3FC uni200D u1F680 by uF30CE; # 2
+  sub u1F9D1 u1F3FD uni200D u1F680 by uF40CE; # 3
+  sub u1F9D1 u1F3FE uni200D u1F680 by uF50CE; # 4
+  sub u1F9D1 u1F3FF uni200D u1F680 by uF60CE; # 5
+
+  # Man Astronaut
+  sub u1F468 uni200D u1F680 by uniE0C5; # Normal
+  sub u1F468 u1F3FB uni200D u1F680 by uF20CF; # 1
+  sub u1F468 u1F3FC uni200D u1F680 by uF30CF; # 2
+  sub u1F468 u1F3FD uni200D u1F680 by uF40CF; # 3
+  sub u1F468 u1F3FE uni200D u1F680 by uF50CF; # 4
+  sub u1F468 u1F3FF uni200D u1F680 by uF60CF; # 5
+
+  # Woman Astronaut
+  sub u1F469 uni200D u1F680 by uniE0C6; # Normal
+  sub u1F469 u1F3FB uni200D u1F680 by uF20D0; # 1
+  sub u1F469 u1F3FC uni200D u1F680 by uF30D0; # 2
+  sub u1F469 u1F3FD uni200D u1F680 by uF40D0; # 3
+  sub u1F469 u1F3FE uni200D u1F680 by uF50D0; # 4
+  sub u1F469 u1F3FF uni200D u1F680 by uF60D0; # 5
+
+  # Crossed Fingers
+  sub u1F91E u1F3FB by uF20D1; # 1
+  sub u1F91E u1F3FC by uF30D1; # 2
+  sub u1F91E u1F3FD by uF40D1; # 3
+  sub u1F91E u1F3FE by uF50D1; # 4
+  sub u1F91E u1F3FF by uF60D1; # 5
+
+  sub u1F441 uni200D u1F5E8 by uniE0C7; # Eye in Speech Bubble
+
+
+  # Cook
+  sub u1F9D1 uni200D u1F373 by uniE0C8; # Normal
+  sub u1F9D1 u1F3FB uni200D u1F373 by uF20D2; # 1
+  sub u1F9D1 u1F3FC uni200D u1F373 by uF30D2; # 2
+  sub u1F9D1 u1F3FD uni200D u1F373 by uF40D2; # 3
+  sub u1F9D1 u1F3FE uni200D u1F373 by uF50D2; # 4
+  sub u1F9D1 u1F3FF uni200D u1F373 by uF60D2; # 5
+
+  # Man Cook
+  sub u1F468 uni200D u1F373 by uniE0C9; # Normal
+  sub u1F468 u1F3FB uni200D u1F373 by uF20D3; # 1
+  sub u1F468 u1F3FC uni200D u1F373 by uF30D3; # 2
+  sub u1F468 u1F3FD uni200D u1F373 by uF40D3; # 3
+  sub u1F468 u1F3FE uni200D u1F373 by uF50D3; # 4
+  sub u1F468 u1F3FF uni200D u1F373 by uF60D3; # 5
+
+  # Woman Cook
+  sub u1F469 uni200D u1F373 by uniE0CA; # Normal
+  sub u1F469 u1F3FB uni200D u1F373 by uF20D4; # 1
+  sub u1F469 u1F3FC uni200D u1F373 by uF30D4; # 2
+  sub u1F469 u1F3FD uni200D u1F373 by uF40D4; # 3
+  sub u1F469 u1F3FE uni200D u1F373 by uF50D4; # 4
+  sub u1F469 u1F3FF uni200D u1F373 by uF60D4; # 5
+
+  # Person Feeding Baby
+  sub u1F9D1 uni200D u1F37C by uniE0CB; # Normal
+  sub u1F9D1 u1F3FB uni200D u1F37C by uF20D5; # 1
+  sub u1F9D1 u1F3FC uni200D u1F37C by uF30D5; # 2
+  sub u1F9D1 u1F3FD uni200D u1F37C by uF40D5; # 3
+  sub u1F9D1 u1F3FE uni200D u1F37C by uF50D5; # 4
+  sub u1F9D1 u1F3FF uni200D u1F37C by uF60D5; # 5
+
+  # Man Feeding Baby
+  sub u1F468 uni200D u1F37C by uniE0CC; # Normal
+  sub u1F468 u1F3FB uni200D u1F37C by uF20D6; # 1
+  sub u1F468 u1F3FC uni200D u1F37C by uF30D6; # 2
+  sub u1F468 u1F3FD uni200D u1F37C by uF40D6; # 3
+  sub u1F468 u1F3FE uni200D u1F37C by uF50D6; # 4
+  sub u1F468 u1F3FF uni200D u1F37C by uF60D6; # 5
+
+  # Woman Feeding Baby
+  sub u1F469 uni200D u1F37C by uniE0CD; # Normal
+  sub u1F469 u1F3FB uni200D u1F37C by uF20D7; # 1
+  sub u1F469 u1F3FC uni200D u1F37C by uF30D7; # 2
+  sub u1F469 u1F3FD uni200D u1F37C by uF40D7; # 3
+  sub u1F469 u1F3FE uni200D u1F37C by uF50D7; # 4
+  sub u1F469 u1F3FF uni200D u1F37C by uF60D7; # 5
+
+  # Mr. Claus
+  sub u1F385 u1F3FB by uF20D8; # 1
+  sub u1F385 u1F3FC by uF30D8; # 2
+  sub u1F385 u1F3FD by uF40D8; # 3
+  sub u1F385 u1F3FE by uF50D8; # 4
+  sub u1F385 u1F3FF by uF60D8; # 5
+
+  # Mrs. Claus
+  sub u1F936 u1F3FB by uF20D9; # 1
+  sub u1F936 u1F3FC by uF30D9; # 2
+  sub u1F936 u1F3FD by uF40D9; # 3
+  sub u1F936 u1F3FE by uF50D9; # 4
+  sub u1F936 u1F3FF by uF60D9; # 5
+
+  # Mx. Claus
+  sub u1F9D1 uni200D u1F384 by uniE0CE; # Normal
+  sub u1F9D1 u1F3FB uni200D u1F384 by uF20DA; # 1
+  sub u1F9D1 u1F3FC uni200D u1F384 by uF30DA; # 2
+  sub u1F9D1 u1F3FD uni200D u1F384 by uF40DA; # 3
+  sub u1F9D1 u1F3FE uni200D u1F384 by uF50DA; # 4
+  sub u1F9D1 u1F3FF uni200D u1F384 by uF60DA; # 5
+
+  # Person Student
+  sub u1F9D1 uni200D u1F393 by uniE0CF; # Normal
+  sub u1F9D1 u1F3FB uni200D u1F393 by uF20DB; # 1
+  sub u1F9D1 u1F3FC uni200D u1F393 by uF30DB; # 2
+  sub u1F9D1 u1F3FD uni200D u1F393 by uF40DB; # 3
+  sub u1F9D1 u1F3FE uni200D u1F393 by uF50DB; # 4
+  sub u1F9D1 u1F3FF uni200D u1F393 by uF60DB; # 5
+
+  # Man Student
+  sub u1F468 uni200D u1F393 by uniE0D0; # Normal
+  sub u1F468 u1F3FB uni200D u1F393 by uF20DC; # 1
+  sub u1F468 u1F3FC uni200D u1F393 by uF30DC; # 2
+  sub u1F468 u1F3FD uni200D u1F393 by uF40DC; # 3
+  sub u1F468 u1F3FE uni200D u1F393 by uF50DC; # 4
+  sub u1F468 u1F3FF uni200D u1F393 by uF60DC; # 5
+
+  # Woman Student
+  sub u1F469 uni200D u1F393 by uniE0D1; # Normal
+  sub u1F469 u1F3FB uni200D u1F393 by uF20DD; # 1
+  sub u1F469 u1F3FC uni200D u1F393 by uF30DD; # 2
+  sub u1F469 u1F3FD uni200D u1F393 by uF40DD; # 3
+  sub u1F469 u1F3FE uni200D u1F393 by uF50DD; # 4
+  sub u1F469 u1F3FF uni200D u1F393 by uF60DD; # 5
+
+  # Person Singer
+  sub u1F9D1 uni200D u1F3A4 by uniE0D2; # Normal
+  sub u1F9D1 u1F3FB uni200D u1F3A4 by uF20DE; # 1
+  sub u1F9D1 u1F3FC uni200D u1F3A4 by uF30DE; # 2
+  sub u1F9D1 u1F3FD uni200D u1F3A4 by uF40DE; # 3
+  sub u1F9D1 u1F3FE uni200D u1F3A4 by uF50DE; # 4
+  sub u1F9D1 u1F3FF uni200D u1F3A4 by uF60DE; # 5
+
+  # Man Singer
+  sub u1F468 uni200D u1F3A4 by uniE0D3; # Normal
+  sub u1F468 u1F3FB uni200D u1F3A4 by uF20DF; # 1
+  sub u1F468 u1F3FC uni200D u1F3A4 by uF30DF; # 2
+  sub u1F468 u1F3FD uni200D u1F3A4 by uF40DF; # 3
+  sub u1F468 u1F3FE uni200D u1F3A4 by uF50DF; # 4
+  sub u1F468 u1F3FF uni200D u1F3A4 by uF60DF; # 5
+
+  # Woman Singer
+  sub u1F469 uni200D u1F3A4 by uniE0D4; # Normal
+  sub u1F469 u1F3FB uni200D u1F3A4 by uF20E0; # 1
+  sub u1F469 u1F3FC uni200D u1F3A4 by uF30E0; # 2
+  sub u1F469 u1F3FD uni200D u1F3A4 by uF40E0; # 3
+  sub u1F469 u1F3FE uni200D u1F3A4 by uF50E0; # 4
+  sub u1F469 u1F3FF uni200D u1F3A4 by uF60E0; # 5
+
+# Critical glyphs
+  @critical = [uni200C uni200D uniFE00 uniFE01 uniFE0E uniFE0F uniFEFF uE0001 uE0020 uE0021 uE0022 uE0023 uE0024 uE0025 uE0026 uE0027 uE0028 uE0029 uE002A uE002B uE002C uE002D uE002E uE002F uE0030 uE0031 uE0032 uE0033 uE0034 uE0035 uE0036 uE0037 uE0038 uE0039 uE003A uE003B uE003C uE003D uE003E uE003F uE0040 uE0041 uE0042 uE0043 uE0044 uE0045 uE0046 uE0047 uE0048 uE0049 uE004A uE004B uE004C uE004D uE004E uE004F uE0050 uE0051 uE0052 uE0053 uE0054 uE0055 uE0056 uE0057 uE0058 uE0059 uE005A uE005B uE005C uE005D uE005E uE005F uE0060 uE0061 uE0062 uE0063 uE0064 uE0065 uE0066 uE0067 uE0068 uE0069 uE006A uE006B uE006C uE006D uE006E uE006F uE0070 uE0071 uE0072 uE0073 uE0074 uE0075 uE0076 uE0077 uE0078 uE0079 uE007A uE007B uE007C uE007D uE007E uE007F];
+
+  sub @critical by @critical;
+
+
+} ccmp;

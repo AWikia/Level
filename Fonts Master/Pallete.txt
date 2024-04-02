@@ -1,0 +1,20 @@
+@font-palette-values --palette {
+  font-family: "Level Color Symbols";
+  override-colors: 0 black, /* Black */
+                   1 #f8312f, /* Red */
+                   2 #00a6ed, /* Light Blue */
+                   3 #8d65c5, /* Purple */
+                   4 white, /* White */
+                   5 #fcd53f, /* Yellow */
+                   6 #9b9b9b, /* Gray */
+                   7 #0074ba, /* Blue */
+                   8 #6d4534, /* Brown/Dark Tone */
+                   9 #00d26a, /* Green */
+                  10 #ff6723, /* Orange */
+                  11 #f70a8d, /* Pink */
+                  12 #ffd7c2, /* Light Tone */
+                  13 #eebfaa, /* Medium-Light Tone */
+                  14 #c68d7b, /* Medium Tone */
+                  15 #966661; /* Medium-Dark Tone */
+}
+
