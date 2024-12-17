@@ -3,7 +3,7 @@
 Level is a font first invented for the xtreme drawboard based on System. Now available as a true type font for use in the web.
 
 ## Features
-- 13408 different glyphs (Of which 7078 are in BMP, 4559 in SMP, 11 in SIP, 97 are tags, 267 are Component, 271 are SLS and 1125 are Skin Tone Emoji) , supporting over 159 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
+- 13622 different glyphs (Of which 7284 are in BMP, 4562 in SMP, 11 in SIP, 97 are tags, 267 are Component, 271 are SLS and 1130 are Skin Tone Emoji) , supporting over 159 Languages plus Japanese (Extremely Limited Kanji Support), which consist of:
   - Basic Latin
   - Latin 1
   - Extended Latin A
@@ -21,7 +21,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - NKo
   - Extended Arabic B
   - Extended Arabic A
-  - Devanagari (Supports the Om symbol only)
+  - Devanagari (Fully supported, albeit with incorrect position of Voiced sign I)
   - Thai
   - Georgian
   - Cherokee
@@ -60,7 +60,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
     - Squared Triangle
   - Supplemental Arrows A
   - Brille Patterns
-  - Supplemental Arrows B (A few are supported)
+  - Supplemental Arrows B
   - Miscellaneous Mathematical Symbols-B (Supports the following):
     - Some squared elements
     - Joined Squares
@@ -93,6 +93,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Lisu
   - Extended Cyrillic B
   - Extended Latin D
+  - Extended Devanagari (3 glyphs are supported)
   - Extended Latin E
   - Cherokee Supplement
   - Alphabetic Presentation Forms
@@ -155,7 +156,7 @@ Level is a font first invented for the xtreme drawboard based on System. Now ava
   - Component Glyphs (See [here](#component-glyphs-f0000---f0fff) for character support)
   - Supplementary Letter Styles Glyphs (See [here](#supplementary-letter-style-glyphs-f1000---f1fff) for character support)
   - Emoji Skin Tones Glyphs (See [here](#emoji-skin-tones-f2000---f6fff) for character support)
-- 2710 different COLR glyphs (Of which 1051 are Unicode, 213 are ZWJ, 31 are Country Flags, 267 are Component, 23 are SLS and 1125 are Skin Tone Emoji) , which consist of:
+- 2718 different COLR glyphs (Of which 1054 are Unicode, 213 are ZWJ, 31 are Country Flags, 267 are Component, 23 are SLS and 1130 are Skin Tone Emoji) , which consist of:
   - Basic Latin (Supports the following):
     - Asterisk
     - Number Sign
